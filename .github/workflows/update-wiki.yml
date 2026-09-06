@@ -56,8 +56,9 @@ jobs:
 
       # ---- ② 解包 + ③ 生成 & 构建 wiki（--skip-apk 复用刚才的 APK；site_url 修正多语言链接） ----
       - name: Unpack data + build wiki
-        run: python -X utf8 tools/run_all.py --root "$GITHUB_WORKSPACE" --skip-apk \
-               --site-url "https://dehou23333-awa.github.io/phigros-collections-wiki/"
+        run: |
+          python -X utf8 tools/run_all.py --root "$GITHUB_WORKSPACE" --skip-apk \
+          --site-url "https://dehou23333-awa.github.io/phigros-collections-wiki/"
 
       # ---- 部署：构建产物提交到 gh-pages 分支（main 分支只放 README 与 CI 配置） ----
       - name: Deploy to gh-pages branch
