@@ -6,8 +6,8 @@ name: Update Wiki (auto)
 
 on:
   workflow_dispatch:              # 手动触发（Actions → Run workflow）
-  schedule:                       # 每周一、四 04:00 UTC 自动检查新版本
-    - cron: '0 4 * * 1,4'
+  schedule:                       # 每周五 17:00（UTC+8，即 09:00 UTC）自动检查新版本
+    - cron: '0 9 * * 5'
 
 permissions:
   contents: write              # 推送 gh-pages 分支
