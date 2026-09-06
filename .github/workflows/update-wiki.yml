@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout public repo (config)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # 拉全部分支（部署需要 origin/gh-pages）
 
       # ---- 安全模型：脚本在私有仓库，公开仓库只保有免责声明与 CI 配置 ----
       - name: Fetch scripts from PRIVATE repo
@@ -80,6 +82,6 @@ jobs:
             echo "no site changes"
           else
             git commit -m "deploy: wiki [skip ci]"
-            git push origin gh-pages
+            git push origin gh-pages --force
             echo "deployed to gh-pages"
           fi
