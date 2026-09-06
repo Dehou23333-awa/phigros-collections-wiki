@@ -1,0 +1,96 @@
+name: Update Wiki (auto)
+
+# 全自动流水线：TapTap 下载最新 APK → 解包收集品数据 → 生成五语言 Wiki → 推送 + 部署 GitHub Pages
+# 注意：Actions 在【公开仓库】运行；解包脚本从【私有仓库】拉取（见下方 checkout "Scripts (private)"）。
+
+on:
+  workflow_dispatch:              # 手动触发
+  schedule:                       # 每周一、四 04:00 UTC 自动检查新版本
+    - cron: '0 4 * * 1,4'
+  push:
+    branches: [main]
+    paths: ['version/.current']   # 手动 bump 版本文件可立即重建
+
+permissions:
+  contents: write                 # 推送 wiki 更新
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout public repo (wiki)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ---- 安全模型：脚本在私有仓库，公开仓库只放 wiki ----
+      - name: Fetch scripts from PRIVATE repo
+        uses: actions/checkout@v4
+        with:
+          repository: Dehou23333-awa/phigros-collections-scripts   # 私有仓库（脚本）
+          token: ${{ secrets.SCRIPTS_REPO_PAT }}                   # 私有仓库只读 PAT
+          path: tools
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r tools/requirements.txt
+
+      # ---- ① 自动下载最新 APK（TapTap 免登录 API，MD5 校验；同版本自动跳过） ----
+      - name: Fetch APK (TapTap)
+        run: |
+          python -X utf8 tools/01_fetch_apk.py \
+            --apk "$GITHUB_WORKSPACE/apk/Phigros_latest.apk" \
+            --apk-info "$GITHUB_WORKSPACE/apk/apk_info.json" \
+            --source taptap \
+          || { if [ -f apk/apk_info.json ]; then
+                 echo "::warning::APK 下载失败，复用缓存版本信息重新构建";
+               else
+                 echo "::error::APK 下载失败且无缓存信息"; exit 1;
+               fi; }
+
+      # ---- ② 解包 + ③ 生成 & 构建 wiki（--skip-apk 复用刚才的 APK） ----
+      - name: Unpack data + build wiki
+        run: python -X utf8 tools/run_all.py --root "$GITHUB_WORKSPACE" --skip-apk
+
+      # ---- 检测变化：只有真正的更新才推回公开仓库 ----
+      - name: Commit & push if changed
+        id: push
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          V=$(python -X utf8 -c \
+            "import json,os;d=json.load(open(os.path.join('apk','apk_info.json'),encoding='utf-8'));\
+             print(d.get('version_name','?'), d.get('version_code','?'))" 2>/dev/null || echo "unknown")
+          git add wiki apk/apk_info.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes — wiki already up to date (Phigros $V)."
+          else
+            git commit -m "chore: sync wiki from Phigros $V [skip ci]"
+            git push origin main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Pushed wiki update (Phigros $V)."
+          fi
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: wiki/site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

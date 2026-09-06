@@ -1,0 +1,20 @@
+---
+title: "Note Board"
+---
+# Note Board
+
+???+ info "Collection Info"
+
+    | Field | Value |
+    |---|---|
+    | Chapter | [NEON LED](index.md) · Chapter V |
+    | Collected on | 770/06/04 |
+    | Rarity | bold |
+    | Custodian | 莲渡 |
+
+??? warning "Only the Simplified Chinese text exists in the source data (shown below)"
+
+<p>旅馆前台右面的墙上常年悬挂着一块巨大的刨花板，红色胶纸被裁成“公告栏”三个字的形状，贴在了板子正上方。</p>
+<p>在霓虹常年不散的湿气浸泡下，板面的漆皮从底部蜿蜒开裂，露出了底下微微发涨的木屑颗粒。莲渡看着生厌，便置备了各式便签和彩笔摆在前台边，不需多少时日，那条条裂缝便被联翩的便签所淹没，如同漆黑木枝上抽出了斑斓叶片。</p>
+<p>不知哪代租客在离开前留下的一小筐刀纸笔胶，打破了便签形制的局限性。现如今，这里成为了住客们大洒灵感的地方，周边小吃测评，散漫文雅的词句，无意义叫喊，剪纸作品，广告宣传一应尽有；住房问题反馈反倒成了次要的衬托点缀。</p>
+

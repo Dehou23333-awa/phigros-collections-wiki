@@ -1,0 +1,23 @@
+---
+title: "Two-Faced Dance Floor - Clue I"
+---
+# Two-Faced Dance Floor - Clue I
+
+???+ info "Collection Info"
+
+    | Field | Value |
+    |---|---|
+    | Chapter | [Sewer Maze](index.md) · Chapter IV |
+    | Collected on | 770/05/21 |
+    | Rarity | souvenir |
+    | Custodian | Geopelia |
+
+??? warning "Only the Simplified Chinese text exists in the source data (shown below)"
+
+<p>【山丘会移动，鸠望着地平线不断增加的嶙峋，停下了脚步。不能再走下去了，这样没有意义。这里是地球吗，她再次问道自己，从冰封出来之后，种种超乎常识的体验，让她没法确定，自己是否来到的“地上”。也许这只是一个虚拟游戏，她在睡梦间无意登录了这里。2089年游戏产业早已迈入新时代，人们在各色虚拟空间开启第二人生，有这么一个不为人知的漂流空间，也不足为奇。】</p>
+<p>鸠：怪不得我瞧Gino面熟。</p>
+<p>【Gino很有可能是虚拟人物，但新的问题出现了，如果这里不是现实，她又为何不能醒来。】</p>
+<p>鸠：说的也是，到底为什么？</p>
+<p>【她皱着眉头，看向天空。】</p>
+<p>鸠：那么你又是谁？</p>
+

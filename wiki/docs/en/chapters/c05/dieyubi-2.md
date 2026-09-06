@@ -1,0 +1,26 @@
+---
+title: "Pen of Butterfly Wings - Clue I"
+---
+# Pen of Butterfly Wings - Clue I
+
+???+ info "Collection Info"
+
+    | Field | Value |
+    |---|---|
+    | Chapter | [Sewer Maze](index.md) · Chapter IV |
+    | Collected on | 146/05/21 |
+    | Rarity | bold |
+    | Custodian | 莲渡 |
+
+??? warning "Only the Simplified Chinese text exists in the source data (shown below)"
+
+<p>“莲渡，你很纯粹。”</p>
+<p> “说什么鬼话。”</p>
+<p> “就是，我有点东西想给你，但是我不确定你怎么想。”</p>
+<p> “你刚刚还说我很纯粹。”</p>
+<p> “你确实很纯粹，但我不确定你的水平如何。”</p>
+<p> “你在小瞧我。” </p>
+<p>“我没有，你是了解我的。人在这里可以使用一种很特别的力量，但是如果没有办法掌握它，这种力量就会反过来危害到你。所以我需要确定你心灵的深度，也是为了你的安全着想。” </p>
+<p>“不仅是异想的力量？”</p>
+<p> “取决于你的本质。取决于你如何认识这个世界，如何认识这里，如何做出每一个决定。一般人只会盲目地活着，甚至不明白自己为什么会笑，为什么会发怒。就像你也许没意识到，你绝对不会进行没有准备的战斗。我知道你不是一般人，但我不确定你能否承担这种力量。”</p>
+

@@ -1,0 +1,20 @@
+---
+title: "布兰达的感谢信"
+---
+# 布兰达的感谢信
+
+???+ info "Collection Info"
+
+    | Field | Value |
+    |---|---|
+    | Chapter | [Ark Mirage](index.md) · Chapter VI |
+    | Collected on | 770/09/10 |
+    | Rarity | main |
+    | Custodian | 鸠 |
+
+??? warning "Only the Simplified Chinese text exists in the source data (shown below)"
+
+<p>霓虹站寄存仓库，采用数据化堆叠存储技术，所有入库寄存货物会插入一个随机生成的区位代码作为信标，方便归类存放。一段特殊区码被附在感谢信内一起寄来。</p>
+<p> 布兰达注：我无意中从别人那里得知你们正委托碎数研捞你们的摩托车，有这东西或许能更快的找到它。哦！如果你们复盘这次事件时遇到困难，我很乐意提供帮助。 </p>
+<p>又注：前提是不要把我又关到哪个监狱去！</p>
+

@@ -1,0 +1,2534 @@
+site_name: Phigros 收集品 Wiki
+site_description: Phigros 全收集品资料库（五语言） · Generated from APK v1.5.4
+copyright: >-
+  Phigros © Pigeon Games · 数据自 APK 逆向提取，仅用于资料整理
+theme:
+  name: material
+  language: zh
+  icon:
+    logo: material/book-open-page-variant
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.prune
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: 'deep purple'
+      accent: 'cyan'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: 'deep purple'
+      accent: 'cyan'
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+        - ja
+        - ko
+  - i18n:
+      docs_structure: folder
+      reconfigure_material: true
+      reconfigure_search: false
+      languages:
+        - locale: zh-Hans
+          name: 简体中文
+          default: true
+          build: true
+          site_name: Phigros 收集品 Wiki
+          theme:
+            language: zh
+          nav:
+            - 首页: index.md
+            - 额外章节:
+              - 额外章节: chapters/c01/index.md
+              - 收容报告·小报: chapters/c01/mope1-1.md
+              - 收容报告·红色蝴蝶结: chapters/c01/mope2-1.md
+              - 收容报告·红色蝴蝶结·线索一: chapters/c01/mope2-2.md
+              - 收容报告·陶土花盆: chapters/c01/mope3-1.md
+              - 收容报告·陶土花盆·线索一: chapters/c01/mope3-2.md
+              - 收容报告·陶土花盆·线索二: chapters/c01/mope3-3.md
+              - 收容报告·裙底之物: chapters/c01/mope4-1.md
+              - 收容报告·裙底之物·线索一: chapters/c01/mope4-2.md
+              - 公告·十七的宝藏: chapters/c01/B17treature-1.md
+              - 鸽子集结号: chapters/c01/gugugou-1.md
+              - 三尾吉祥鱼: chapters/c01/jixiangruyi-1.md
+              - 给十七的挑战书: chapters/c01/nazotiaozhan-1.md
+              - 给十七的挑战书·线索一: chapters/c01/nazotiaozhan-2.md
+              - 烤 全 鸭: chapters/c01/kaoquanya-1.md
+              - 今年过节上春晚: chapters/c01/Kalpa1-1.md
+              - 穿越小队少一人: chapters/c01/Kalpa2-1.md
+              - 世界上的另个我: chapters/c01/Kalpa3-1.md
+              - 亲朋好友齐欢聚: chapters/c01/Kalpa4-1.md
+              - 未来降临我身边: chapters/c01/Kalpa5-1.md
+              - 破译·最后的音矿: chapters/c01/Lanota1-1.md
+              - 破译·半封信: chapters/c01/Lanota2-1.md
+              - 破译·人偶: chapters/c01/Lanota3-1.md
+              - 破译·委托人: chapters/c01/Lanota4-1.md
+              - 生命之音: chapters/c01/Lanota5-1.md
+              - 摘录·莫比乌斯工作室日志·一: chapters/c01/roteano1-1.md
+              - 摘录·莫比乌斯工作室日志·二: chapters/c01/rotaeno2-1.md
+              - 摘录·莫比乌斯工作室日志·三: chapters/c01/rotaeno3-1.md
+              - 隼的行船记录仪·一: chapters/c01/rotaeno4-1.md
+              - 隼的行船记录仪·二: chapters/c01/rotaeno5-1.md
+              - 隼的行船记录仪·三: chapters/c01/rotaeno6-1.md
+              - 观察记录：雪: chapters/c01/paradigm1-1.md
+              - 观察记录：像: chapters/c01/paradigm2-1.md
+              - 观察记录：友: chapters/c01/paradigm3-1.md
+              - 观察记录：痕: chapters/c01/paradigm4-1.md
+              - Diary Alpa 220 02 01: chapters/c01/diaryalpa-1.md
+              - Diary Alpa 220 02 01·线索一: chapters/c01/diaryalpa-2.md
+              - Diary Alpa 220 02 01·线索二: chapters/c01/diaryalpa-3.md
+              - psyche-173号亚空间调查报告·新: chapters/c01/reportcy-1.md
+              - psyche-173号亚空间调查报告·新·线索一: chapters/c01/reportcy-2.md
+              - psyche-173号亚空间调查报告·新·线索二: chapters/c01/reportcy-3.md
+            - 冰封世界:
+              - 冰封世界: chapters/c02/index.md
+              - 诗笺#0: chapters/c02/shijian0-1.md
+              - 诗笺#1: chapters/c02/shijian1-1.md
+              - 诗笺#2: chapters/c02/shijian2-1.md
+              - 诗笺#3: chapters/c02/shijian3-1.md
+              - 诗笺#4: chapters/c02/shijian4-1.md
+              - 诗笺#5: chapters/c02/shijian5-1.md
+              - 诗笺#6: chapters/c02/shijian6-1.md
+              - 录音笔Alpa: chapters/c02/alpa-1.md
+              - 录音笔Alpa·线索一: chapters/c02/alpa-2.md
+              - 录音笔Alpa·线索二: chapters/c02/alpa-3.md
+              - 录音笔Alpa·线索三: chapters/c02/alpa-4.md
+              - 【录音】山风: chapters/c02/Yshanfeng-1.md
+              - 第七小队徽章: chapters/c02/7huizhang-1.md
+              - 【录音】火锅: chapters/c02/Yhuoguo-1.md
+              - 【录音】睡眠: chapters/c02/Ysleep-1.md
+              - 【录音】睡眠·线索一: chapters/c02/Ysleep-2.md
+              - 【录音】踩雪: chapters/c02/Ysnow-1.md
+              - 两用摩托Trophon: chapters/c02/trophon-1.md
+              - 两用摩托Trophon·线索一: chapters/c02/trophon-2.md
+              - 两用摩托Trophon·线索二: chapters/c02/trophon-3.md
+              - 两用摩托Trophon·线索三: chapters/c02/trophon-4.md
+              - 空投小饼干: chapters/c02/cookies-1.md
+              - 梆笛: chapters/c02/flute-1.md
+              - 【录音】黄莺亮翅: chapters/c02/Yhuangying-1.md
+              - 宿舍钥匙: chapters/c02/shushekey-1.md
+              - 魇魉角: chapters/c02/deemoangle-1.md
+              - 电磁霰弹枪: chapters/c02/electicgun-1.md
+              - 鱼篓: chapters/c02/yulo-1.md
+              - 【录音】鱼戏: chapters/c02/Yyuxi-1.md
+              - 发: chapters/c02/hairtheo-1.md
+              - 【录音】黑洞: chapters/c02/Yblackhole-1.md
+              - 【影像】脂球: chapters/c02/Mzhiqiu-1.md
+              - 锦囊: chapters/c02/jinnang-1.md
+              - 病号服: chapters/c02/binghaofu-1.md
+              - 花柄小刀: chapters/c02/mopeknife-1.md
+              - 【影像】深井: chapters/c02/Mshenjing-1.md
+              - 【录音】光: chapters/c02/Ylight-1.md
+              - 登入权限：土星: chapters/c02/saturn-1.md
+              - 登入权限：土星·线索一: chapters/c02/saturn-2.md
+              - 0327围剿令: chapters/c02/327-1.md
+              - 魇皮纸377: chapters/c02/377-1.md
+              - 魇皮纸377·线索一: chapters/c02/377-2.md
+              - 冰川美食汇: chapters/c02/meishihui-1.md
+              - 冰川美食汇·线索一: chapters/c02/meishihui-2.md
+              - 冰川美食汇·线索二: chapters/c02/meishihui-3.md
+              - 冰川美食汇·线索三: chapters/c02/meishihui-4.md
+            - 废土之下:
+              - 废土之下: chapters/c03/index.md
+              - 诗笺#7: chapters/c03/shijian7-1.md
+              - 诗笺#8: chapters/c03/shijian8-1.md
+              - 诗笺#9: chapters/c03/shijian9-1.md
+              - 周边·判定线抱枕: chapters/c03/922alice-1.md
+              - 梆笛·线索一: chapters/c03/flute-2.md
+              - 警长证: chapters/c03/younggino-1.md
+              - 【影像】塔: chapters/c03/Mtowersakura-1.md
+              - 【影像】现场勘验报告·夏草: chapters/c03/Mxiabug-1.md
+              - 星星的碎片·冬: chapters/c03/starshitsnow-1.md
+              - 收音机: chapters/c03/listentomyradio-1.md
+              - 收音机·线索一: chapters/c03/listentomyradio-2.md
+              - 收音机·线索二: chapters/c03/listentomyradio-3.md
+              - 【录音】太平鼓: chapters/c03/Ytaipingpingpang-1.md
+              - 魔术棒: chapters/c03/magicballball-1.md
+              - 拾荒者令牌: chapters/c03/shihaungzhelingpai-1.md
+              - 石林地图: chapters/c03/hoodoomap-1.md
+              - 【录音】叫花鸡: chapters/c03/Yjiaohuachicken-1.md
+              - 绿色变异种: chapters/c03/greenchicken-1.md
+              - 【影像】水塔: chapters/c03/watertower8-1.md
+              - 两用摩托Trophon·线索四: chapters/c03/trophon-5.md
+              - 录音笔Alpa·线索四: chapters/c03/alpa-5.md
+              - 录音笔Alpa·线索五: chapters/c03/alpa-6.md
+              - 【录音】晨: chapters/c03/Ymorningmyworld-1.md
+              - 【录音】晨·线索一: chapters/c03/Ymorningmyworld-2.md
+              - 五彩石: chapters/c03/wucaishi-1.md
+              - 彩虹绘本: chapters/c03/rainbowbook-1.md
+              - 金属臂: chapters/c03/metalarm-1.md
+              - 苦杏仁: chapters/c03/kuxingren-1.md
+              - 收音机·线索三: chapters/c03/listentomyradio-4.md
+              - 【影像】Fuli Auto Shooter！: chapters/c03/Mfuliautoshooter-1.md
+              - 巴雷特外壳: chapters/c03/bulletboom-1.md
+              - Fuli雕像: chapters/c03/fulistructure-1.md
+              - 【影像】巢栖道站: chapters/c03/Mstationkuzumi-1.md
+              - 【影像】涂鸦: chapters/c03/Mtuya-1.md
+              - HQ004班次车票: chapters/c03/hq004chepiao-1.md
+              - 液压剂: chapters/c03/aiblood-1.md
+              - 锚: chapters/c03/justicemao-1.md
+              - 诗笺#10: chapters/c03/shijian10-1.md
+              - 诗笺#11: chapters/c03/shijian11-1.md
+              - 【影像】堡垒: chapters/c03/Mbaolei-1.md
+              - 【影像】巢栖道站·线索一: chapters/c03/Mstationkuzumi-2.md
+              - 摘录·守护日志·机关枪: chapters/c03/Efuliautoshooter-1.md
+              - 摘录·守护日志·机关枪·线索一: chapters/c03/Efuliautoshooter-2.md
+              - 摘录·守护日志·机关枪·线索二: chapters/c03/Efuliautoshooter-3.md
+              - 摘录·守护日志·机关枪·线索三: chapters/c03/Efuliautoshooter-4.md
+            - 幽蓝边界:
+              - 幽蓝边界: chapters/c04/index.md
+              - 诗笺#12·战士: chapters/c04/shijian12-1.md
+              - 诗笺#13·夜之歌: chapters/c04/shijian13-1.md
+              - 诗笺#14·橄榄树上: chapters/c04/shijian14-1.md
+              - 诗笺#15·魔术师: chapters/c04/shijian15-1.md
+              - 诗笺#16·流浪人: chapters/c04/shijian16-1.md
+              - 战士·一·马: chapters/c04/zhanshi1-1.md
+              - 战士·二·疾驰: chapters/c04/zhanshi2-1.md
+              - 战士·三·喜剧: chapters/c04/zhanshi3-1.md
+              - 战士·四·冰封: chapters/c04/zhanshi4-1.md
+              - 战士·五·起飞: chapters/c04/zhanshi5-1.md
+              - 战士·六·人类: chapters/c04/zhanshi6-1.md
+            - 管道迷宫:
+              - 管道迷宫: chapters/c05/index.md
+              - 诗笺#17 Zer0: chapters/c05/shijian17-1.md
+              - Poem M2: chapters/c05/shijian18-1.md
+              - Poem 3ere: chapters/c05/shijian19-1.md
+              - Poem 4Y0: chapters/c05/shijian20-1.md
+              - Poem The 5no: chapters/c05/shijian21-1.md
+              - 里表舞厅: chapters/c05/uraometeStage-1.md
+              - 里表舞厅·线索一: chapters/c05/uraometeStage-2.md
+              - 里表舞厅·线索二: chapters/c05/uraometeStage-3.md
+              - 里表舞厅·线索三: chapters/c05/uraometeStage-4.md
+              - 摘录·碎数研档案·幽蓝国: chapters/c05/Ebdrgblue-1.md
+              - 碎数研-report-BUBD-22-1: chapters/c05/Ebdrgblue-2.md
+              - 碎数研-report-BUBD-22-2: chapters/c05/Ebdrgblue-3.md
+              - 碎数研-report-BUBD-23-1: chapters/c05/Ebdrgblue-4.md
+              - 碎数研-log-BUBD-951: chapters/c05/Ebdrgblue-5.md
+              - 碎数研-log-BUBD-952: chapters/c05/Ebdrgblue-6.md
+              - 空投小饼干·线索一: chapters/c05/cookies-2.md
+              - 迷猫: chapters/c05/mimao-1.md
+              - 迷猫·线索一: chapters/c05/mimao-2.md
+              - 管道迷宫: chapters/c05/TubeMaze-1.md
+              - 管道迷宫·线索一: chapters/c05/TubeMaze-2.md
+              - 管道迷宫·线索二: chapters/c05/TubeMaze-3.md
+              - 管道迷宫·线索三: chapters/c05/TubeMaze-4.md
+              - 管道迷宫·线索四: chapters/c05/TubeMaze-5.md
+              - 蝶羽笔: chapters/c05/dieyubi-1.md
+              - 蝶羽笔·线索一: chapters/c05/dieyubi-2.md
+              - 街机游戏《催眠》: chapters/c05/jieji111-1.md
+              - 街机游戏《瓶瓶罐罐》: chapters/c05/jieji222-1.md
+              - 街机游戏《Phigros》: chapters/c05/jieji333-1.md
+              - 街机游戏《彩虹之战》: chapters/c05/jiejiwarofrainbow-1.md
+              - 街机游戏《彩虹之战》·线索一: chapters/c05/jiejiwarofrainbow-2.md
+              - 街机游戏《彩虹之战》·线索二: chapters/c05/jiejiwarofrainbow-3.md
+              - 录音笔Alpa·线索六: chapters/c05/alpa-7.md
+              - 镜像之镜: chapters/c05/mirrormirror-1.md
+              - 镜像之镜·线索一: chapters/c05/mirrormirror-2.md
+              - 谜题保管所:00096: chapters/c05/maze00096-1.md
+              - 谜题保管所:00096·线索一: chapters/c05/maze00096-2.md
+              - 谜题保管所:00096·线索二: chapters/c05/maze00096-3.md
+              - 游戏币: chapters/c05/youxibi-1.md
+              - 游戏币·线索一: chapters/c05/youxibi-2.md
+            - 霓虹灯牌:
+              - 霓虹灯牌: chapters/c06/index.md
+              - 诗笺#18 人·影·世: chapters/c06/shijian22-1.md
+              - 诗笺#19  天蓝: chapters/c06/shijian23-1.md
+              - 诗笺#20 戏中: chapters/c06/shijian24-1.md
+              - Poem Reimei: chapters/c06/shijian25-1.md
+              - 破译·Spasmodic: chapters/c06/Spasmodic-1.md
+              - 诗笺#21 悲惶: chapters/c06/shijian26-1.md
+              - 诗笺#22 自由: chapters/c06/shijian27-1.md
+              - 游戏币·线索二: chapters/c06/youxibi-3.md
+              - 两用摩托Trophon·线索五: chapters/c06/trophon-6.md
+              - 旅馆房卡: chapters/c06/lvguanfangka-1.md
+              - 便签板: chapters/c06/bianqianban-1.md
+              - 便签板·线索一: chapters/c06/bianqianban-2.md
+              - 便签板·线索二: chapters/c06/bianqianban-3.md
+              - 便签板·线索三: chapters/c06/bianqianban-4.md
+              - 便签板·线索四: chapters/c06/bianqianban-5.md
+              - 六色之虹: chapters/c06/liusezhihonng-1.md
+              - 晚归来: chapters/c06/wanguilai-1.md
+              - 药箱: chapters/c06/yaoxiang-1.md
+              - 药箱·线索一: chapters/c06/yaoxiang-2.md
+              - 药箱·线索二: chapters/c06/yaoxiang-3.md
+              - 药箱·线索三: chapters/c06/yaoxiang-4.md
+              - 彩虹绘本·线索一: chapters/c06/rainbowbook-2.md
+              - 山荷叶标本: chapters/c06/shanheyebiaoben-1.md
+              - 【影像】背叛: chapters/c06/Mbeipan-1.md
+              - 布兰达的自述: chapters/c06/bulandazishu-1.md
+              - 布兰达的自述·线索一: chapters/c06/bulandazishu-2.md
+              - 【录音】霓虹美食图鉴: chapters/c06/Ynihongmeishi-1.md
+              - 【录音】霓虹美食图鉴·线索一: chapters/c06/Ynihongmeishi-2.md
+              - 【录音】霓虹美食图鉴·线索二: chapters/c06/Ynihongmeishi-3.md
+              - 尊师古卢: chapters/c06/guru-1.md
+              - 霓虹: chapters/c06/nihon-1.md
+              - 霓虹·线索一: chapters/c06/nihon-2.md
+              - 霓虹·线索二: chapters/c06/nihon-3.md
+              - 霓虹·线索三: chapters/c06/nihon-4.md
+              - 校卡: chapters/c06/xiaoka-1.md
+              - 《霓虹之声》宣传单: chapters/c06/xuanchuandan-1.md
+              - 社团导师名录: chapters/c06/shetuandaoshiminglu-1.md
+              - 课程表: chapters/c06/kechengbiao-1.md
+              - 【影像】霓虹观雨: chapters/c06/Mnihongguanyu-1.md
+              - 里表舞厅·线索四: chapters/c06/uraometeStage-5.md
+              - 百花教坊: chapters/c06/baihuaschool-1.md
+              - 糖绳: chapters/c06/tangshen-1.md
+              - 【影像】土丘: chapters/c06/tuqiu-1.md
+              - 锦囊·线索一: chapters/c06/jinnang-2.md
+              - PhigrOS记录-鸠: chapters/c06/PhigrOSjiu-1.md
+              - PhigrOS记录-鸠·线索一: chapters/c06/PhigrOSjiu-2.md
+              - PhigrOS记录-吉诺: chapters/c06/PhigrOSgino-1.md
+              - 可能性: chapters/c06/kenengxing-1.md
+              - 蝶羽笔·线索二: chapters/c06/dieyubi-3.md
+              - 锈色羊角锤: chapters/c06/xiusiyangjiaochui-1.md
+              - 锈色羊角锤·线索一: chapters/c06/xiusiyangjiaochui-2.md
+              - 锈色羊角锤·线索二: chapters/c06/xiusiyangjiaochui-3.md
+              - 锈色羊角锤·线索三: chapters/c06/xiusiyangjiaochui-4.md
+              - 街机游戏《彩虹之战》·线索三: chapters/c06/jiejiwarofrainbow-4.md
+              - 街机游戏《彩虹之战》·线索四: chapters/c06/jiejiwarofrainbow-5.md
+              - 街机游戏《彩虹之战》·线索五: chapters/c06/jiejiwarofrainbow-6.md
+              - 事件·虹再现: chapters/c06/rainbowawakening-1.md
+            - 方舟蜃景:
+              - 方舟蜃景: chapters/c07/index.md
+              - 重生: chapters/c07/chongsheng-1.md
+              - 破译·望影の方舟Six: chapters/c07/poyiARK-1.md
+              - 破译·望影の方舟Six·线索一: chapters/c07/poyiARK-2.md
+              - 破译·Igallta: chapters/c07/poyiIG-1.md
+              - 两用摩托Trophon·线索六: chapters/c07/trophon-7.md
+              - 豌豆食谱合集: chapters/c07/beansshipu-1.md
+              - 公派任务: chapters/c07/renwu-1.md
+              - 求职书: chapters/c07/qiuzhishu-1.md
+              - 豌豆种植记录: chapters/c07/beanszhongzhi-1.md
+              - 豌豆种植记录·线索一: chapters/c07/beanszhongzhi-2.md
+              - 求救信: chapters/c07/helpxin-1.md
+              - 求救信·线索一: chapters/c07/helpxin-2.md
+              - 克洛诺斯的鸽子: chapters/c07/cronosgugu-1.md
+              - 克洛诺斯的鸽子·线索一: chapters/c07/cronosgugu-2.md
+              - 罐装雪梨膏: chapters/c07/guanzhuang-1.md
+              - 霓虹灯牌: chapters/c07/NeonLED-1.md
+              - 霓虹灯牌·线索一: chapters/c07/NeonLED-2.md
+              - 布兰达的感谢信: chapters/c07/testimonial-1.md
+              - 布兰达的感谢信·线索一: chapters/c07/testimonial-2.md
+              - 布兰达的感谢信·线索二: chapters/c07/testimonial-3.md
+              - 布兰达的感谢信·线索三: chapters/c07/testimonial-4.md
+              - 油画: chapters/c07/canvas-1.md
+              - 失效门牌: chapters/c07/doorplate-1.md
+              - 失效门牌·线索一: chapters/c07/doorplate-2.md
+              - 失效门牌·线索二: chapters/c07/doorplate-3.md
+            - 时钟链接:
+              - 时钟链接: chapters/c08/index.md
+              - 【影像】时钟悖论: chapters/c08/clockparadox-1.md
+              - 时钟城第93届ALIGN梅花型拉力赛: chapters/c08/93Align-1.md
+              - 路星67-改: chapters/c08/landstar67re-1.md
+              - 路星67-改·线索一: chapters/c08/landstar67re-2.md
+              - 豌豆种植记录·线索二: chapters/c08/beanszhongzhi-3.md
+              - 求救信·线索二: chapters/c08/helpxin-3.md
+              - 克洛诺斯的鸽子·线索二: chapters/c08/cronosgugu-3.md
+              - 豆羹: chapters/c08/dougeng-1.md
+              - 辞职书: chapters/c08/cizhishu-1.md
+            - 凌日潮汐:
+              - 凌日潮汐: chapters/c09/index.md
+              - 诗笺 白马: chapters/c09/shijianbaima-1.md
+              - 诗笺 抉择: chapters/c09/shijianjueze-1.md
+              - 破译·凌日潮汐: chapters/c09/lvchuanbaomu-1.md
+              - 破译·凌日潮汐·线索一: chapters/c09/lvchuanbaomu-2.md
+              - 破译·凌日潮汐·线索二: chapters/c09/lvchuanbaomu-3.md
+              - 破译·凌日潮汐·线索三: chapters/c09/lvchuanbaomu-4.md
+              - 破译·凌日潮汐·线索四: chapters/c09/lvchuanbaomu-5.md
+              - 破译·凌日潮汐·线索五: chapters/c09/lvchuanbaomu-6.md
+              - 庙会: chapters/c09/miaohui-1.md
+              - 庙会·线索一: chapters/c09/miaohui-2.md
+              - 【影像】月面之海: chapters/c09/Mlingrichaoxi-1.md
+              - 【录音】穹顶: chapters/c09/Yqiongding-1.md
+              - 公派任务·线索一: chapters/c09/renwu-2.md
+              - 公派任务·线索二: chapters/c09/renwu-3.md
+              - 罐装雪梨膏·线索一: chapters/c09/guanzhuang-2.md
+              - 替换数据: chapters/c09/tihuandata-1.md
+              - 替换数据·线索一: chapters/c09/tihuandata-2.md
+              - 替换数据·线索二: chapters/c09/tihuandata-3.md
+              - 替换数据·线索三: chapters/c09/tihuandata-4.md
+            - 忘忧宫:
+              - 忘忧宫: chapters/c10/index.md
+              - 旁白：忘忧宫: chapters/c10/zhixian10-1.md
+              - 旁白：奥德修斯港: chapters/c10/zhixian11-1.md
+              - 旁白：克洛诺斯: chapters/c10/zhixian12-1.md
+              - 旁白：奇迹之森: chapters/c10/zhixian13-1.md
+              - 旁白：迷宫尽头: chapters/c10/zhixian14-1.md
+              - 《拉瓦钵的覆灭》: chapters/c10/lawabofumiele-1.md
+              - 《拉瓦钵的覆灭》·线索一: chapters/c10/lawabofumiele-2.md
+              - 《拉瓦钵的覆灭》·线索二: chapters/c10/lawabofumiele-3.md
+              - 《拉瓦钵的覆灭》·线索三: chapters/c10/lawabofumiele-4.md
+              - 《拉瓦钵的覆灭》·线索四: chapters/c10/lawabofumiele-5.md
+              - 虚妄之匣: chapters/c10/xuwangzhixia-1.md
+              - 虚妄之匣·线索一: chapters/c10/xuwangzhixia-2.md
+              - 虚妄之匣·线索二: chapters/c10/xuwangzhixia-3.md
+              - 艾达的超震动小刀: chapters/c10/chaozhendong-1.md
+              - 艾达的超震动小刀·线索一: chapters/c10/chaozhendong-2.md
+              - 伯尼丝的研究笔记: chapters/c10/yanjiubonisi-1.md
+              - 伯尼丝的研究笔记·线索一: chapters/c10/yanjiubonisi-2.md
+              - 伯尼丝的研究笔记·线索二: chapters/c10/yanjiubonisi-3.md
+              - 伯尼丝的研究笔记·线索三: chapters/c10/yanjiubonisi-4.md
+              - 伯尼丝的神奇挎包: chapters/c10/shenqikuabao-1.md
+              - 伯尼丝的神奇挎包·线索一: chapters/c10/shenqikuabao-2.md
+              - 伯尼丝的神奇挎包·线索二: chapters/c10/shenqikuabao-3.md
+              - 伯尼丝的神奇挎包·线索三: chapters/c10/shenqikuabao-4.md
+              - 萨芙的运动相机: chapters/c10/yundongxiangji-1.md
+              - 萨芙的运动相机·线索一: chapters/c10/yundongxiangji-2.md
+              - 萨芙的运动相机·线索二: chapters/c10/yundongxiangji-3.md
+              - 萨芙的运动相机·线索三: chapters/c10/yundongxiangji-4.md
+              - 定向绳索: chapters/c10/dinngxiangshensuo-1.md
+              - 定向绳索·线索一: chapters/c10/dinngxiangshensuo-2.md
+              - 定向绳索·线索二: chapters/c10/dinngxiangshensuo-3.md
+              - 身份证件: chapters/c10/shenfenzhengjian-1.md
+              - 身份证件·线索一: chapters/c10/shenfenzhengjian-2.md
+              - 身份证件·线索二: chapters/c10/shenfenzhengjian-3.md
+              - 身份证件·线索三: chapters/c10/shenfenzhengjian-4.md
+              - 真理之珠: chapters/c10/zhenlizhizhu-1.md
+              - 真理之珠·线索一: chapters/c10/zhenlizhizhu-2.md
+              - 真理之珠·线索二: chapters/c10/zhenlizhizhu-3.md
+              - 窃听器: chapters/c10/qietingqi-1.md
+              - 窃听器·线索一: chapters/c10/qietingqi-2.md
+              - 窃听器·线索二: chapters/c10/qietingqi-3.md
+              - 奥德修斯港出海记录: chapters/c10/chuhaijilu-1.md
+              - 奥德修斯港出海记录·线索一: chapters/c10/chuhaijilu-2.md
+              - 奥德修斯港出海记录·线索二: chapters/c10/chuhaijilu-3.md
+              - 纸片: chapters/c10/zhipian-1.md
+            - 弭刻日:
+              - 弭刻日: chapters/c11/index.md
+              - 旁白：造主: chapters/c11/zhixian20-1.md
+              - 旁白：心魔: chapters/c11/zhixian21-1.md
+              - 旁白：未来: chapters/c11/zhixian22-1.md
+              - 旁白：黎明: chapters/c11/zhixian24-1.md
+              - 评《杰作的诞生》: chapters/c11/jiezuodedansheng-1.md
+              - 【影像】时光的废墟: chapters/c11/Mshiguangdefx-1.md
+              - 【影像】哈娜: chapters/c11/Mhana-1.md
+              - 致信：土星系统无法注册与故障问题: chapters/c11/xintudoudeyongsheng-1.md
+              - 【录音】船桨: chapters/c11/Ychuanjiangwa-1.md
+              - 【录音】船桨·线索一: chapters/c11/Ychuanjiangwa-2.md
+              - 【录音】船桨·线索二: chapters/c11/Ychuanjiangwa-3.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗: chapters/c11/liuqidashengli-1.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索一: chapters/c11/liuqidashengli-2.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索二: chapters/c11/liuqidashengli-3.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索三: chapters/c11/liuqidashengli-4.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索四: chapters/c11/liuqidashengli-5.md
+            - 盗乐行:
+              - 盗乐行: chapters/c12/index.md
+              - 《盗月行》调查报告: chapters/c12/thiefmoon-1.md
+              - 旁白：流言: chapters/c12/zhixian31-1.md
+              - 旁白：怪盗: chapters/c12/zhixian33-1.md
+              - 旁白：恍惚: chapters/c12/zhixian32-1.md
+              - 旁白：黑月: chapters/c12/zhixian30-1.md
+              - '旁白: From 1 to 500000': chapters/c12/zhixian34-1.md
+              - 幻梦 之一: chapters/c12/huanmeng1-1.md
+              - 幻梦 之二: chapters/c12/huanmeng2-1.md
+              - 673：律动星盗乐行事件 亚空间副本: chapters/c12/673shijian-1.md
+              - 673：律动星盗乐行事件 亚空间副本·线索一: chapters/c12/674shijian-2.md
+              - 673：律动星盗乐行事件 亚空间副本·线索二: chapters/c12/675shijian-3.md
+              - 报道：《相机里的真假月亮》: chapters/c12/baoyouyueliang-1.md
+              - 散文：《有关旋律的哲思》: chapters/c12/xuanlvshisha-1.md
+              - 报道：《晒月亮的女孩》: chapters/c12/nvhaibieditou-1.md
+              - 【影像】拍摄者采访记录存档: chapters/c12/Mbolisidexisheng-1.md
+              - 木质八音盒: chapters/c12/bayinhe-1.md
+              - 【影像】直播录屏: chapters/c12/Mdyjilumeihao-1.md
+              - 【影像】直播录屏·线索一: chapters/c12/Mdyjilumeihao-2.md
+              - 文玩核桃: chapters/c12/pantaaa-1.md
+              - 吉克·莱斯波斯-Year372: chapters/c12/he372bafei-1.md
+              - 报道：《酒吧辩手，市长想谈谈》: chapters/c12/buxutan-1.md
+              - 报道：《酒吧辩手，市长想谈谈》·线索一: chapters/c12/buxutan-2.md
+              - 报道：《酒吧辩手，市长想谈谈》·线索二: chapters/c12/buxutan-3.md
+              - 小说：《困在街道中的老人》: chapters/c12/fuqinkuaishuiba-1.md
+              - 帖子：《天桥东！发现天狗！》: chapters/c12/nifaxianlgesha-1.md
+              - 【影像】街头的Fuli: chapters/c12/Mluolikong-1.md
+              - 摘录·守护日志·机关枪·线索四: chapters/c12/Efuliautoshooter-5.md
+              - 量子同步终端: chapters/c12/liangzitbzz-1.md
+              - 量子同步终端·线索一: chapters/c12/liangzitbzz-2.md
+              - 量子同步终端·线索二: chapters/c12/liangzitbzz-3.md
+              - 量子同步终端·线索三: chapters/c12/liangzitbzz-4.md
+              - 量子同步终端·线索四: chapters/c12/liangzitbzz-5.md
+              - 喵喵茶: chapters/c12/miaomiaocha-1.md
+              - 黑月疗养院员工需知: chapters/c12/heiyueliaoyangyuan-1.md
+              - 黑月疗养院员工需知·线索一: chapters/c12/heiyueliaoyangyuan-2.md
+              - 黑月疗养院员工需知·线索二: chapters/c12/heiyueliaoyangyuan-3.md
+              - 小熊娃娃: chapters/c12/beardoll-1.md
+              - 小熊娃娃·线索一: chapters/c12/beardoll-2.md
+              - 小熊娃娃·线索二: chapters/c12/beardoll-3.md
+              - 小熊娃娃·线索三: chapters/c12/beardoll-4.md
+              - 小熊娃娃·线索四: chapters/c12/beardoll-5.md
+              - 影像带：《洛基的世界》: chapters/c12/lokiworld-1.md
+              - 影像带：《洛基的世界》·线索一: chapters/c12/lokiworld-2.md
+              - 影像带：《洛基的世界》·线索二: chapters/c12/lokiworld-3.md
+              - 影像带：《洛基的世界》·线索三: chapters/c12/lokiworld-4.md
+              - 影像带：《洛基的世界》·线索四: chapters/c12/lokiworld-5.md
+              - 报道：《洛基的世界影评》: chapters/c12/lokiworldre-1.md
+              - 【影像】日蚀之月: chapters/c12/abaaba1-1.md
+              - 波提切利原型机: chapters/c12/botiqieli-1.md
+              - 波提切利原型机·线索一: chapters/c12/botiqieli-2.md
+              - 波提切利原型机·线索二: chapters/c12/botiqieli-3.md
+              - 波提切利原型机·线索三: chapters/c12/botiqieli-4.md
+              - 隔音耳机: chapters/c12/earphone-1.md
+              - 隔音耳机·线索一: chapters/c12/earphone-2.md
+              - 隔音耳机·线索二: chapters/c12/earphone-3.md
+              - 隔音耳机·线索三: chapters/c12/earphone-4.md
+              - 隔音耳机·线索四: chapters/c12/earphone-5.md
+              - 黑月疗养院日志: chapters/c12/heiyuelog-1.md
+              - 黑月疗养院日志·线索一: chapters/c12/heiyuelog-2.md
+              - 黑月疗养院日志·线索二: chapters/c12/heiyuelog-3.md
+              - 黑月疗养院日志·线索三: chapters/c12/heiyuelog-4.md
+              - 黑月疗养院日志·线索四: chapters/c12/heiyuelog-5.md
+              - 机械手套: chapters/c12/jixiegloves-1.md
+              - 机械手套·线索一: chapters/c12/jixiegloves-2.md
+              - 机械手套·线索二: chapters/c12/jixiegloves-3.md
+              - 机械手套·线索三: chapters/c12/jixiegloves-4.md
+              - 机械手套·线索四: chapters/c12/jixiegloves-5.md
+              - 报道：《律动星城市监控网现已恢复，失灵原因疑似与月食有关》: chapters/c12/jiankongwang-1.md
+              - 报道：《对大众心理学研究的反叛：当他人主宰你的存在》: chapters/c12/fanpanzhuzai-1.md
+              - 报道：《神秘黑点与浪漫少女的背后：波提切利相机的秘密》: chapters/c12/heidianshaonv-1.md
+            - 无相乡:
+              - 无相乡: chapters/c13/index.md
+              - 档案·无相乡调查报告: chapters/c13/investigatewuxiang-1.md
+            - 极星卫:
+              - 极星卫: chapters/c14/index.md
+              - 破译·《极星卫》彩蛋: chapters/c14/bassareusEgg-1.md
+              - 莫比乌斯的回信: chapters/c14/ReMobiusi-1.md
+              - 《极星卫》剧本·序: chapters/c14/Bassareus0-1.md
+              - 《极星卫》剧本·一: chapters/c14/Bassareus1-1.md
+              - 《极星卫》剧本·二: chapters/c14/Bassareus2-1.md
+              - 《极星卫》剧本·三: chapters/c14/Bassareus3-1.md
+              - 《极星卫》剧本·四: chapters/c14/Bassareus4-1.md
+              - 《极星卫》剧本·五: chapters/c14/Bassareus5-1.md
+              - 《极星卫》剧本·六: chapters/c14/Bassareus6-1.md
+              - 《极星卫》剧本·七: chapters/c14/Bassareus7-1.md
+              - 《极星卫》剧本·八: chapters/c14/Bassareus8-1.md
+              - 《极星卫》剧本·九: chapters/c14/Bassareus9-1.md
+              - 《极星卫》剧本·十: chapters/c14/Bassareus10-1.md
+              - 《极星卫》剧本·十一: chapters/c14/Bassareus11-1.md
+              - 《极星卫》剧本·十二: chapters/c14/Bassareus12-1.md
+              - 《极星卫》剧本·十三: chapters/c14/Bassareus13-1.md
+              - 《极星卫》剧本·十四: chapters/c14/Bassareus14-1.md
+              - 《极星卫》剧本·十五: chapters/c14/Bassareus15-1.md
+              - 《极星卫》剧本·十六: chapters/c14/Bassareus16-1.md
+              - 《极星卫》剧本·十七: chapters/c14/Bassareus17-1.md
+              - 《极星卫》剧本·十八: chapters/c14/Bassareus18-1.md
+              - 《极星卫》剧本·十九: chapters/c14/Bassareus19-1.md
+              - 《极星卫》剧本·二十: chapters/c14/Bassareus20-1.md
+              - 《极星卫》剧本·二十一: chapters/c14/Bassareus21-1.md
+              - 《极星卫》剧本·二十二: chapters/c14/Bassareus22-1.md
+              - 《极星卫》剧本·二十三: chapters/c14/Bassareus23-1.md
+              - 《极星卫》剧本·二十四: chapters/c14/Bassareus24-1.md
+              - 《极星卫》剧本·二十五: chapters/c14/Bassareus25-1.md
+              - 《极星卫》剧本·二十六: chapters/c14/Bassareus26-1.md
+              - 《极星卫》剧本·二十七: chapters/c14/Bassareus27-1.md
+              - 《极星卫》剧本·二十八: chapters/c14/Bassareus28-1.md
+              - 《极星卫》剧本·二十九: chapters/c14/Bassareus29-1.md
+              - 《极星卫》剧本·三十: chapters/c14/Bassareus30-1.md
+              - 《极星卫》剧本·三十一: chapters/c14/Bassareus31-1.md
+              - 《极星卫》剧本·三十二: chapters/c14/Bassareus32-1.md
+              - 《极星卫》剧本·三十三: chapters/c14/Bassareus33-1.md
+              - 《极星卫》剧本·三十四: chapters/c14/Bassareus34-1.md
+        - locale: zh-Hant
+          name: 繁體中文
+          default: false
+          build: true
+          site_name: Phigros 收集品 Wiki
+          theme:
+            language: zh-Hant
+          nav:
+            - 章節導覽: index.md
+            - 額外章節:
+              - 額外章節: chapters/c01/index.md
+              - 收容報告·日報: chapters/c01/mope1-1.md
+              - 收容報告·紅色蝴蝶結: chapters/c01/mope2-1.md
+              - 收容報告·紅色蝴蝶結·資訊二: chapters/c01/mope2-2.md
+              - 收容報告·陶土花盆: chapters/c01/mope3-1.md
+              - 收容報告·陶土花盆·資訊一: chapters/c01/mope3-2.md
+              - 收容報告·陶土花盆·資訊二: chapters/c01/mope3-3.md
+              - 收容報告·裙底之物: chapters/c01/mope4-1.md
+              - 收容報告·裙底之物·資訊一: chapters/c01/mope4-2.md
+              - 公告·十七的寶藏: chapters/c01/B17treature-1.md
+              - 鴿子集結號: chapters/c01/gugugou-1.md
+              - 三尾吉祥魚: chapters/c01/jixiangruyi-1.md
+              - 給十七的挑戰書: chapters/c01/nazotiaozhan-1.md
+              - 給十七的挑戰書·資訊一: chapters/c01/nazotiaozhan-2.md
+              - 烤 全 鴨: chapters/c01/kaoquanya-1.md
+              - 今年過節上春晚: chapters/c01/Kalpa1-1.md
+              - 穿越小隊少一人: chapters/c01/Kalpa2-1.md
+              - 世界上的另個我: chapters/c01/Kalpa3-1.md
+              - 親朋好友其歡聚: chapters/c01/Kalpa4-1.md
+              - 未來降臨我身邊: chapters/c01/Kalpa5-1.md
+              - 破譯·最後的音礦: chapters/c01/Lanota1-1.md
+              - 破譯·半封信: chapters/c01/Lanota2-1.md
+              - 破譯·人偶: chapters/c01/Lanota3-1.md
+              - 破譯·委託人: chapters/c01/Lanota4-1.md
+              - 生命之音: chapters/c01/Lanota5-1.md
+              - 摘錄·莫比烏斯工作室日志·一: chapters/c01/roteano1-1.md
+              - 摘錄·莫比烏斯工作室日志·二: chapters/c01/rotaeno2-1.md
+              - 摘錄·莫比烏斯工作室日志·三: chapters/c01/rotaeno3-1.md
+              - 隼的行船記錄儀·一: chapters/c01/rotaeno4-1.md
+              - 隼的行船記錄儀·二: chapters/c01/rotaeno5-1.md
+              - 隼的行船記錄儀·三: chapters/c01/rotaeno6-1.md
+              - 观察记录：雪: chapters/c01/paradigm1-1.md
+              - 观察记录：像: chapters/c01/paradigm2-1.md
+              - 观察记录：友: chapters/c01/paradigm3-1.md
+              - 观察记录：痕: chapters/c01/paradigm4-1.md
+              - Diary Alpa 220 02 01: chapters/c01/diaryalpa-1.md
+              - Diary Alpa 220 02 01·线索一: chapters/c01/diaryalpa-2.md
+              - Diary Alpa 220 02 01·线索二: chapters/c01/diaryalpa-3.md
+              - psyche-173号亚空间调查报告·新: chapters/c01/reportcy-1.md
+              - psyche-173号亚空间调查报告·新·线索一: chapters/c01/reportcy-2.md
+              - psyche-173号亚空间调查报告·新·线索二: chapters/c01/reportcy-3.md
+            - 冰封世界:
+              - 冰封世界: chapters/c02/index.md
+              - 詩籤#0: chapters/c02/shijian0-1.md
+              - 詩籤#1: chapters/c02/shijian1-1.md
+              - 詩籤#2: chapters/c02/shijian2-1.md
+              - 詩籤#3: chapters/c02/shijian3-1.md
+              - 詩籤#4: chapters/c02/shijian4-1.md
+              - 詩籤#5: chapters/c02/shijian5-1.md
+              - 詩籤#6: chapters/c02/shijian6-1.md
+              - 錄音筆Alpa: chapters/c02/alpa-1.md
+              - 錄音筆Alpa·資訊一: chapters/c02/alpa-2.md
+              - 錄音筆Alpa·資訊二: chapters/c02/alpa-3.md
+              - 錄音筆Alpa·資訊三: chapters/c02/alpa-4.md
+              - 【錄音】山風: chapters/c02/Yshanfeng-1.md
+              - 第七小隊勳章: chapters/c02/7huizhang-1.md
+              - 【錄音】火鍋: chapters/c02/Yhuoguo-1.md
+              - 【錄音】睡眠: chapters/c02/Ysleep-1.md
+              - 【錄音】睡眠·資訊一: chapters/c02/Ysleep-2.md
+              - 【錄音】踩雪: chapters/c02/Ysnow-1.md
+              - 兩用摩托車Trophon: chapters/c02/trophon-1.md
+              - 兩用摩托車Trophon·資訊一: chapters/c02/trophon-2.md
+              - 兩用摩托車Trophon·資訊二: chapters/c02/trophon-3.md
+              - 兩用摩托車Trophon·資訊三: chapters/c02/trophon-4.md
+              - 空投小餅乾: chapters/c02/cookies-1.md
+              - 梆笛: chapters/c02/flute-1.md
+              - 【錄音】黃鶯展翅: chapters/c02/Yhuangying-1.md
+              - 宿舍鑰匙: chapters/c02/shushekey-1.md
+              - 魘魎角: chapters/c02/deemoangle-1.md
+              - 電磁散彈槍: chapters/c02/electicgun-1.md
+              - 魚簍: chapters/c02/yulo-1.md
+              - 【錄音】魚群的下場: chapters/c02/Yyuxi-1.md
+              - Theo的遺物·髮: chapters/c02/hairtheo-1.md
+              - 【錄音】黑洞: chapters/c02/Yblackhole-1.md
+              - 【影像】脂球: chapters/c02/Mzhiqiu-1.md
+              - 錦囊: chapters/c02/jinnang-1.md
+              - 住院服: chapters/c02/binghaofu-1.md
+              - 花柄小刀: chapters/c02/mopeknife-1.md
+              - 【影像】深井: chapters/c02/Mshenjing-1.md
+              - 【錄音】光: chapters/c02/Ylight-1.md
+              - 登入權限：土星: chapters/c02/saturn-1.md
+              - 登入權限：土星·資訊一: chapters/c02/saturn-2.md
+              - 0327圍剿令: chapters/c02/327-1.md
+              - 魔皮紙377: chapters/c02/377-1.md
+              - 魔皮紙377·資訊一: chapters/c02/377-2.md
+              - 冰川美食集: chapters/c02/meishihui-1.md
+              - 冰川美食集·資訊一: chapters/c02/meishihui-2.md
+              - 冰川美食集·資訊二: chapters/c02/meishihui-3.md
+              - 冰川美食集·資訊三: chapters/c02/meishihui-4.md
+            - 廢土之下:
+              - 廢土之下: chapters/c03/index.md
+              - 詩籤#7: chapters/c03/shijian7-1.md
+              - 詩籤#8: chapters/c03/shijian8-1.md
+              - 詩籤#9: chapters/c03/shijian9-1.md
+              - 周邊·判定線抱枕: chapters/c03/922alice-1.md
+              - 梆笛·資訊一: chapters/c03/flute-2.md
+              - 警長證: chapters/c03/younggino-1.md
+              - 【影像】塔: chapters/c03/Mtowersakura-1.md
+              - 【影像】現場勘驗報告·夏草: chapters/c03/Mxiabug-1.md
+              - 星星的碎片·冬: chapters/c03/starshitsnow-1.md
+              - 收音機: chapters/c03/listentomyradio-1.md
+              - 收音機·資訊一: chapters/c03/listentomyradio-2.md
+              - 收音機·資訊二: chapters/c03/listentomyradio-3.md
+              - 【錄音】太平鼓: chapters/c03/Ytaipingpingpang-1.md
+              - 魔術棒: chapters/c03/magicballball-1.md
+              - 拾荒者身分識別證: chapters/c03/shihaungzhelingpai-1.md
+              - 石林地圖: chapters/c03/hoodoomap-1.md
+              - 【錄音】叫花雞: chapters/c03/Yjiaohuachicken-1.md
+              - 綠色異變種: chapters/c03/greenchicken-1.md
+              - 【影像】水塔: chapters/c03/watertower8-1.md
+              - 兩用摩托車Trophon·資訊四: chapters/c03/trophon-5.md
+              - 錄音筆Alpa·資訊四: chapters/c03/alpa-5.md
+              - 錄音筆Alpa·資訊五: chapters/c03/alpa-6.md
+              - 【錄音】晨: chapters/c03/Ymorningmyworld-1.md
+              - 【錄音】晨·資訊一: chapters/c03/Ymorningmyworld-2.md
+              - 五彩石: chapters/c03/wucaishi-1.md
+              - 彩虹繪本: chapters/c03/rainbowbook-1.md
+              - 金屬臂: chapters/c03/metalarm-1.md
+              - 苦杏仁: chapters/c03/kuxingren-1.md
+              - 收音機·資訊三: chapters/c03/listentomyradio-4.md
+              - 【影像】Fuli Auto Shooter！: chapters/c03/Mfuliautoshooter-1.md
+              - 巴雷特外殼: chapters/c03/bulletboom-1.md
+              - Fuli雕像: chapters/c03/fulistructure-1.md
+              - 【影像】巢棲道站: chapters/c03/Mstationkuzumi-1.md
+              - 【影像】塗鴉: chapters/c03/Mtuya-1.md
+              - HQ004班次車票: chapters/c03/hq004chepiao-1.md
+              - 液壓劑: chapters/c03/aiblood-1.md
+              - 錨: chapters/c03/justicemao-1.md
+              - 詩籤#10: chapters/c03/shijian10-1.md
+              - 詩籤#11: chapters/c03/shijian11-1.md
+              - 【影像】堡壘: chapters/c03/Mbaolei-1.md
+              - 【影像】巢棲道站·資訊一: chapters/c03/Mstationkuzumi-2.md
+              - 摘錄·守護日誌·機關槍: chapters/c03/Efuliautoshooter-1.md
+              - 摘錄·守護日誌·機關槍·資訊一: chapters/c03/Efuliautoshooter-2.md
+              - 摘錄·守護日誌·機關槍·資訊二: chapters/c03/Efuliautoshooter-3.md
+              - 摘錄·守護日誌·機關槍·資訊三: chapters/c03/Efuliautoshooter-4.md
+            - 幽藍邊界:
+              - 幽藍邊界: chapters/c04/index.md
+              - 詩籤#12·戰士: chapters/c04/shijian12-1.md
+              - 詩籤#13·夜之歌: chapters/c04/shijian13-1.md
+              - 詩籤#14·橄欖樹上: chapters/c04/shijian14-1.md
+              - 詩籤#15·魔術師: chapters/c04/shijian15-1.md
+              - 詩籤#16·流浪人: chapters/c04/shijian16-1.md
+              - 戰士·一·馬: chapters/c04/zhanshi1-1.md
+              - 戰士·二·疾馳: chapters/c04/zhanshi2-1.md
+              - 戰士·三·喜劇: chapters/c04/zhanshi3-1.md
+              - 戰士·四·冰封: chapters/c04/zhanshi4-1.md
+              - 戰士·五·起飛: chapters/c04/zhanshi5-1.md
+              - 戰士·六·人類: chapters/c04/zhanshi6-1.md
+            - 管道迷宮:
+              - 管道迷宮: chapters/c05/index.md
+              - 詩籤#17 Zer0: chapters/c05/shijian17-1.md
+              - Poem M2: chapters/c05/shijian18-1.md
+              - Poem 3ere: chapters/c05/shijian19-1.md
+              - Poem 4Y0: chapters/c05/shijian20-1.md
+              - Poem The 5no: chapters/c05/shijian21-1.md
+              - 表裡舞廳: chapters/c05/uraometeStage-1.md
+              - 表裡舞廳·資訊一: chapters/c05/uraometeStage-2.md
+              - 表裡舞廳·資訊二: chapters/c05/uraometeStage-3.md
+              - 表裡舞廳·資訊三: chapters/c05/uraometeStage-4.md
+              - 摘錄·碎數研檔案·幽藍國: chapters/c05/Ebdrgblue-1.md
+              - 碎數研-report-BUBD-22-1: chapters/c05/Ebdrgblue-2.md
+              - 碎數研-report-BUBD-22-2: chapters/c05/Ebdrgblue-3.md
+              - 碎數研-report-BUBD-23-1: chapters/c05/Ebdrgblue-4.md
+              - 碎數研-log-BUBD-951: chapters/c05/Ebdrgblue-5.md
+              - 碎數研-log-BUBD-952: chapters/c05/Ebdrgblue-6.md
+              - 空投小餅乾·資訊一: chapters/c05/cookies-2.md
+              - 迷貓: chapters/c05/mimao-1.md
+              - 迷貓·線索一: chapters/c05/mimao-2.md
+              - 管道迷宮: chapters/c05/TubeMaze-1.md
+              - 管道迷宮·線索一: chapters/c05/TubeMaze-2.md
+              - 管道迷宮·線索二: chapters/c05/TubeMaze-3.md
+              - 管道迷宮·線索三: chapters/c05/TubeMaze-4.md
+              - 管道迷宮·線索四: chapters/c05/TubeMaze-5.md
+              - 蝶羽筆: chapters/c05/dieyubi-1.md
+              - 蝶羽筆·資訊一: chapters/c05/dieyubi-2.md
+              - 街機遊戲《催眠》: chapters/c05/jieji111-1.md
+              - 街機遊戲《瓶瓶罐罐》: chapters/c05/jieji222-1.md
+              - 街機遊戲《Phigros》: chapters/c05/jieji333-1.md
+              - 街機遊戲《彩虹之戰》: chapters/c05/jiejiwarofrainbow-1.md
+              - 街機遊戲《彩虹之戰》·資訊一: chapters/c05/jiejiwarofrainbow-2.md
+              - 街機遊戲《彩虹之戰》·資訊二: chapters/c05/jiejiwarofrainbow-3.md
+              - 錄音筆Alpa·資訊六: chapters/c05/alpa-7.md
+              - 倒像之鏡: chapters/c05/mirrormirror-1.md
+              - 倒到像之鏡·資訊一: chapters/c05/mirrormirror-2.md
+              - 謎題保管所:00096: chapters/c05/maze00096-1.md
+              - 謎題保管所:00096·資訊一: chapters/c05/maze00096-2.md
+              - 謎題保管所:00096·資訊二: chapters/c05/maze00096-3.md
+              - 遊戲幣: chapters/c05/youxibi-1.md
+              - 遊戲幣·資訊一: chapters/c05/youxibi-2.md
+            - 霓虹燈牌:
+              - 霓虹燈牌: chapters/c06/index.md
+              - 詩箋#18 人·影·世: chapters/c06/shijian22-1.md
+              - 詩箋#19 天藍: chapters/c06/shijian23-1.md
+              - 詩箋#20 戲中: chapters/c06/shijian24-1.md
+              - Poem Reimei: chapters/c06/shijian25-1.md
+              - 破譯·Spasmodic: chapters/c06/Spasmodic-1.md
+              - 詩箋#21 悲惶: chapters/c06/shijian26-1.md
+              - 詩箋#22 自由: chapters/c06/shijian27-1.md
+              - 遊戲幣·線索二: chapters/c06/youxibi-3.md
+              - 兩用摩托車Trophon·資訊五: chapters/c06/trophon-6.md
+              - 旅館房卡: chapters/c06/lvguanfangka-1.md
+              - 便條板: chapters/c06/bianqianban-1.md
+              - 便條板·資訊一: chapters/c06/bianqianban-2.md
+              - 便條板·資訊二: chapters/c06/bianqianban-3.md
+              - 便條板·資訊三: chapters/c06/bianqianban-4.md
+              - 便條板·資訊四: chapters/c06/bianqianban-5.md
+              - 六色之虹: chapters/c06/liusezhihonng-1.md
+              - 晚歸來: chapters/c06/wanguilai-1.md
+              - 藥箱: chapters/c06/yaoxiang-1.md
+              - 藥箱·資訊一: chapters/c06/yaoxiang-2.md
+              - 藥箱·資訊二: chapters/c06/yaoxiang-3.md
+              - 藥箱·資訊三: chapters/c06/yaoxiang-4.md
+              - 彩虹繪本·資訊一: chapters/c06/rainbowbook-2.md
+              - 山荷葉標本: chapters/c06/shanheyebiaoben-1.md
+              - 【影像】背叛: chapters/c06/Mbeipan-1.md
+              - Blanda的自述: chapters/c06/bulandazishu-1.md
+              - Blanda的自述·資訊一: chapters/c06/bulandazishu-2.md
+              - 【錄音】霓虹美食圖鑑: chapters/c06/Ynihongmeishi-1.md
+              - 【錄音】霓虹美食圖鑑·資訊一: chapters/c06/Ynihongmeishi-2.md
+              - 【錄音】霓虹美食圖鑑·資訊二: chapters/c06/Ynihongmeishi-3.md
+              - 尊師古盧: chapters/c06/guru-1.md
+              - 霓虹: chapters/c06/nihon-1.md
+              - 霓虹·資訊一: chapters/c06/nihon-2.md
+              - 霓虹·資訊二: chapters/c06/nihon-3.md
+              - 霓虹·資訊三: chapters/c06/nihon-4.md
+              - 學生證: chapters/c06/xiaoka-1.md
+              - 《霓虹之聲》宣傳單: chapters/c06/xuanchuandan-1.md
+              - 社團導師名錄: chapters/c06/shetuandaoshiminglu-1.md
+              - 課程表: chapters/c06/kechengbiao-1.md
+              - 【影像】霓虹觀雨: chapters/c06/Mnihongguanyu-1.md
+              - 表裡舞廳·資訊四: chapters/c06/uraometeStage-5.md
+              - 百花教坊: chapters/c06/baihuaschool-1.md
+              - 糖繩: chapters/c06/tangshen-1.md
+              - 【影像】土丘: chapters/c06/tuqiu-1.md
+              - 錦囊·資訊一: chapters/c06/jinnang-2.md
+              - PhigrOS紀錄·Geopelia: chapters/c06/PhigrOSjiu-1.md
+              - PhigrOS紀錄·Geopelia·資訊一: chapters/c06/PhigrOSjiu-2.md
+              - PhigrOS紀錄·Gino: chapters/c06/PhigrOSgino-1.md
+              - 可能性: chapters/c06/kenengxing-1.md
+              - 蝶羽筆·資訊二: chapters/c06/dieyubi-3.md
+              - 锈色羊角锤: chapters/c06/xiusiyangjiaochui-1.md
+              - 锈色羊角锤·线索一: chapters/c06/xiusiyangjiaochui-2.md
+              - 锈色羊角锤·线索二: chapters/c06/xiusiyangjiaochui-3.md
+              - 锈色羊角锤·线索三: chapters/c06/xiusiyangjiaochui-4.md
+              - 街机游戏《彩虹之战》·线索三: chapters/c06/jiejiwarofrainbow-4.md
+              - 街机游戏《彩虹之战》·线索四: chapters/c06/jiejiwarofrainbow-5.md
+              - 街机游戏《彩虹之战》·线索五: chapters/c06/jiejiwarofrainbow-6.md
+              - 事件·虹再现: chapters/c06/rainbowawakening-1.md
+            - 方舟蜃景:
+              - 方舟蜃景: chapters/c07/index.md
+              - 重生: chapters/c07/chongsheng-1.md
+              - 破譯·望影の方舟Six: chapters/c07/poyiARK-1.md
+              - 破譯·望影の方舟Six·線索一: chapters/c07/poyiARK-2.md
+              - 破譯·Igallta: chapters/c07/poyiIG-1.md
+              - 兩用摩托車Trophon·資訊六: chapters/c07/trophon-7.md
+              - 豌豆食譜合輯: chapters/c07/beansshipu-1.md
+              - 公派任務: chapters/c07/renwu-1.md
+              - 求職書: chapters/c07/qiuzhishu-1.md
+              - 豌豆種植紀錄: chapters/c07/beanszhongzhi-1.md
+              - 豌豆種植紀錄·資訊一: chapters/c07/beanszhongzhi-2.md
+              - 求救信: chapters/c07/helpxin-1.md
+              - 求救信·資訊一: chapters/c07/helpxin-2.md
+              - Cronos的鴿子: chapters/c07/cronosgugu-1.md
+              - Cronos的鴿子·資訊一: chapters/c07/cronosgugu-2.md
+              - 罐裝雪莉膏: chapters/c07/guanzhuang-1.md
+              - 霓虹灯牌: chapters/c07/NeonLED-1.md
+              - 霓虹灯牌·线索一: chapters/c07/NeonLED-2.md
+              - 布兰达的感谢信: chapters/c07/testimonial-1.md
+              - 布兰达的感谢信·线索一: chapters/c07/testimonial-2.md
+              - 布兰达的感谢信·线索二: chapters/c07/testimonial-3.md
+              - 布兰达的感谢信·线索三: chapters/c07/testimonial-4.md
+              - 油画: chapters/c07/canvas-1.md
+              - 失效门牌: chapters/c07/doorplate-1.md
+              - 失效门牌·线索一: chapters/c07/doorplate-2.md
+              - 失效门牌·线索二: chapters/c07/doorplate-3.md
+            - 時鐘鏈接:
+              - 時鐘鏈接: chapters/c08/index.md
+              - 【影像】時鐘悖論: chapters/c08/clockparadox-1.md
+              - 時鐘城第93屆ALIGN梅花型拉力賽: chapters/c08/93Align-1.md
+              - 路星67-改: chapters/c08/landstar67re-1.md
+              - 路星67-改·資訊一: chapters/c08/landstar67re-2.md
+              - 豌豆種植紀錄·資訊二: chapters/c08/beanszhongzhi-3.md
+              - 求救信·資訊二: chapters/c08/helpxin-3.md
+              - Cronos的鴿子·資訊二: chapters/c08/cronosgugu-3.md
+              - 豆羹: chapters/c08/dougeng-1.md
+              - 辭職書: chapters/c08/cizhishu-1.md
+            - 凌日潮汐:
+              - 凌日潮汐: chapters/c09/index.md
+              - 詩籤 白馬: chapters/c09/shijianbaima-1.md
+              - 詩籤 抉擇: chapters/c09/shijianjueze-1.md
+              - 破譯·凌日潮汐: chapters/c09/lvchuanbaomu-1.md
+              - 破譯·凌日潮汐·資訊一: chapters/c09/lvchuanbaomu-2.md
+              - 破譯·凌日潮汐·資訊二: chapters/c09/lvchuanbaomu-3.md
+              - 破譯·凌日潮汐·資訊三: chapters/c09/lvchuanbaomu-4.md
+              - 破譯·凌日潮汐·資訊四: chapters/c09/lvchuanbaomu-5.md
+              - 破譯·凌日潮汐·資訊五: chapters/c09/lvchuanbaomu-6.md
+              - 廟會: chapters/c09/miaohui-1.md
+              - 廟會·資訊一: chapters/c09/miaohui-2.md
+              - 【影像】月面之海: chapters/c09/Mlingrichaoxi-1.md
+              - 【錄音】穹頂: chapters/c09/Yqiongding-1.md
+              - 公派任務·資訊一: chapters/c09/renwu-2.md
+              - 公派任務·資訊二: chapters/c09/renwu-3.md
+              - 罐裝雪莉膏·資訊一: chapters/c09/guanzhuang-2.md
+              - 替換數據: chapters/c09/tihuandata-1.md
+              - 替換數據·資訊一: chapters/c09/tihuandata-2.md
+              - 替換數據·資訊二: chapters/c09/tihuandata-3.md
+              - 替換數據·資訊三: chapters/c09/tihuandata-4.md
+            - 忘憂宮:
+              - 忘憂宮: chapters/c10/index.md
+              - 旁白：忘憂宮: chapters/c10/zhixian10-1.md
+              - 旁白：奧德修斯港: chapters/c10/zhixian11-1.md
+              - 旁白：克羅諾斯: chapters/c10/zhixian12-1.md
+              - 旁白：奇蹟之森: chapters/c10/zhixian13-1.md
+              - 旁白：迷宮盡頭: chapters/c10/zhixian14-1.md
+              - 《拉瓦缽的覆滅》: chapters/c10/lawabofumiele-1.md
+              - 《拉瓦缽的覆滅》: chapters/c10/lawabofumiele-2.md
+              - 《拉瓦缽的覆滅》: chapters/c10/lawabofumiele-3.md
+              - 《拉瓦缽的覆滅》: chapters/c10/lawabofumiele-4.md
+              - 《拉瓦缽的覆滅》: chapters/c10/lawabofumiele-5.md
+              - 虛妄之匣: chapters/c10/xuwangzhixia-1.md
+              - 虛妄之匣: chapters/c10/xuwangzhixia-2.md
+              - 虛妄之匣: chapters/c10/xuwangzhixia-3.md
+              - Ida的超振動小刀: chapters/c10/chaozhendong-1.md
+              - Ida的超振動小刀: chapters/c10/chaozhendong-2.md
+              - Bernice的研究筆記: chapters/c10/yanjiubonisi-1.md
+              - Bernice的研究筆記: chapters/c10/yanjiubonisi-2.md
+              - Bernice的研究筆記: chapters/c10/yanjiubonisi-3.md
+              - Bernice的研究筆記: chapters/c10/yanjiubonisi-4.md
+              - Bernice的神奇挎包: chapters/c10/shenqikuabao-1.md
+              - Bernice的神奇挎包: chapters/c10/shenqikuabao-2.md
+              - Bernice的神奇挎包: chapters/c10/shenqikuabao-3.md
+              - Bernice的神奇挎包: chapters/c10/shenqikuabao-4.md
+              - Sappho的運動相機: chapters/c10/yundongxiangji-1.md
+              - Sappho的運動相機: chapters/c10/yundongxiangji-2.md
+              - Sappho的運動相機: chapters/c10/yundongxiangji-3.md
+              - Sappho的運動相機: chapters/c10/yundongxiangji-4.md
+              - 定向繩索: chapters/c10/dinngxiangshensuo-1.md
+              - 定向繩索: chapters/c10/dinngxiangshensuo-2.md
+              - 定向繩索: chapters/c10/dinngxiangshensuo-3.md
+              - 身分證: chapters/c10/shenfenzhengjian-1.md
+              - 身分證: chapters/c10/shenfenzhengjian-2.md
+              - 身分證: chapters/c10/shenfenzhengjian-3.md
+              - 身分證: chapters/c10/shenfenzhengjian-4.md
+              - 真理之珠: chapters/c10/zhenlizhizhu-1.md
+              - 真理之珠: chapters/c10/zhenlizhizhu-2.md
+              - 真理之珠: chapters/c10/zhenlizhizhu-3.md
+              - 竊聽器: chapters/c10/qietingqi-1.md
+              - 竊聽器: chapters/c10/qietingqi-2.md
+              - 監聽器: chapters/c10/qietingqi-3.md
+              - 奧德修斯港出海紀錄: chapters/c10/chuhaijilu-1.md
+              - 奧德修斯港出海紀錄: chapters/c10/chuhaijilu-2.md
+              - 奧德修斯港出海紀錄: chapters/c10/chuhaijilu-3.md
+              - 紙片: chapters/c10/zhipian-1.md
+            - 弭刻日:
+              - 弭刻日: chapters/c11/index.md
+              - 旁白：造主: chapters/c11/zhixian20-1.md
+              - 旁白：心魔: chapters/c11/zhixian21-1.md
+              - 旁白：未来: chapters/c11/zhixian22-1.md
+              - 旁白：黎明: chapters/c11/zhixian24-1.md
+              - 评《杰作的诞生》: chapters/c11/jiezuodedansheng-1.md
+              - 【影像】时光的废墟: chapters/c11/Mshiguangdefx-1.md
+              - 【影像】哈娜: chapters/c11/Mhana-1.md
+              - 致信：土星系统无法注册与故障问题: chapters/c11/xintudoudeyongsheng-1.md
+              - 【录音】船桨: chapters/c11/Ychuanjiangwa-1.md
+              - 【录音】船桨·线索一: chapters/c11/Ychuanjiangwa-2.md
+              - 【录音】船桨·线索二: chapters/c11/Ychuanjiangwa-3.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗: chapters/c11/liuqidashengli-1.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索一: chapters/c11/liuqidashengli-2.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索二: chapters/c11/liuqidashengli-3.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索三: chapters/c11/liuqidashengli-4.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索四: chapters/c11/liuqidashengli-5.md
+            - 盜樂行:
+              - 盜樂行: chapters/c12/index.md
+              - 《盗月行》调查报告: chapters/c12/thiefmoon-1.md
+              - 旁白：流言: chapters/c12/zhixian31-1.md
+              - 旁白：怪盗: chapters/c12/zhixian33-1.md
+              - 旁白：恍惚: chapters/c12/zhixian32-1.md
+              - 旁白：黑月: chapters/c12/zhixian30-1.md
+              - '旁白: From 1 to 500000': chapters/c12/zhixian34-1.md
+              - 幻梦 之一: chapters/c12/huanmeng1-1.md
+              - 幻梦 之二: chapters/c12/huanmeng2-1.md
+              - 673：律动星盗乐行事件 亚空间副本: chapters/c12/673shijian-1.md
+              - 673：律动星盗乐行事件 亚空间副本·线索一: chapters/c12/674shijian-2.md
+              - 673：律动星盗乐行事件 亚空间副本·线索二: chapters/c12/675shijian-3.md
+              - 报道：《相机里的真假月亮》: chapters/c12/baoyouyueliang-1.md
+              - 散文：《有关旋律的哲思》: chapters/c12/xuanlvshisha-1.md
+              - 报道：《晒月亮的女孩》: chapters/c12/nvhaibieditou-1.md
+              - 【影像】拍摄者采访记录存档: chapters/c12/Mbolisidexisheng-1.md
+              - 木质八音盒: chapters/c12/bayinhe-1.md
+              - 【影像】直播录屏: chapters/c12/Mdyjilumeihao-1.md
+              - 【影像】直播录屏·线索一: chapters/c12/Mdyjilumeihao-2.md
+              - 文玩核桃: chapters/c12/pantaaa-1.md
+              - 吉克·莱斯波斯-Year372: chapters/c12/he372bafei-1.md
+              - 报道：《酒吧辩手，市长想谈谈》: chapters/c12/buxutan-1.md
+              - 报道：《酒吧辩手，市长想谈谈》·线索一: chapters/c12/buxutan-2.md
+              - 报道：《酒吧辩手，市长想谈谈》·线索二: chapters/c12/buxutan-3.md
+              - 小说：《困在街道中的老人》: chapters/c12/fuqinkuaishuiba-1.md
+              - 帖子：《天桥东！发现天狗！》: chapters/c12/nifaxianlgesha-1.md
+              - 【影像】街头的Fuli: chapters/c12/Mluolikong-1.md
+              - 摘录·守护日志·机关枪·线索四: chapters/c12/Efuliautoshooter-5.md
+              - 量子同步终端: chapters/c12/liangzitbzz-1.md
+              - 量子同步终端·线索一: chapters/c12/liangzitbzz-2.md
+              - 量子同步终端·线索二: chapters/c12/liangzitbzz-3.md
+              - 量子同步终端·线索三: chapters/c12/liangzitbzz-4.md
+              - 量子同步终端·线索四: chapters/c12/liangzitbzz-5.md
+              - 喵喵茶: chapters/c12/miaomiaocha-1.md
+              - 黑月疗养院员工需知: chapters/c12/heiyueliaoyangyuan-1.md
+              - 黑月疗养院员工需知·线索一: chapters/c12/heiyueliaoyangyuan-2.md
+              - 黑月疗养院员工需知·线索二: chapters/c12/heiyueliaoyangyuan-3.md
+              - 小熊娃娃: chapters/c12/beardoll-1.md
+              - 小熊娃娃·线索一: chapters/c12/beardoll-2.md
+              - 小熊娃娃·线索二: chapters/c12/beardoll-3.md
+              - 小熊娃娃·线索三: chapters/c12/beardoll-4.md
+              - 小熊娃娃·线索四: chapters/c12/beardoll-5.md
+              - 影像带：《洛基的世界》: chapters/c12/lokiworld-1.md
+              - 影像带：《洛基的世界》·线索一: chapters/c12/lokiworld-2.md
+              - 影像带：《洛基的世界》·线索二: chapters/c12/lokiworld-3.md
+              - 影像带：《洛基的世界》·线索三: chapters/c12/lokiworld-4.md
+              - 影像带：《洛基的世界》·线索四: chapters/c12/lokiworld-5.md
+              - 报道：《洛基的世界影评》: chapters/c12/lokiworldre-1.md
+              - 【影像】日蚀之月: chapters/c12/abaaba1-1.md
+              - 波提切利原型机: chapters/c12/botiqieli-1.md
+              - 波提切利原型机·线索一: chapters/c12/botiqieli-2.md
+              - 波提切利原型机·线索二: chapters/c12/botiqieli-3.md
+              - 波提切利原型机·线索三: chapters/c12/botiqieli-4.md
+              - 隔音耳机: chapters/c12/earphone-1.md
+              - 隔音耳机·线索一: chapters/c12/earphone-2.md
+              - 隔音耳机·线索二: chapters/c12/earphone-3.md
+              - 隔音耳机·线索三: chapters/c12/earphone-4.md
+              - 隔音耳机·线索四: chapters/c12/earphone-5.md
+              - 黑月疗养院日志: chapters/c12/heiyuelog-1.md
+              - 黑月疗养院日志·线索一: chapters/c12/heiyuelog-2.md
+              - 黑月疗养院日志·线索二: chapters/c12/heiyuelog-3.md
+              - 黑月疗养院日志·线索三: chapters/c12/heiyuelog-4.md
+              - 黑月疗养院日志·线索四: chapters/c12/heiyuelog-5.md
+              - 机械手套: chapters/c12/jixiegloves-1.md
+              - 机械手套·线索一: chapters/c12/jixiegloves-2.md
+              - 机械手套·线索二: chapters/c12/jixiegloves-3.md
+              - 机械手套·线索三: chapters/c12/jixiegloves-4.md
+              - 机械手套·线索四: chapters/c12/jixiegloves-5.md
+              - 报道：《律动星城市监控网现已恢复，失灵原因疑似与月食有关》: chapters/c12/jiankongwang-1.md
+              - 报道：《对大众心理学研究的反叛：当他人主宰你的存在》: chapters/c12/fanpanzhuzai-1.md
+              - 报道：《神秘黑点与浪漫少女的背后：波提切利相机的秘密》: chapters/c12/heidianshaonv-1.md
+            - 無相鄉:
+              - 無相鄉: chapters/c13/index.md
+              - 档案·无相乡调查报告: chapters/c13/investigatewuxiang-1.md
+            - 極星衛:
+              - 極星衛: chapters/c14/index.md
+              - 破譯·《極星衛》彩蛋: chapters/c14/bassareusEgg-1.md
+              - 莫比烏斯的回信: chapters/c14/ReMobiusi-1.md
+              - 《極星衛》劇本·序: chapters/c14/Bassareus0-1.md
+              - 《極星衛》劇本·一: chapters/c14/Bassareus1-1.md
+              - 《極星衛》劇本·二: chapters/c14/Bassareus2-1.md
+              - 《極星衛》劇本·三: chapters/c14/Bassareus3-1.md
+              - 《極星衛》劇本·四: chapters/c14/Bassareus4-1.md
+              - 《極星衛》劇本·五: chapters/c14/Bassareus5-1.md
+              - 《極星衛》劇本·六: chapters/c14/Bassareus6-1.md
+              - 《極星衛》劇本·七: chapters/c14/Bassareus7-1.md
+              - 《極星衛》劇本·八: chapters/c14/Bassareus8-1.md
+              - 《極星衛》劇本·九: chapters/c14/Bassareus9-1.md
+              - 《極星衛》劇本·十: chapters/c14/Bassareus10-1.md
+              - 《極星衛》劇本·十一: chapters/c14/Bassareus11-1.md
+              - 《極星衛》劇本·十二: chapters/c14/Bassareus12-1.md
+              - 《極星衛》劇本·十三: chapters/c14/Bassareus13-1.md
+              - 《極星衛》劇本·十四: chapters/c14/Bassareus14-1.md
+              - 《極星衛》劇本·十五: chapters/c14/Bassareus15-1.md
+              - 《極星衛》劇本·十六: chapters/c14/Bassareus16-1.md
+              - 《極星衛》劇本·十七: chapters/c14/Bassareus17-1.md
+              - 《極星衛》劇本·十八: chapters/c14/Bassareus18-1.md
+              - 《極星衛》劇本·十九: chapters/c14/Bassareus19-1.md
+              - 《極星衛》劇本·二十: chapters/c14/Bassareus20-1.md
+              - 《極星衛》劇本·二十一: chapters/c14/Bassareus21-1.md
+              - 《極星衛》劇本·二十二: chapters/c14/Bassareus22-1.md
+              - 《極星衛》劇本·二十三: chapters/c14/Bassareus23-1.md
+              - 《極星衛》劇本·二十四: chapters/c14/Bassareus24-1.md
+              - 《極星衛》劇本·二十五: chapters/c14/Bassareus25-1.md
+              - 《極星衛》劇本·二十六: chapters/c14/Bassareus26-1.md
+              - 《極星衛》劇本·二十七: chapters/c14/Bassareus27-1.md
+              - 《極星衛》劇本·二十八: chapters/c14/Bassareus28-1.md
+              - 《極星衛》劇本·二十九: chapters/c14/Bassareus29-1.md
+              - 《極星衛》劇本·三十: chapters/c14/Bassareus30-1.md
+              - 《極星衛》劇本·三十一: chapters/c14/Bassareus31-1.md
+              - 《極星衛》劇本·三十二: chapters/c14/Bassareus32-1.md
+              - 《極星衛》劇本·三十三: chapters/c14/Bassareus33-1.md
+              - 《極星衛》劇本·三十四: chapters/c14/Bassareus34-1.md
+        - locale: en
+          name: English
+          default: false
+          build: true
+          site_name: Phigros Collections Wiki
+          theme:
+            language: en
+          nav:
+            - Chapters: index.md
+            - Chapter EX:
+              - Chapter EX: chapters/c01/index.md
+              - '[Item Report] Tabloid': chapters/c01/mope1-1.md
+              - '[Item Report] Red Bow': chapters/c01/mope2-1.md
+              - Red Bow - Clue I: chapters/c01/mope2-2.md
+              - '[Item Report] Clay Flowerpot': chapters/c01/mope3-1.md
+              - Clay Flowerpot - Clue I: chapters/c01/mope3-2.md
+              - Clay Flowerpot - Clue II: chapters/c01/mope3-3.md
+              - '[Rec] Under the Dress': chapters/c01/mope4-1.md
+              - Under the Dress - Clue I: chapters/c01/mope4-2.md
+              - '[Announcement] The Treasure of 17': chapters/c01/B17treature-1.md
+              - '[Rec] Pigeon Assembly': chapters/c01/gugugou-1.md
+              - '[Rec] Three Lucky Fish': chapters/c01/jixiangruyi-1.md
+              - Challenge Letter to 17: chapters/c01/nazotiaozhan-1.md
+              - Challenge Letter to 17 - Clue I: chapters/c01/nazotiaozhan-2.md
+              - '[File] Burn''d Duck': chapters/c01/kaoquanya-1.md
+              - This year on the New Year's Gala: chapters/c01/Kalpa1-1.md
+              - One less person in the Travelling Squad: chapters/c01/Kalpa2-1.md
+              - Another me in the world: chapters/c01/Kalpa3-1.md
+              - Family and friends gather together: chapters/c01/Kalpa4-1.md
+              - Future falls down to me: chapters/c01/Kalpa5-1.md
+              - Decryption – The Last Notalium: chapters/c01/Lanota1-1.md
+              - Decryption – Half A Letter: chapters/c01/Lanota2-1.md
+              - Decryption - Golem: chapters/c01/Lanota3-1.md
+              - Decryption - The Client: chapters/c01/Lanota4-1.md
+              - Sound of Life: chapters/c01/Lanota5-1.md
+              - 摘录·莫比乌斯工作室日志·一: chapters/c01/roteano1-1.md
+              - 摘录·莫比乌斯工作室日志·二: chapters/c01/rotaeno2-1.md
+              - 摘录·莫比乌斯工作室日志·三: chapters/c01/rotaeno3-1.md
+              - 隼的行船记录仪·一: chapters/c01/rotaeno4-1.md
+              - 隼的行船记录仪·二: chapters/c01/rotaeno5-1.md
+              - 隼的行船记录仪·三: chapters/c01/rotaeno6-1.md
+              - 观察记录：雪: chapters/c01/paradigm1-1.md
+              - 观察记录：像: chapters/c01/paradigm2-1.md
+              - 观察记录：友: chapters/c01/paradigm3-1.md
+              - 观察记录：痕: chapters/c01/paradigm4-1.md
+              - Diary Alpa 220 02 01: chapters/c01/diaryalpa-1.md
+              - Diary Alpa 220 02 01·线索一: chapters/c01/diaryalpa-2.md
+              - Diary Alpa 220 02 01·线索二: chapters/c01/diaryalpa-3.md
+              - psyche-173号亚空间调查报告·新: chapters/c01/reportcy-1.md
+              - psyche-173号亚空间调查报告·新·线索一: chapters/c01/reportcy-2.md
+              - psyche-173号亚空间调查报告·新·线索二: chapters/c01/reportcy-3.md
+            - Glaciaxion:
+              - Glaciaxion: chapters/c02/index.md
+              - Stave No.0: chapters/c02/shijian0-1.md
+              - Stave No.1: chapters/c02/shijian1-1.md
+              - Stave No.2: chapters/c02/shijian2-1.md
+              - Stave No.3: chapters/c02/shijian3-1.md
+              - Stave No.4: chapters/c02/shijian4-1.md
+              - Stave No.5: chapters/c02/shijian5-1.md
+              - Stave No.6: chapters/c02/shijian6-1.md
+              - '[Item] The Alpa Pen': chapters/c02/alpa-1.md
+              - The Alpa Pen - Clue I: chapters/c02/alpa-2.md
+              - The Alpa Pen - Clue II: chapters/c02/alpa-3.md
+              - The Alpa Pen - Clue III: chapters/c02/alpa-4.md
+              - '[Rec] Mountain Breeze': chapters/c02/Yshanfeng-1.md
+              - '[Item] Team VII Badge': chapters/c02/7huizhang-1.md
+              - '[Rec] Hot Pot': chapters/c02/Yhuoguo-1.md
+              - '[Rec] Sleep': chapters/c02/Ysleep-1.md
+              - '[Rec] Sleep - Clue I': chapters/c02/Ysleep-2.md
+              - '[Rec] Snow': chapters/c02/Ysnow-1.md
+              - '[Item] Trophon': chapters/c02/trophon-1.md
+              - Trophon - Clue I: chapters/c02/trophon-2.md
+              - Trophon - Clue II: chapters/c02/trophon-3.md
+              - Trophon - Clue III: chapters/c02/trophon-4.md
+              - '[Item] Airdrop Biscuits': chapters/c02/cookies-1.md
+              - '[Item] Ancient Flute': chapters/c02/flute-1.md
+              - '[Rec] Orioles': chapters/c02/Yhuangying-1.md
+              - '[Item] Dorm Key': chapters/c02/shushekey-1.md
+              - '[Item] Demice Horn': chapters/c02/deemoangle-1.md
+              - '[Item] Electro magnetic Shotgun': chapters/c02/electicgun-1.md
+              - '[Item] Fish Basket': chapters/c02/yulo-1.md
+              - '[Rec] Fish Show': chapters/c02/Yyuxi-1.md
+              - '[Item] Strand of Hair': chapters/c02/hairtheo-1.md
+              - '[Rec] The Black Vortex': chapters/c02/Yblackhole-1.md
+              - '[Image] Dark Bile': chapters/c02/Mzhiqiu-1.md
+              - '[Item] Silk Pouch': chapters/c02/jinnang-1.md
+              - '[Item] Patient Uniform': chapters/c02/binghaofu-1.md
+              - '[Item] Flowery Knife': chapters/c02/mopeknife-1.md
+              - '[Image] Deep Well': chapters/c02/Mshenjing-1.md
+              - '[Rec] Hikari': chapters/c02/Ylight-1.md
+              - '[Login Permissions] Saturn': chapters/c02/saturn-1.md
+              - Saturn Login - Clue I: chapters/c02/saturn-2.md
+              - Suppression Order 0327: chapters/c02/327-1.md
+              - Demice Skin Paper 377: chapters/c02/377-1.md
+              - Demice Skin Paper 377 - Clue I: chapters/c02/377-2.md
+              - Glaci'o'Food: chapters/c02/meishihui-1.md
+              - Glaci'o'Food - Clue I: chapters/c02/meishihui-2.md
+              - Glaci'o'Food - Clue II: chapters/c02/meishihui-3.md
+              - Glaci'o'Food - Clue III: chapters/c02/meishihui-4.md
+            - Beneath the Trash:
+              - Beneath the Trash: chapters/c03/index.md
+              - Stave No.7: chapters/c03/shijian7-1.md
+              - Stave No.8: chapters/c03/shijian8-1.md
+              - Stave No.9: chapters/c03/shijian9-1.md
+              - '[Merch] Judgement Line Pillow': chapters/c03/922alice-1.md
+              - Ancient Flute - Clue I: chapters/c03/flute-2.md
+              - '[Item] Sheriff''s Badge': chapters/c03/younggino-1.md
+              - '[Image] Tower': chapters/c03/Mtowersakura-1.md
+              - '[Image] Site Inspection Record': chapters/c03/Mxiabug-1.md
+              - '[Item] Winter Star Fragment': chapters/c03/starshitsnow-1.md
+              - '[item] Radio': chapters/c03/listentomyradio-1.md
+              - Radio - Clue I: chapters/c03/listentomyradio-2.md
+              - Radio - Clue II: chapters/c03/listentomyradio-3.md
+              - '[Rec] Drums of Peace': chapters/c03/Ytaipingpingpang-1.md
+              - '[Item] Magic Wand': chapters/c03/magicballball-1.md
+              - '[Item] Scavenger Token': chapters/c03/shihaungzhelingpai-1.md
+              - '[Item] Hoodoo Map': chapters/c03/hoodoomap-1.md
+              - '[Rec] Beggar''s Chicken': chapters/c03/Yjiaohuachicken-1.md
+              - '[Rec] Mutant Poultry': chapters/c03/greenchicken-1.md
+              - '[Image] Water Tower': chapters/c03/watertower8-1.md
+              - Trophon - Clue IV: chapters/c03/trophon-5.md
+              - The Alpa Pen - Clue IV: chapters/c03/alpa-5.md
+              - The Alpa Pen - Clue V: chapters/c03/alpa-6.md
+              - '[Rec] Morning': chapters/c03/Ymorningmyworld-1.md
+              - '[Rec] Morning - Clue I': chapters/c03/Ymorningmyworld-2.md
+              - '[Item] Five-Color Rock': chapters/c03/wucaishi-1.md
+              - '[File] Colorful Picture Book': chapters/c03/rainbowbook-1.md
+              - '[Item] Metal Arm': chapters/c03/metalarm-1.md
+              - '[Item] Bitter Nuts': chapters/c03/kuxingren-1.md
+              - Radio - Clue III: chapters/c03/listentomyradio-4.md
+              - '[Image] Fuli Auto Shooter!': chapters/c03/Mfuliautoshooter-1.md
+              - '[Item] Bullet Casings': chapters/c03/bulletboom-1.md
+              - '[Image] Statue of Fuli': chapters/c03/fulistructure-1.md
+              - '[Image] Perchnest Station': chapters/c03/Mstationkuzumi-1.md
+              - '[Image] Graffiti': chapters/c03/Mtuya-1.md
+              - '[Item] HQ004 Ticket': chapters/c03/hq004chepiao-1.md
+              - '[Item] Hydraulic Agent': chapters/c03/aiblood-1.md
+              - '[Item] Anchor': chapters/c03/justicemao-1.md
+              - Stave No.10: chapters/c03/shijian10-1.md
+              - Stave No.11: chapters/c03/shijian11-1.md
+              - '[Image] Fortress': chapters/c03/Mbaolei-1.md
+              - 'Perchnest Station - Clue I ': chapters/c03/Mstationkuzumi-2.md
+              - 摘录·守护日志·机关枪: chapters/c03/Efuliautoshooter-1.md
+              - 摘录·守护日志·机关枪·线索一: chapters/c03/Efuliautoshooter-2.md
+              - 摘录·守护日志·机关枪·线索二: chapters/c03/Efuliautoshooter-3.md
+              - 摘录·守护日志·机关枪·线索三: chapters/c03/Efuliautoshooter-4.md
+            - Mazarine's End:
+              - Mazarine's End: chapters/c04/index.md
+              - Stave No.12 – Warrior: chapters/c04/shijian12-1.md
+              - Stave No.13 – Poem of Night: chapters/c04/shijian13-1.md
+              - Stave No.14 – On the Olive Tree: chapters/c04/shijian14-1.md
+              - Stave No.15 – Magician: chapters/c04/shijian15-1.md
+              - Stave No.16 – The wanderer: chapters/c04/shijian16-1.md
+              - Warrior – One – Horse: chapters/c04/zhanshi1-1.md
+              - Warrior – Two – Dashing: chapters/c04/zhanshi2-1.md
+              - Warrior – Three – Comedy: chapters/c04/zhanshi3-1.md
+              - Warrior – Four – Glaciaxia: chapters/c04/zhanshi4-1.md
+              - Warrior – Five - Launching: chapters/c04/zhanshi5-1.md
+              - Warrior – Six – Human: chapters/c04/zhanshi6-1.md
+            - Sewer Maze:
+              - Sewer Maze: chapters/c05/index.md
+              - Stave No.17 Zer0: chapters/c05/shijian17-1.md
+              - Poem M2: chapters/c05/shijian18-1.md
+              - Poem 3ere: chapters/c05/shijian19-1.md
+              - Poem 4Y0: chapters/c05/shijian20-1.md
+              - 'Poem The 5no ': chapters/c05/shijian21-1.md
+              - Two-Faced Dance Floor: chapters/c05/uraometeStage-1.md
+              - Two-Faced Dance Floor - Clue I: chapters/c05/uraometeStage-2.md
+              - Two-Faced Dance Floor - Clue II: chapters/c05/uraometeStage-3.md
+              - Two-Faced Dance Floor - Clue III: chapters/c05/uraometeStage-4.md
+              - 摘录·碎数研档案·幽蓝国: chapters/c05/Ebdrgblue-1.md
+              - Broken Data Research-report-BUBD-22-1: chapters/c05/Ebdrgblue-2.md
+              - Broken Data Research-report-BUBD-22-2: chapters/c05/Ebdrgblue-3.md
+              - Broken Data Research-report-BUBD-23-1: chapters/c05/Ebdrgblue-4.md
+              - Broken Data Research-log-BUBD-951: chapters/c05/Ebdrgblue-5.md
+              - Broken Data Research-log-BUBD-952: chapters/c05/Ebdrgblue-6.md
+              - Airdrop Biscuits - Clue I: chapters/c05/cookies-2.md
+              - Lost Cat: chapters/c05/mimao-1.md
+              - Lost Cat - Clue I: chapters/c05/mimao-2.md
+              - Tube Maze: chapters/c05/TubeMaze-1.md
+              - Tube Maze - Clue I: chapters/c05/TubeMaze-2.md
+              - Tube Maze - Clue II: chapters/c05/TubeMaze-3.md
+              - Tube Maze - Clue III: chapters/c05/TubeMaze-4.md
+              - Tube Maze - Clue IV: chapters/c05/TubeMaze-5.md
+              - Pen of Butterfly Wings: chapters/c05/dieyubi-1.md
+              - Pen of Butterfly Wings - Clue I: chapters/c05/dieyubi-2.md
+              - Arcade《Hypnotize》: chapters/c05/jieji111-1.md
+              - Arcade《Bottles and Cans》: chapters/c05/jieji222-1.md
+              - Arcade《Phigros》: chapters/c05/jieji333-1.md
+              - Arcade《Battle of Rainbow》: chapters/c05/jiejiwarofrainbow-1.md
+              - Arcade《Battle of Rainbow》- Clue I: chapters/c05/jiejiwarofrainbow-2.md
+              - Arcade《Battle of Rainbow》- Clue II: chapters/c05/jiejiwarofrainbow-3.md
+              - The Alpa Pen - Clue VI: chapters/c05/alpa-7.md
+              - Mirrors in Mirror: chapters/c05/mirrormirror-1.md
+              - Mirrors in Mirror - Clue I: chapters/c05/mirrormirror-2.md
+              - Riddle Depository:00096: chapters/c05/maze00096-1.md
+              - Riddle Depository:00096 - Clue I: chapters/c05/maze00096-2.md
+              - Riddle Depository - Clue II: chapters/c05/maze00096-3.md
+              - Game Token: chapters/c05/youxibi-1.md
+              - Game Token - Clue I: chapters/c05/youxibi-2.md
+            - NEON LED:
+              - NEON LED: chapters/c06/index.md
+              - Stave No.18 Human-Shadow-World: chapters/c06/shijian22-1.md
+              - Stave No.19 Sky Blue: chapters/c06/shijian23-1.md
+              - Stave No.20 In the Drama: chapters/c06/shijian24-1.md
+              - Poem Reimei: chapters/c06/shijian25-1.md
+              - '[Decipher] Spasmodic': chapters/c06/Spasmodic-1.md
+              - 诗笺#21 悲惶: chapters/c06/shijian26-1.md
+              - Stave No.22 Liberty: chapters/c06/shijian27-1.md
+              - Game Token - Clue II: chapters/c06/youxibi-3.md
+              - Trophon - Clue V: chapters/c06/trophon-6.md
+              - Hotel Room Card: chapters/c06/lvguanfangka-1.md
+              - Note Board: chapters/c06/bianqianban-1.md
+              - Note Board - Clue I: chapters/c06/bianqianban-2.md
+              - Note Board - Clue II: chapters/c06/bianqianban-3.md
+              - Note Board - Clue III: chapters/c06/bianqianban-4.md
+              - Note Board - Clue IV: chapters/c06/bianqianban-5.md
+              - Six Colors of Rainbow: chapters/c06/liusezhihonng-1.md
+              - Late Return: chapters/c06/wanguilai-1.md
+              - First Aid Kit: chapters/c06/yaoxiang-1.md
+              - First Aid Kit - Clue I: chapters/c06/yaoxiang-2.md
+              - First Aid Kit - Clue II: chapters/c06/yaoxiang-3.md
+              - First Aid Kit - Clue III: chapters/c06/yaoxiang-4.md
+              - Colorful Picture Book - Clue I: chapters/c06/rainbowbook-2.md
+              - Sample of Diphylleia Grayi: chapters/c06/shanheyebiaoben-1.md
+              - '[Image] Betrayal': chapters/c06/Mbeipan-1.md
+              - Blanda's Self description: chapters/c06/bulandazishu-1.md
+              - Blanda's Self description - Clue I: chapters/c06/bulandazishu-2.md
+              - 【录音】霓虹美食图鉴: chapters/c06/Ynihongmeishi-1.md
+              - 【录音】霓虹美食图鉴·线索一: chapters/c06/Ynihongmeishi-2.md
+              - 【录音】霓虹美食图鉴·线索二: chapters/c06/Ynihongmeishi-3.md
+              - Guru: chapters/c06/guru-1.md
+              - Neon: chapters/c06/nihon-1.md
+              - Neon - Clue I: chapters/c06/nihon-2.md
+              - Neon - Clue II: chapters/c06/nihon-3.md
+              - Neon - Clue III: chapters/c06/nihon-4.md
+              - School Card: chapters/c06/xiaoka-1.md
+              - 《Voice of Neon》Flyer: chapters/c06/xuanchuandan-1.md
+              - 社团导师名录: chapters/c06/shetuandaoshiminglu-1.md
+              - Class Schedule: chapters/c06/kechengbiao-1.md
+              - 【影像】霓虹观雨: chapters/c06/Mnihongguanyu-1.md
+              - 里表舞厅·线索四: chapters/c06/uraometeStage-5.md
+              - 百花教坊: chapters/c06/baihuaschool-1.md
+              - 糖绳: chapters/c06/tangshen-1.md
+              - '[Image] Hill': chapters/c06/tuqiu-1.md
+              - Silk Pouch - Clue I: chapters/c06/jinnang-2.md
+              - PhigrOS Record - Geopelia: chapters/c06/PhigrOSjiu-1.md
+              - PhigrOS Record - Geopelia - Clue I: chapters/c06/PhigrOSjiu-2.md
+              - PhigrOS Record - Gino: chapters/c06/PhigrOSgino-1.md
+              - Possibility: chapters/c06/kenengxing-1.md
+              - Pen of Butterfly Wings - Clue II: chapters/c06/dieyubi-3.md
+              - 锈色羊角锤: chapters/c06/xiusiyangjiaochui-1.md
+              - 锈色羊角锤·线索一: chapters/c06/xiusiyangjiaochui-2.md
+              - 锈色羊角锤·线索二: chapters/c06/xiusiyangjiaochui-3.md
+              - 锈色羊角锤·线索三: chapters/c06/xiusiyangjiaochui-4.md
+              - 街机游戏《彩虹之战》·线索三: chapters/c06/jiejiwarofrainbow-4.md
+              - 街机游戏《彩虹之战》·线索四: chapters/c06/jiejiwarofrainbow-5.md
+              - 街机游戏《彩虹之战》·线索五: chapters/c06/jiejiwarofrainbow-6.md
+              - 事件·虹再现: chapters/c06/rainbowawakening-1.md
+            - Ark Mirage:
+              - Ark Mirage: chapters/c07/index.md
+              - '[Rec] Rebirth': chapters/c07/chongsheng-1.md
+              - '[Decipher] 望影の方舟Six': chapters/c07/poyiARK-1.md
+              - '[Decipher] 望影の方舟Six - Clue I': chapters/c07/poyiARK-2.md
+              - Decipher - Igallta: chapters/c07/poyiIG-1.md
+              - Trophon - Clue VI: chapters/c07/trophon-7.md
+              - 豌豆食谱合集: chapters/c07/beansshipu-1.md
+              - 公派任务: chapters/c07/renwu-1.md
+              - Cover Letter: chapters/c07/qiuzhishu-1.md
+              - 豌豆种植记录: chapters/c07/beanszhongzhi-1.md
+              - 豌豆种植记录·线索一: chapters/c07/beanszhongzhi-2.md
+              - Distress Letter: chapters/c07/helpxin-1.md
+              - Distress Letter - Clue I: chapters/c07/helpxin-2.md
+              - Cronos's Pigeon: chapters/c07/cronosgugu-1.md
+              - Cronos's Pigeon - Clue I: chapters/c07/cronosgugu-2.md
+              - Cans of Snow Pear Cream: chapters/c07/guanzhuang-1.md
+              - 霓虹灯牌: chapters/c07/NeonLED-1.md
+              - 霓虹灯牌·线索一: chapters/c07/NeonLED-2.md
+              - 布兰达的感谢信: chapters/c07/testimonial-1.md
+              - 布兰达的感谢信·线索一: chapters/c07/testimonial-2.md
+              - 布兰达的感谢信·线索二: chapters/c07/testimonial-3.md
+              - 布兰达的感谢信·线索三: chapters/c07/testimonial-4.md
+              - 油画: chapters/c07/canvas-1.md
+              - 失效门牌: chapters/c07/doorplate-1.md
+              - 失效门牌·线索一: chapters/c07/doorplate-2.md
+              - 失效门牌·线索二: chapters/c07/doorplate-3.md
+            - Chronnection:
+              - Chronnection: chapters/c08/index.md
+              - '[Image] Clock Paradox': chapters/c08/clockparadox-1.md
+              - Clock Town 93rd ALIGN Club Type Rally: chapters/c08/93Align-1.md
+              - Landstar67 - Modify: chapters/c08/landstar67re-1.md
+              - Landstar67 - Modify - Clue I: chapters/c08/landstar67re-2.md
+              - 豌豆种植记录·线索二: chapters/c08/beanszhongzhi-3.md
+              - Distress Letter - Clue II: chapters/c08/helpxin-3.md
+              - Cronos's Pigeon - Clue II: chapters/c08/cronosgugu-3.md
+              - 豆羹: chapters/c08/dougeng-1.md
+              - Resignation Letter: chapters/c08/cizhishu-1.md
+            - Transit Tide:
+              - Transit Tide: chapters/c09/index.md
+              - Stave White Horse: chapters/c09/shijianbaima-1.md
+              - Stave Decision: chapters/c09/shijianjueze-1.md
+              - '[Decipher] Transit Tide': chapters/c09/lvchuanbaomu-1.md
+              - '[Decipher] Transit Tide - Clue I': chapters/c09/lvchuanbaomu-2.md
+              - '[Decipher] Transit Tide - Clue II': chapters/c09/lvchuanbaomu-3.md
+              - '[Decipher] Transit Tide - Clue III': chapters/c09/lvchuanbaomu-4.md
+              - '[Decipher] Transit Tide - Clue IV': chapters/c09/lvchuanbaomu-5.md
+              - '[Decipher] Transit Tide - Clue V': chapters/c09/lvchuanbaomu-6.md
+              - Temple Fair: chapters/c09/miaohui-1.md
+              - Temple Fair - Clue I: chapters/c09/miaohui-2.md
+              - 【影像】月面之海: chapters/c09/Mlingrichaoxi-1.md
+              - '[Rec] Vault': chapters/c09/Yqiongding-1.md
+              - 公派任务·线索一: chapters/c09/renwu-2.md
+              - 公派任务·线索二: chapters/c09/renwu-3.md
+              - Cans of Snow Pear Cream - Clue I: chapters/c09/guanzhuang-2.md
+              - Replace Data: chapters/c09/tihuandata-1.md
+              - Replace Data - Clue I: chapters/c09/tihuandata-2.md
+              - Replace Data - Clue II: chapters/c09/tihuandata-3.md
+              - Replace Data - Clue III: chapters/c09/tihuandata-4.md
+            - Lotos:
+              - Lotos: chapters/c10/index.md
+              - 'Narration: Lotos': chapters/c10/zhixian10-1.md
+              - 'Narration: Odysseus': chapters/c10/zhixian11-1.md
+              - 'Narration: Cronos': chapters/c10/zhixian12-1.md
+              - 'Narration: Miracle Forest': chapters/c10/zhixian13-1.md
+              - 'Narration: End of Labyrinth': chapters/c10/zhixian14-1.md
+              - <The Fall of Lavabo>: chapters/c10/lawabofumiele-1.md
+              - <The Fall of Lavabo>: chapters/c10/lawabofumiele-2.md
+              - <The Fall of Lavabo>: chapters/c10/lawabofumiele-3.md
+              - <The Fall of Lavabo>: chapters/c10/lawabofumiele-4.md
+              - <The Fall of Lavabo>: chapters/c10/lawabofumiele-5.md
+              - Box of Delusion: chapters/c10/xuwangzhixia-1.md
+              - Box of Delusion: chapters/c10/xuwangzhixia-2.md
+              - Box of Delusion: chapters/c10/xuwangzhixia-3.md
+              - Ida's Super Vibration Knife: chapters/c10/chaozhendong-1.md
+              - Ida's Super Vibration Knife: chapters/c10/chaozhendong-2.md
+              - Bernice's Research Notes: chapters/c10/yanjiubonisi-1.md
+              - Bernice's Research Notes: chapters/c10/yanjiubonisi-2.md
+              - Bernice's Research Notes: chapters/c10/yanjiubonisi-3.md
+              - Bernice's Research Notes: chapters/c10/yanjiubonisi-4.md
+              - Bernice's Magical Satchel: chapters/c10/shenqikuabao-1.md
+              - Bernice's Magical Satchel: chapters/c10/shenqikuabao-2.md
+              - Bernice's Magical Satchel: chapters/c10/shenqikuabao-3.md
+              - Bernice's Magical Satchel: chapters/c10/shenqikuabao-4.md
+              - Sappho's Action Camera: chapters/c10/yundongxiangji-1.md
+              - Sappho's Action Camera: chapters/c10/yundongxiangji-2.md
+              - Sappho's Action Camera: chapters/c10/yundongxiangji-3.md
+              - Sappho's Action Camera: chapters/c10/yundongxiangji-4.md
+              - Directional Rope: chapters/c10/dinngxiangshensuo-1.md
+              - Directional Rope: chapters/c10/dinngxiangshensuo-2.md
+              - Directional Rope: chapters/c10/dinngxiangshensuo-3.md
+              - Identification: chapters/c10/shenfenzhengjian-1.md
+              - Identification: chapters/c10/shenfenzhengjian-2.md
+              - Identification: chapters/c10/shenfenzhengjian-3.md
+              - Identification: chapters/c10/shenfenzhengjian-4.md
+              - Pearl of Truth: chapters/c10/zhenlizhizhu-1.md
+              - Pearl of Truth: chapters/c10/zhenlizhizhu-2.md
+              - Pearl of Truth: chapters/c10/zhenlizhizhu-3.md
+              - Wiretap: chapters/c10/qietingqi-1.md
+              - Wiretap: chapters/c10/qietingqi-2.md
+              - Wiretap: chapters/c10/qietingqi-3.md
+              - Port Odysseus Sailing Record: chapters/c10/chuhaijilu-1.md
+              - Port Odysseus Sailing Record: chapters/c10/chuhaijilu-2.md
+              - Port Odysseus Sailing Record: chapters/c10/chuhaijilu-3.md
+              - Piece of Paper: chapters/c10/zhipian-1.md
+            - Eschaton:
+              - Eschaton: chapters/c11/index.md
+              - 'Narration: Creator': chapters/c11/zhixian20-1.md
+              - 'Narration: The Devil Inside': chapters/c11/zhixian21-1.md
+              - 'Narration: Future': chapters/c11/zhixian22-1.md
+              - 'Narration: Dawn': chapters/c11/zhixian24-1.md
+              - Comment on《Birth of a masterpiece》: chapters/c11/jiezuodedansheng-1.md
+              - '[Image] Ruins of Time': chapters/c11/Mshiguangdefx-1.md
+              - '[Image] Hana': chapters/c11/Mhana-1.md
+              - 致信：土星系统无法注册与故障问题: chapters/c11/xintudoudeyongsheng-1.md
+              - 【录音】船桨: chapters/c11/Ychuanjiangwa-1.md
+              - 【录音】船桨·线索一: chapters/c11/Ychuanjiangwa-2.md
+              - 【录音】船桨·线索二: chapters/c11/Ychuanjiangwa-3.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗: chapters/c11/liuqidashengli-1.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索一: chapters/c11/liuqidashengli-2.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索二: chapters/c11/liuqidashengli-3.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索三: chapters/c11/liuqidashengli-4.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索四: chapters/c11/liuqidashengli-5.md
+            - Operthief:
+              - Operthief: chapters/c12/index.md
+              - 《盗月行》调查报告: chapters/c12/thiefmoon-1.md
+              - 旁白：流言: chapters/c12/zhixian31-1.md
+              - 旁白：怪盗: chapters/c12/zhixian33-1.md
+              - 旁白：恍惚: chapters/c12/zhixian32-1.md
+              - 旁白：黑月: chapters/c12/zhixian30-1.md
+              - '旁白: From 1 to 500000': chapters/c12/zhixian34-1.md
+              - 幻梦 之一: chapters/c12/huanmeng1-1.md
+              - 幻梦 之二: chapters/c12/huanmeng2-1.md
+              - 673：律动星盗乐行事件 亚空间副本: chapters/c12/673shijian-1.md
+              - 673：律动星盗乐行事件 亚空间副本·线索一: chapters/c12/674shijian-2.md
+              - 673：律动星盗乐行事件 亚空间副本·线索二: chapters/c12/675shijian-3.md
+              - 报道：《相机里的真假月亮》: chapters/c12/baoyouyueliang-1.md
+              - 散文：《有关旋律的哲思》: chapters/c12/xuanlvshisha-1.md
+              - 报道：《晒月亮的女孩》: chapters/c12/nvhaibieditou-1.md
+              - 【影像】拍摄者采访记录存档: chapters/c12/Mbolisidexisheng-1.md
+              - 木质八音盒: chapters/c12/bayinhe-1.md
+              - 【影像】直播录屏: chapters/c12/Mdyjilumeihao-1.md
+              - 【影像】直播录屏·线索一: chapters/c12/Mdyjilumeihao-2.md
+              - 文玩核桃: chapters/c12/pantaaa-1.md
+              - 吉克·莱斯波斯-Year372: chapters/c12/he372bafei-1.md
+              - 报道：《酒吧辩手，市长想谈谈》: chapters/c12/buxutan-1.md
+              - 报道：《酒吧辩手，市长想谈谈》·线索一: chapters/c12/buxutan-2.md
+              - 报道：《酒吧辩手，市长想谈谈》·线索二: chapters/c12/buxutan-3.md
+              - 小说：《困在街道中的老人》: chapters/c12/fuqinkuaishuiba-1.md
+              - 帖子：《天桥东！发现天狗！》: chapters/c12/nifaxianlgesha-1.md
+              - 【影像】街头的Fuli: chapters/c12/Mluolikong-1.md
+              - 摘录·守护日志·机关枪·线索四: chapters/c12/Efuliautoshooter-5.md
+              - 量子同步终端: chapters/c12/liangzitbzz-1.md
+              - 量子同步终端·线索一: chapters/c12/liangzitbzz-2.md
+              - 量子同步终端·线索二: chapters/c12/liangzitbzz-3.md
+              - 量子同步终端·线索三: chapters/c12/liangzitbzz-4.md
+              - 量子同步终端·线索四: chapters/c12/liangzitbzz-5.md
+              - 喵喵茶: chapters/c12/miaomiaocha-1.md
+              - 黑月疗养院员工需知: chapters/c12/heiyueliaoyangyuan-1.md
+              - 黑月疗养院员工需知·线索一: chapters/c12/heiyueliaoyangyuan-2.md
+              - 黑月疗养院员工需知·线索二: chapters/c12/heiyueliaoyangyuan-3.md
+              - 小熊娃娃: chapters/c12/beardoll-1.md
+              - 小熊娃娃·线索一: chapters/c12/beardoll-2.md
+              - 小熊娃娃·线索二: chapters/c12/beardoll-3.md
+              - 小熊娃娃·线索三: chapters/c12/beardoll-4.md
+              - 小熊娃娃·线索四: chapters/c12/beardoll-5.md
+              - 影像带：《洛基的世界》: chapters/c12/lokiworld-1.md
+              - 影像带：《洛基的世界》·线索一: chapters/c12/lokiworld-2.md
+              - 影像带：《洛基的世界》·线索二: chapters/c12/lokiworld-3.md
+              - 影像带：《洛基的世界》·线索三: chapters/c12/lokiworld-4.md
+              - 影像带：《洛基的世界》·线索四: chapters/c12/lokiworld-5.md
+              - 报道：《洛基的世界影评》: chapters/c12/lokiworldre-1.md
+              - 【影像】日蚀之月: chapters/c12/abaaba1-1.md
+              - 波提切利原型机: chapters/c12/botiqieli-1.md
+              - 波提切利原型机·线索一: chapters/c12/botiqieli-2.md
+              - 波提切利原型机·线索二: chapters/c12/botiqieli-3.md
+              - 波提切利原型机·线索三: chapters/c12/botiqieli-4.md
+              - 隔音耳机: chapters/c12/earphone-1.md
+              - 隔音耳机·线索一: chapters/c12/earphone-2.md
+              - 隔音耳机·线索二: chapters/c12/earphone-3.md
+              - 隔音耳机·线索三: chapters/c12/earphone-4.md
+              - 隔音耳机·线索四: chapters/c12/earphone-5.md
+              - 黑月疗养院日志: chapters/c12/heiyuelog-1.md
+              - 黑月疗养院日志·线索一: chapters/c12/heiyuelog-2.md
+              - 黑月疗养院日志·线索二: chapters/c12/heiyuelog-3.md
+              - 黑月疗养院日志·线索三: chapters/c12/heiyuelog-4.md
+              - 黑月疗养院日志·线索四: chapters/c12/heiyuelog-5.md
+              - 机械手套: chapters/c12/jixiegloves-1.md
+              - 机械手套·线索一: chapters/c12/jixiegloves-2.md
+              - 机械手套·线索二: chapters/c12/jixiegloves-3.md
+              - 机械手套·线索三: chapters/c12/jixiegloves-4.md
+              - 机械手套·线索四: chapters/c12/jixiegloves-5.md
+              - 报道：《律动星城市监控网现已恢复，失灵原因疑似与月食有关》: chapters/c12/jiankongwang-1.md
+              - 报道：《对大众心理学研究的反叛：当他人主宰你的存在》: chapters/c12/fanpanzhuzai-1.md
+              - 报道：《神秘黑点与浪漫少女的背后：波提切利相机的秘密》: chapters/c12/heidianshaonv-1.md
+            - Animitta-Sabha:
+              - Animitta-Sabha: chapters/c13/index.md
+              - 档案·无相乡调查报告: chapters/c13/investigatewuxiang-1.md
+            - BassAreUs:
+              - BassAreUs: chapters/c14/index.md
+              - '[Decipher]《Bassareus》Easter Egg': chapters/c14/bassareusEgg-1.md
+              - Reply from Mobius: chapters/c14/ReMobiusi-1.md
+              - 《Bassareus》Script - Prologue: chapters/c14/Bassareus0-1.md
+              - 《Bassareus》Script - I: chapters/c14/Bassareus1-1.md
+              - 《Bassareus》Script - II: chapters/c14/Bassareus2-1.md
+              - 《Bassareus》Script - III: chapters/c14/Bassareus3-1.md
+              - 《Bassareus》Script - IV: chapters/c14/Bassareus4-1.md
+              - 《Bassareus》Script - V: chapters/c14/Bassareus5-1.md
+              - 《Bassareus》Script - VI: chapters/c14/Bassareus6-1.md
+              - 《Bassareus》Script - VII: chapters/c14/Bassareus7-1.md
+              - 《Bassareus》Script - VIII: chapters/c14/Bassareus8-1.md
+              - 《Bassareus》Script - IX: chapters/c14/Bassareus9-1.md
+              - 《Bassareus》Script - X: chapters/c14/Bassareus10-1.md
+              - 《Bassareus》Script - XI: chapters/c14/Bassareus11-1.md
+              - 《Bassareus》Script - XII: chapters/c14/Bassareus12-1.md
+              - 《Bassareus》Script - XIII: chapters/c14/Bassareus13-1.md
+              - 《Bassareus》Script - XIV: chapters/c14/Bassareus14-1.md
+              - 《Bassareus》Script - XV: chapters/c14/Bassareus15-1.md
+              - 《Bassareus》Script - XVI: chapters/c14/Bassareus16-1.md
+              - 《Bassareus》Script - XVII: chapters/c14/Bassareus17-1.md
+              - 《Bassareus》Script - XVIII: chapters/c14/Bassareus18-1.md
+              - 《Bassareus》Script - XIX: chapters/c14/Bassareus19-1.md
+              - 《Bassareus》Script - XX: chapters/c14/Bassareus20-1.md
+              - 《Bassareus》Script - XXI: chapters/c14/Bassareus21-1.md
+              - 《Bassareus》Script - XXII: chapters/c14/Bassareus22-1.md
+              - 《Bassareus》Script - XXIII: chapters/c14/Bassareus23-1.md
+              - 《Bassareus》Script - XXIV: chapters/c14/Bassareus24-1.md
+              - 《Bassareus》Script - XXV: chapters/c14/Bassareus25-1.md
+              - 《Bassareus》Script - XXVI: chapters/c14/Bassareus26-1.md
+              - 《Bassareus》Script - XXVII: chapters/c14/Bassareus27-1.md
+              - 《Bassareus》Script - XXVIII: chapters/c14/Bassareus28-1.md
+              - 《Bassareus》Script - XXIX: chapters/c14/Bassareus29-1.md
+              - 《Bassareus》Script - XXX: chapters/c14/Bassareus30-1.md
+              - 《Bassareus》Script - XXXI: chapters/c14/Bassareus31-1.md
+              - 《Bassareus》Script - XXXII: chapters/c14/Bassareus32-1.md
+              - 《Bassareus》Script - XXXIII: chapters/c14/Bassareus33-1.md
+              - 《Bassareus》Script - XXXIV: chapters/c14/Bassareus34-1.md
+        - locale: ja
+          name: 日本語
+          default: false
+          build: true
+          site_name: Phigros 収集品 Wiki
+          theme:
+            language: ja
+          nav:
+            - 章ナビゲーション: index.md
+            - チャプター EX:
+              - チャプター EX: chapters/c01/index.md
+              - 収容レポート・報道: chapters/c01/mope1-1.md
+              - 収容レポート・赤いリボン: chapters/c01/mope2-1.md
+              - 収容レポート・赤いリボン・手がかり1: chapters/c01/mope2-2.md
+              - 収容レポート・陶土植木鉢: chapters/c01/mope3-1.md
+              - 収容レポート・植木鉢・手がかり1: chapters/c01/mope3-2.md
+              - 収容レポート・植木鉢・手がかり2: chapters/c01/mope3-3.md
+              - 収容レポート・アンダースカートキス: chapters/c01/mope4-1.md
+              - 収容レポート・アンダースカートキス・手がかり一: chapters/c01/mope4-2.md
+              - 報告・十七の宝: chapters/c01/B17treature-1.md
+              - ぽっぽ集合ラッパ: chapters/c01/gugugou-1.md
+              - 三尾幸運魚: chapters/c01/jixiangruyi-1.md
+              - 十七への挑戦状: chapters/c01/nazotiaozhan-1.md
+              - 十七への挑戦状・手がかり1: chapters/c01/nazotiaozhan-2.md
+              - 丸焼きアヒル: chapters/c01/kaoquanya-1.md
+              - 今年の正月は春晩で: chapters/c01/Kalpa1-1.md
+              - トラベル小隊一人消失: chapters/c01/Kalpa2-1.md
+              - この世界のもう一人の私: chapters/c01/Kalpa3-1.md
+              - 家族親友大集合: chapters/c01/Kalpa4-1.md
+              - 未来が私に舞い降りた: chapters/c01/Kalpa5-1.md
+              - 解読・最後のノタリウム: chapters/c01/Lanota1-1.md
+              - 解読・半分の手紙: chapters/c01/Lanota2-1.md
+              - 解読・人形: chapters/c01/Lanota3-1.md
+              - 解読・依頼人: chapters/c01/Lanota4-1.md
+              - 命の音: chapters/c01/Lanota5-1.md
+              - 抜粋・メビウス工房日記・一: chapters/c01/roteano1-1.md
+              - 抜粋・メビウス工房日記・二: chapters/c01/rotaeno2-1.md
+              - 抜粋・メビウス工房日記・三: chapters/c01/rotaeno3-1.md
+              - 隼の飛行レコード・一: chapters/c01/rotaeno4-1.md
+              - 隼の飛行レコード・二: chapters/c01/rotaeno5-1.md
+              - 隼の飛行レコード・三: chapters/c01/rotaeno6-1.md
+              - 观察记录：雪: chapters/c01/paradigm1-1.md
+              - 观察记录：像: chapters/c01/paradigm2-1.md
+              - 观察记录：友: chapters/c01/paradigm3-1.md
+              - 观察记录：痕: chapters/c01/paradigm4-1.md
+              - Diary Alpa 220 02 01: chapters/c01/diaryalpa-1.md
+              - Diary Alpa 220 02 01·线索一: chapters/c01/diaryalpa-2.md
+              - Diary Alpa 220 02 01·线索二: chapters/c01/diaryalpa-3.md
+              - psyche-173号亚空间调查报告·新: chapters/c01/reportcy-1.md
+              - psyche-173号亚空间调查报告·新·线索一: chapters/c01/reportcy-2.md
+              - psyche-173号亚空间调查报告·新·线索二: chapters/c01/reportcy-3.md
+            - 氷封世界:
+              - 氷封世界: chapters/c02/index.md
+              - 詩集#0: chapters/c02/shijian0-1.md
+              - 詩集#1: chapters/c02/shijian1-1.md
+              - 詩集#2: chapters/c02/shijian2-1.md
+              - 詩集#3: chapters/c02/shijian3-1.md
+              - 詩集#4: chapters/c02/shijian4-1.md
+              - 詩集#5: chapters/c02/shijian5-1.md
+              - 詩集#6: chapters/c02/shijian6-1.md
+              - ペン型ボイスレコーダーAlpa: chapters/c02/alpa-1.md
+              - ペン型ボイスレコーダーAlpa・手がかり1: chapters/c02/alpa-2.md
+              - ペン型ボイスレコーダーAlpa・手がかり2: chapters/c02/alpa-3.md
+              - ペン型ボイスレコーダーAlpa・手がかり3: chapters/c02/alpa-4.md
+              - 【録音】山風: chapters/c02/Yshanfeng-1.md
+              - 第七小隊の紋章: chapters/c02/7huizhang-1.md
+              - 【録音】火鍋: chapters/c02/Yhuoguo-1.md
+              - 【録音】睡眠: chapters/c02/Ysleep-1.md
+              - 【録音】睡眠・手がかり1: chapters/c02/Ysleep-2.md
+              - 【録音】雪踏み: chapters/c02/Ysnow-1.md
+              - 両用バイクTrophon: chapters/c02/trophon-1.md
+              - 両用バイクTrophon・手がかり1: chapters/c02/trophon-2.md
+              - 両用バイクTrophon・手がかり2: chapters/c02/trophon-3.md
+              - 両用バイクTrophon・手がかり3: chapters/c02/trophon-4.md
+              - 補給物資のビスケット: chapters/c02/cookies-1.md
+              - 梆笛: chapters/c02/flute-1.md
+              - 【録音】鶯の翅: chapters/c02/Yhuangying-1.md
+              - 宿舎の鍵: chapters/c02/shushekey-1.md
+              - エンリョウの角: chapters/c02/deemoangle-1.md
+              - レールショットガン: chapters/c02/electicgun-1.md
+              - 【録音】魚籠: chapters/c02/yulo-1.md
+              - 【録音】魚芝居: chapters/c02/Yyuxi-1.md
+              - 髪: chapters/c02/hairtheo-1.md
+              - 【録音】ブラックホール: chapters/c02/Yblackhole-1.md
+              - 【映像】脂肪球: chapters/c02/Mzhiqiu-1.md
+              - 錦嚢(きんのう): chapters/c02/jinnang-1.md
+              - 病衣: chapters/c02/binghaofu-1.md
+              - 花柄のナイフ: chapters/c02/mopeknife-1.md
+              - 【映像】深井戸: chapters/c02/Mshenjing-1.md
+              - 【録音】光: chapters/c02/Ylight-1.md
+              - ログイン権限：サターン: chapters/c02/saturn-1.md
+              - ログイン権限：サターン・手がかり1: chapters/c02/saturn-2.md
+              - 0327討伐令: chapters/c02/327-1.md
+              - 魔革377: chapters/c02/377-1.md
+              - 魔革377・手がかり1: chapters/c02/377-2.md
+              - 氷河美食会: chapters/c02/meishihui-1.md
+              - 氷河美食会·手がかり1: chapters/c02/meishihui-2.md
+              - 氷河美食会·手がかり2: chapters/c02/meishihui-3.md
+              - 氷河美食会·手がかり3: chapters/c02/meishihui-4.md
+            - 汚染土の下:
+              - 汚染土の下: chapters/c03/index.md
+              - 詩集#7: chapters/c03/shijian7-1.md
+              - 詩集#8: chapters/c03/shijian8-1.md
+              - 詩集#9: chapters/c03/shijian9-1.md
+              - グッズ·判定ライン抱き枕: chapters/c03/922alice-1.md
+              - 梆笛・手がかり1: chapters/c03/flute-2.md
+              - 警察官の証: chapters/c03/younggino-1.md
+              - 【映像】塔: chapters/c03/Mtowersakura-1.md
+              - 【映像】現場調査レポート・夏草: chapters/c03/Mxiabug-1.md
+              - 星の欠片・冬: chapters/c03/starshitsnow-1.md
+              - ラジオ: chapters/c03/listentomyradio-1.md
+              - ラジオ・手がかり1: chapters/c03/listentomyradio-2.md
+              - ラジオ・手がかり2: chapters/c03/listentomyradio-3.md
+              - 【録音】太平鼓: chapters/c03/Ytaipingpingpang-1.md
+              - マジック杖: chapters/c03/magicballball-1.md
+              - ホームレスの証: chapters/c03/shihaungzhelingpai-1.md
+              - 石森の地図: chapters/c03/hoodoomap-1.md
+              - 【録音】叫化鶏: chapters/c03/Yjiaohuachicken-1.md
+              - 緑の変異体: chapters/c03/greenchicken-1.md
+              - 【映像】水の塔: chapters/c03/watertower8-1.md
+              - 両用バイクTrophon・手がかり4: chapters/c03/trophon-5.md
+              - ペン型ボイスレコーダーAlpa・手がかり4: chapters/c03/alpa-5.md
+              - ペン型ボイスレコーダーAlpa・手がかり５: chapters/c03/alpa-6.md
+              - 【録音】朝: chapters/c03/Ymorningmyworld-1.md
+              - 【録音】朝・手がかり1: chapters/c03/Ymorningmyworld-2.md
+              - 五彩石: chapters/c03/wucaishi-1.md
+              - 虹色の絵本: chapters/c03/rainbowbook-1.md
+              - メタルアーム: chapters/c03/metalarm-1.md
+              - 苦い杏仁: chapters/c03/kuxingren-1.md
+              - ラジオ・手がかり3: chapters/c03/listentomyradio-4.md
+              - 【映像 】Fuli Auto Shooter: chapters/c03/Mfuliautoshooter-1.md
+              - バレットの殻: chapters/c03/bulletboom-1.md
+              - Fuliの像: chapters/c03/fulistructure-1.md
+              - 【映像】巣栖駅: chapters/c03/Mstationkuzumi-1.md
+              - 【映像】落書き: chapters/c03/Mtuya-1.md
+              - HQ004チケット: chapters/c03/hq004chepiao-1.md
+              - 水圧フィラー: chapters/c03/aiblood-1.md
+              - アンカー: chapters/c03/justicemao-1.md
+              - 詩集＃10: chapters/c03/shijian10-1.md
+              - 詩集＃11: chapters/c03/shijian11-1.md
+              - 【映像】お城: chapters/c03/Mbaolei-1.md
+              - 【映像】巣栖道駅・手がかり1: chapters/c03/Mstationkuzumi-2.md
+              - 抜粋・番人日記・機関銃: chapters/c03/Efuliautoshooter-1.md
+              - 抜粋・番人日記・機関銃・手がかり1: chapters/c03/Efuliautoshooter-2.md
+              - 抜粋・番人日記・機関銃・手がかり2: chapters/c03/Efuliautoshooter-3.md
+              - 抜粋・番人日記・機関銃・手がかり3: chapters/c03/Efuliautoshooter-4.md
+            - マザリノの境界:
+              - マザリノの境界: chapters/c04/index.md
+              - 詩集#12・戦士: chapters/c04/shijian12-1.md
+              - 詩集#13・夜闇の唄: chapters/c04/shijian13-1.md
+              - 詩集#14・オリーブの木の上にて: chapters/c04/shijian14-1.md
+              - 詩集#15・魔術師: chapters/c04/shijian15-1.md
+              - 詩集#16・流浪人: chapters/c04/shijian16-1.md
+              - 戦士・その一・馬: chapters/c04/zhanshi1-1.md
+              - 戦士・その二・疾走: chapters/c04/zhanshi2-1.md
+              - 戦士・その三・喜劇: chapters/c04/zhanshi3-1.md
+              - 戦士・その四・氷封: chapters/c04/zhanshi4-1.md
+              - 戦士・その五・離昇: chapters/c04/zhanshi5-1.md
+              - 戦士・その六・人間: chapters/c04/zhanshi6-1.md
+            - パイプ迷路:
+              - パイプ迷路: chapters/c05/index.md
+              - 詩集#17 Zer0: chapters/c05/shijian17-1.md
+              - Poem M2: chapters/c05/shijian18-1.md
+              - Poem 3ere: chapters/c05/shijian19-1.md
+              - Poem 4Y0: chapters/c05/shijian20-1.md
+              - Poem The 5no: chapters/c05/shijian21-1.md
+              - 裏表ダンスホール: chapters/c05/uraometeStage-1.md
+              - 裏表ダンスホール・手がかり1: chapters/c05/uraometeStage-2.md
+              - 裏表ダンスホール・手がかり2: chapters/c05/uraometeStage-3.md
+              - 裏表ダンスホール・手がかり3: chapters/c05/uraometeStage-4.md
+              - 抜粋・端数研ファイル・紺青国度: chapters/c05/Ebdrgblue-1.md
+              - 端数研-report-BUBD-22-1: chapters/c05/Ebdrgblue-2.md
+              - 端数研-report-BUBD-22-2: chapters/c05/Ebdrgblue-3.md
+              - 端数研-report-BUBD-23-1: chapters/c05/Ebdrgblue-4.md
+              - 端数研-log-BUBD-951: chapters/c05/Ebdrgblue-5.md
+              - 端数研-log-BUBD-952: chapters/c05/Ebdrgblue-6.md
+              - 補給物資のビスケット・手がかり1: chapters/c05/cookies-2.md
+              - 謎猫: chapters/c05/mimao-1.md
+              - 謎猫・手がかり1: chapters/c05/mimao-2.md
+              - パイプ迷路: chapters/c05/TubeMaze-1.md
+              - パイプ迷路・手がかり1: chapters/c05/TubeMaze-2.md
+              - パイプ迷路・手がかり2: chapters/c05/TubeMaze-3.md
+              - パイプ迷路・手がかり3: chapters/c05/TubeMaze-4.md
+              - パイプ迷路・手がかり4: chapters/c05/TubeMaze-5.md
+              - 蝶羽の筆: chapters/c05/dieyubi-1.md
+              - 蝶羽の筆·手がかり1: chapters/c05/dieyubi-2.md
+              - アーケードゲーム《催眠》: chapters/c05/jieji111-1.md
+              - アーケードゲーム《ビン&カン》: chapters/c05/jieji222-1.md
+              - アーケードゲーム《Phigros》: chapters/c05/jieji333-1.md
+              - アーケードゲーム《ネオンバトル》: chapters/c05/jiejiwarofrainbow-1.md
+              - アーケードゲーム《ネオンバトル》・手がかり1: chapters/c05/jiejiwarofrainbow-2.md
+              - アーケードゲーム《ネオンバトル》・手がかり2: chapters/c05/jiejiwarofrainbow-3.md
+              - ペン型ボイスレコーダーAlpa・手がかり6: chapters/c05/alpa-7.md
+              - ミラー鏡: chapters/c05/mirrormirror-1.md
+              - ミラー鏡・手がかり1: chapters/c05/mirrormirror-2.md
+              - クイズ保管所:00096: chapters/c05/maze00096-1.md
+              - クイズ保管所:00096・手がかり1: chapters/c05/maze00096-2.md
+              - クイズ保管所:00096・手がかり2: chapters/c05/maze00096-3.md
+              - ゲームコイン: chapters/c05/youxibi-1.md
+              - ゲームコイン・手がかり1: chapters/c05/youxibi-2.md
+            - ネオンサイン:
+              - ネオンサイン: chapters/c06/index.md
+              - 詩集#18 人・影・世: chapters/c06/shijian22-1.md
+              - 詩集#19 空の青: chapters/c06/shijian23-1.md
+              - 詩集#20 演劇: chapters/c06/shijian24-1.md
+              - Poem Reimei: chapters/c06/shijian25-1.md
+              - 解読・Spasmodic: chapters/c06/Spasmodic-1.md
+              - 詩集#21 悲痛: chapters/c06/shijian26-1.md
+              - 詩集#22 自由: chapters/c06/shijian27-1.md
+              - ゲームコイン・手がかり2: chapters/c06/youxibi-3.md
+              - 両用バイクTrophon・手がかり5: chapters/c06/trophon-6.md
+              - 旅馆房卡: chapters/c06/lvguanfangka-1.md
+              - 便签板: chapters/c06/bianqianban-1.md
+              - 便签板·线索一: chapters/c06/bianqianban-2.md
+              - 便签板·线索二: chapters/c06/bianqianban-3.md
+              - 便签板·线索三: chapters/c06/bianqianban-4.md
+              - 便签板·线索四: chapters/c06/bianqianban-5.md
+              - 六色之虹: chapters/c06/liusezhihonng-1.md
+              - 晚归来: chapters/c06/wanguilai-1.md
+              - 药箱: chapters/c06/yaoxiang-1.md
+              - 药箱·线索一: chapters/c06/yaoxiang-2.md
+              - 药箱·线索二: chapters/c06/yaoxiang-3.md
+              - 药箱·线索三: chapters/c06/yaoxiang-4.md
+              - 彩虹绘本·线索一: chapters/c06/rainbowbook-2.md
+              - 山荷叶标本: chapters/c06/shanheyebiaoben-1.md
+              - 【影像】背叛: chapters/c06/Mbeipan-1.md
+              - 布兰达的自述: chapters/c06/bulandazishu-1.md
+              - 布兰达的自述·线索一: chapters/c06/bulandazishu-2.md
+              - 【录音】霓虹美食图鉴: chapters/c06/Ynihongmeishi-1.md
+              - 【录音】霓虹美食图鉴·线索一: chapters/c06/Ynihongmeishi-2.md
+              - 【录音】霓虹美食图鉴·线索二: chapters/c06/Ynihongmeishi-3.md
+              - 尊师古卢: chapters/c06/guru-1.md
+              - 霓虹: chapters/c06/nihon-1.md
+              - 霓虹·线索一: chapters/c06/nihon-2.md
+              - 霓虹·线索二: chapters/c06/nihon-3.md
+              - 霓虹·线索三: chapters/c06/nihon-4.md
+              - 校卡: chapters/c06/xiaoka-1.md
+              - 《霓虹之声》宣传单: chapters/c06/xuanchuandan-1.md
+              - 社团导师名录: chapters/c06/shetuandaoshiminglu-1.md
+              - 课程表: chapters/c06/kechengbiao-1.md
+              - 【影像】霓虹观雨: chapters/c06/Mnihongguanyu-1.md
+              - 里表舞厅·线索四: chapters/c06/uraometeStage-5.md
+              - 百花教坊: chapters/c06/baihuaschool-1.md
+              - 糖绳: chapters/c06/tangshen-1.md
+              - 【影像】土丘: chapters/c06/tuqiu-1.md
+              - 锦囊·线索一: chapters/c06/jinnang-2.md
+              - PhigrOS记录-鸠: chapters/c06/PhigrOSjiu-1.md
+              - PhigrOS记录-鸠·线索一: chapters/c06/PhigrOSjiu-2.md
+              - PhigrOS记录-吉诺: chapters/c06/PhigrOSgino-1.md
+              - 可能性: chapters/c06/kenengxing-1.md
+              - 蝶羽笔·线索二: chapters/c06/dieyubi-3.md
+              - 锈色羊角锤: chapters/c06/xiusiyangjiaochui-1.md
+              - 锈色羊角锤·线索一: chapters/c06/xiusiyangjiaochui-2.md
+              - 锈色羊角锤·线索二: chapters/c06/xiusiyangjiaochui-3.md
+              - 锈色羊角锤·线索三: chapters/c06/xiusiyangjiaochui-4.md
+              - 街机游戏《彩虹之战》·线索三: chapters/c06/jiejiwarofrainbow-4.md
+              - 街机游戏《彩虹之战》·线索四: chapters/c06/jiejiwarofrainbow-5.md
+              - 街机游戏《彩虹之战》·线索五: chapters/c06/jiejiwarofrainbow-6.md
+              - 事件·虹再现: chapters/c06/rainbowawakening-1.md
+            - 方舟の蜃気楼:
+              - 方舟の蜃気楼: chapters/c07/index.md
+              - 輪廻: chapters/c07/chongsheng-1.md
+              - 解読・望影の方舟Six: chapters/c07/poyiARK-1.md
+              - 破译·望影の方舟Six·线索一: chapters/c07/poyiARK-2.md
+              - 解読・Igallta: chapters/c07/poyiIG-1.md
+              - 両用バイクTrophon・手がかり6: chapters/c07/trophon-7.md
+              - 豌豆食谱合集: chapters/c07/beansshipu-1.md
+              - 公派任务: chapters/c07/renwu-1.md
+              - 求职书: chapters/c07/qiuzhishu-1.md
+              - 豌豆种植记录: chapters/c07/beanszhongzhi-1.md
+              - 豌豆种植记录·线索一: chapters/c07/beanszhongzhi-2.md
+              - 求救信: chapters/c07/helpxin-1.md
+              - 求救信·线索一: chapters/c07/helpxin-2.md
+              - 克洛诺斯的鸽子: chapters/c07/cronosgugu-1.md
+              - 克洛诺斯的鸽子·线索一: chapters/c07/cronosgugu-2.md
+              - 罐装雪梨膏: chapters/c07/guanzhuang-1.md
+              - 霓虹灯牌: chapters/c07/NeonLED-1.md
+              - 霓虹灯牌·线索一: chapters/c07/NeonLED-2.md
+              - 布兰达的感谢信: chapters/c07/testimonial-1.md
+              - 布兰达的感谢信·线索一: chapters/c07/testimonial-2.md
+              - 布兰达的感谢信·线索二: chapters/c07/testimonial-3.md
+              - 布兰达的感谢信·线索三: chapters/c07/testimonial-4.md
+              - 油画: chapters/c07/canvas-1.md
+              - 失效门牌: chapters/c07/doorplate-1.md
+              - 失效门牌·线索一: chapters/c07/doorplate-2.md
+              - 失效门牌·线索二: chapters/c07/doorplate-3.md
+            - クロネクション:
+              - クロネクション: chapters/c08/index.md
+              - 【映像】クロックパラドックス: chapters/c08/clockparadox-1.md
+              - 時計城第93回ALIGNクラブ型リレー大会: chapters/c08/93Align-1.md
+              - ロードスター67・改: chapters/c08/landstar67re-1.md
+              - ロードスター67・改・手がかり1: chapters/c08/landstar67re-2.md
+              - 豌豆种植记录·线索二: chapters/c08/beanszhongzhi-3.md
+              - 求救信·线索二: chapters/c08/helpxin-3.md
+              - 克洛诺斯的鸽子·线索二: chapters/c08/cronosgugu-3.md
+              - 豆羹: chapters/c08/dougeng-1.md
+              - 辞职书: chapters/c08/cizhishu-1.md
+            - 朔月の汐:
+              - 朔月の汐: chapters/c09/index.md
+              - 詩集 白馬: chapters/c09/shijianbaima-1.md
+              - 詩集 決断: chapters/c09/shijianjueze-1.md
+              - 解読・朔月の汐: chapters/c09/lvchuanbaomu-1.md
+              - 解読・朔月の汐・手がかり1: chapters/c09/lvchuanbaomu-2.md
+              - 解読・朔月の汐・手がかり2: chapters/c09/lvchuanbaomu-3.md
+              - 解読・朔月の汐・手がかり3: chapters/c09/lvchuanbaomu-4.md
+              - 解読・朔月の汐・手がかり4: chapters/c09/lvchuanbaomu-5.md
+              - 解読・朔月の汐・手がかり5: chapters/c09/lvchuanbaomu-6.md
+              - お祭り: chapters/c09/miaohui-1.md
+              - お祭り・手がかり1: chapters/c09/miaohui-2.md
+              - 【映像】月の海: chapters/c09/Mlingrichaoxi-1.md
+              - 【録音】ドーム: chapters/c09/Yqiongding-1.md
+              - 公派任务·线索一: chapters/c09/renwu-2.md
+              - 公派任务·线索二: chapters/c09/renwu-3.md
+              - 罐装雪梨膏·线索一: chapters/c09/guanzhuang-2.md
+              - 替换数据: chapters/c09/tihuandata-1.md
+              - 替换数据·线索一: chapters/c09/tihuandata-2.md
+              - 替换数据·线索二: chapters/c09/tihuandata-3.md
+              - 替换数据·线索三: chapters/c09/tihuandata-4.md
+            - ロートス:
+              - ロートス: chapters/c10/index.md
+              - ナレーション「ロートス」: chapters/c10/zhixian10-1.md
+              - ナレーション「オデシュース港」: chapters/c10/zhixian11-1.md
+              - ナレーション「クロノス」: chapters/c10/zhixian12-1.md
+              - ナレーション「奇跡の森」: chapters/c10/zhixian13-1.md
+              - ナレーション「迷宮の果て」: chapters/c10/zhixian14-1.md
+              - 《ラベーボの壊滅》: chapters/c10/lawabofumiele-1.md
+              - 《ラベーボの壊滅》・手がかり1: chapters/c10/lawabofumiele-2.md
+              - 《ラベーボの壊滅》・手がかり2: chapters/c10/lawabofumiele-3.md
+              - 《ラベーボの壊滅》・手がかり3: chapters/c10/lawabofumiele-4.md
+              - 《ラベーボの壊滅》・手がかり4: chapters/c10/lawabofumiele-5.md
+              - 虚妄の箱: chapters/c10/xuwangzhixia-1.md
+              - 虚妄の箱: chapters/c10/xuwangzhixia-2.md
+              - 虚妄の箱: chapters/c10/xuwangzhixia-3.md
+              - エイダの超振動ナイフ: chapters/c10/chaozhendong-1.md
+              - エイダの超振動ナイフ・手がかり1: chapters/c10/chaozhendong-2.md
+              - べルネスの研究ノート: chapters/c10/yanjiubonisi-1.md
+              - べルネスの研究ノート・手がかり1: chapters/c10/yanjiubonisi-2.md
+              - べルネスの研究ノート・手がかり2: chapters/c10/yanjiubonisi-3.md
+              - べルネスの研究ノート・手がかり3: chapters/c10/yanjiubonisi-4.md
+              - べルネスの奇妙ポシェット: chapters/c10/shenqikuabao-1.md
+              - べルネスの奇妙ポシェット・手がかり1: chapters/c10/shenqikuabao-2.md
+              - べルネスの奇妙ポシェット・手がかり2: chapters/c10/shenqikuabao-3.md
+              - べルネスの奇妙ポシェット・手がかり3: chapters/c10/shenqikuabao-4.md
+              - サフォのアクションカメラ: chapters/c10/yundongxiangji-1.md
+              - サフォのアクションカメラ・手がかり1: chapters/c10/yundongxiangji-2.md
+              - サフォのアクションカメラ・手がかり2: chapters/c10/yundongxiangji-3.md
+              - サフォのアクションカメラ・手がかり3: chapters/c10/yundongxiangji-4.md
+              - 指向性ロープ: chapters/c10/dinngxiangshensuo-1.md
+              - 指向性ロープ・手がかり1: chapters/c10/dinngxiangshensuo-2.md
+              - 指向性ロープ・手がかり2: chapters/c10/dinngxiangshensuo-3.md
+              - 身分証明: chapters/c10/shenfenzhengjian-1.md
+              - 身分証明・手がかり1: chapters/c10/shenfenzhengjian-2.md
+              - 身分証明・手がかり2: chapters/c10/shenfenzhengjian-3.md
+              - 身分証明・手がかり3: chapters/c10/shenfenzhengjian-4.md
+              - 真理の珠: chapters/c10/zhenlizhizhu-1.md
+              - 真理の珠・手がかり1: chapters/c10/zhenlizhizhu-2.md
+              - 真理の珠・手がかり2: chapters/c10/zhenlizhizhu-3.md
+              - 盗聴器: chapters/c10/qietingqi-1.md
+              - 盗聴器・手がかり1: chapters/c10/qietingqi-2.md
+              - 盗聴器・手がかり2: chapters/c10/qietingqi-3.md
+              - オデシュース港出航記録: chapters/c10/chuhaijilu-1.md
+              - オデシュース港出航記録・手がかり1: chapters/c10/chuhaijilu-2.md
+              - オデシュース港出航記録・手がかり2: chapters/c10/chuhaijilu-3.md
+              - 紙片: chapters/c10/zhipian-1.md
+            - 滅の日:
+              - 滅の日: chapters/c11/index.md
+              - 旁白：造主: chapters/c11/zhixian20-1.md
+              - 旁白：心魔: chapters/c11/zhixian21-1.md
+              - 旁白：未来: chapters/c11/zhixian22-1.md
+              - 旁白：黎明: chapters/c11/zhixian24-1.md
+              - 评《杰作的诞生》: chapters/c11/jiezuodedansheng-1.md
+              - 【影像】时光的废墟: chapters/c11/Mshiguangdefx-1.md
+              - 【影像】哈娜: chapters/c11/Mhana-1.md
+              - 致信：土星系统无法注册与故障问题: chapters/c11/xintudoudeyongsheng-1.md
+              - 【录音】船桨: chapters/c11/Ychuanjiangwa-1.md
+              - 【录音】船桨·线索一: chapters/c11/Ychuanjiangwa-2.md
+              - 【录音】船桨·线索二: chapters/c11/Ychuanjiangwa-3.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗: chapters/c11/liuqidashengli-1.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索一: chapters/c11/liuqidashengli-2.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索二: chapters/c11/liuqidashengli-3.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索三: chapters/c11/liuqidashengli-4.md
+              - PhigrOS记录：路星67大胜利（￣︶￣）↗·线索四: chapters/c11/liuqidashengli-5.md
+            - 盗楽行:
+              - 盗楽行: chapters/c12/index.md
+              - 《盗月行》调查报告: chapters/c12/thiefmoon-1.md
+              - 旁白：流言: chapters/c12/zhixian31-1.md
+              - 旁白：怪盗: chapters/c12/zhixian33-1.md
+              - 旁白：恍惚: chapters/c12/zhixian32-1.md
+              - 旁白：黑月: chapters/c12/zhixian30-1.md
+              - '旁白: From 1 to 500000': chapters/c12/zhixian34-1.md
+              - 幻梦 之一: chapters/c12/huanmeng1-1.md
+              - 幻梦 之二: chapters/c12/huanmeng2-1.md
+              - 673：律动星盗乐行事件 亚空间副本: chapters/c12/673shijian-1.md
+              - 673：律动星盗乐行事件 亚空间副本·线索一: chapters/c12/674shijian-2.md
+              - 673：律动星盗乐行事件 亚空间副本·线索二: chapters/c12/675shijian-3.md
+              - 报道：《相机里的真假月亮》: chapters/c12/baoyouyueliang-1.md
+              - 散文：《有关旋律的哲思》: chapters/c12/xuanlvshisha-1.md
+              - 报道：《晒月亮的女孩》: chapters/c12/nvhaibieditou-1.md
+              - 【影像】拍摄者采访记录存档: chapters/c12/Mbolisidexisheng-1.md
+              - 木质八音盒: chapters/c12/bayinhe-1.md
+              - 【影像】直播录屏: chapters/c12/Mdyjilumeihao-1.md
+              - 【影像】直播录屏·线索一: chapters/c12/Mdyjilumeihao-2.md
+              - 文玩核桃: chapters/c12/pantaaa-1.md
+              - 吉克·莱斯波斯-Year372: chapters/c12/he372bafei-1.md
+              - 报道：《酒吧辩手，市长想谈谈》: chapters/c12/buxutan-1.md
+              - 报道：《酒吧辩手，市长想谈谈》·线索一: chapters/c12/buxutan-2.md
+              - 报道：《酒吧辩手，市长想谈谈》·线索二: chapters/c12/buxutan-3.md
+              - 小说：《困在街道中的老人》: chapters/c12/fuqinkuaishuiba-1.md
+              - 帖子：《天桥东！发现天狗！》: chapters/c12/nifaxianlgesha-1.md
+              - 【影像】街头的Fuli: chapters/c12/Mluolikong-1.md
+              - 摘录·守护日志·机关枪·线索四: chapters/c12/Efuliautoshooter-5.md
+              - 量子同步终端: chapters/c12/liangzitbzz-1.md
+              - 量子同步终端·线索一: chapters/c12/liangzitbzz-2.md
+              - 量子同步终端·线索二: chapters/c12/liangzitbzz-3.md
+              - 量子同步终端·线索三: chapters/c12/liangzitbzz-4.md
+              - 量子同步终端·线索四: chapters/c12/liangzitbzz-5.md
+              - 喵喵茶: chapters/c12/miaomiaocha-1.md
+              - 黑月疗养院员工需知: chapters/c12/heiyueliaoyangyuan-1.md
+              - 黑月疗养院员工需知·线索一: chapters/c12/heiyueliaoyangyuan-2.md
+              - 黑月疗养院员工需知·线索二: chapters/c12/heiyueliaoyangyuan-3.md
+              - 小熊娃娃: chapters/c12/beardoll-1.md
+              - 小熊娃娃·线索一: chapters/c12/beardoll-2.md
+              - 小熊娃娃·线索二: chapters/c12/beardoll-3.md
+              - 小熊娃娃·线索三: chapters/c12/beardoll-4.md
+              - 小熊娃娃·线索四: chapters/c12/beardoll-5.md
+              - 影像带：《洛基的世界》: chapters/c12/lokiworld-1.md
+              - 影像带：《洛基的世界》·线索一: chapters/c12/lokiworld-2.md
+              - 影像带：《洛基的世界》·线索二: chapters/c12/lokiworld-3.md
+              - 影像带：《洛基的世界》·线索三: chapters/c12/lokiworld-4.md
+              - 影像带：《洛基的世界》·线索四: chapters/c12/lokiworld-5.md
+              - 报道：《洛基的世界影评》: chapters/c12/lokiworldre-1.md
+              - 【影像】日蚀之月: chapters/c12/abaaba1-1.md
+              - 波提切利原型机: chapters/c12/botiqieli-1.md
+              - 波提切利原型机·线索一: chapters/c12/botiqieli-2.md
+              - 波提切利原型机·线索二: chapters/c12/botiqieli-3.md
+              - 波提切利原型机·线索三: chapters/c12/botiqieli-4.md
+              - 隔音耳机: chapters/c12/earphone-1.md
+              - 隔音耳机·线索一: chapters/c12/earphone-2.md
+              - 隔音耳机·线索二: chapters/c12/earphone-3.md
+              - 隔音耳机·线索三: chapters/c12/earphone-4.md
+              - 隔音耳机·线索四: chapters/c12/earphone-5.md
+              - 黑月疗养院日志: chapters/c12/heiyuelog-1.md
+              - 黑月疗养院日志·线索一: chapters/c12/heiyuelog-2.md
+              - 黑月疗养院日志·线索二: chapters/c12/heiyuelog-3.md
+              - 黑月疗养院日志·线索三: chapters/c12/heiyuelog-4.md
+              - 黑月疗养院日志·线索四: chapters/c12/heiyuelog-5.md
+              - 机械手套: chapters/c12/jixiegloves-1.md
+              - 机械手套·线索一: chapters/c12/jixiegloves-2.md
+              - 机械手套·线索二: chapters/c12/jixiegloves-3.md
+              - 机械手套·线索三: chapters/c12/jixiegloves-4.md
+              - 机械手套·线索四: chapters/c12/jixiegloves-5.md
+              - 报道：《律动星城市监控网现已恢复，失灵原因疑似与月食有关》: chapters/c12/jiankongwang-1.md
+              - 报道：《对大众心理学研究的反叛：当他人主宰你的存在》: chapters/c12/fanpanzhuzai-1.md
+              - 报道：《神秘黑点与浪漫少女的背后：波提切利相机的秘密》: chapters/c12/heidianshaonv-1.md
+            - 無相郷:
+              - 無相郷: chapters/c13/index.md
+              - ファイル・無相郷の調査報告: chapters/c13/investigatewuxiang-1.md
+            - バサレウス:
+              - バサレウス: chapters/c14/index.md
+              - 解読・《バサレウス》イースター・エッグ: chapters/c14/bassareusEgg-1.md
+              - メビウスからの返事: chapters/c14/ReMobiusi-1.md
+              - 《バサレウス》脚本・序: chapters/c14/Bassareus0-1.md
+              - 《バサレウス》脚本・一: chapters/c14/Bassareus1-1.md
+              - 《バサレウス》脚本・二: chapters/c14/Bassareus2-1.md
+              - 《バサレウス》脚本・三: chapters/c14/Bassareus3-1.md
+              - 《バサレウス》脚本・四: chapters/c14/Bassareus4-1.md
+              - 《バサレウス》脚本・五: chapters/c14/Bassareus5-1.md
+              - 《バサレウス》脚本・六: chapters/c14/Bassareus6-1.md
+              - 《バサレウス》脚本・七: chapters/c14/Bassareus7-1.md
+              - 《バサレウス》脚本・八: chapters/c14/Bassareus8-1.md
+              - 《バサレウス》脚本・九: chapters/c14/Bassareus9-1.md
+              - 《バサレウス》脚本・十: chapters/c14/Bassareus10-1.md
+              - 《バサレウス》脚本・十一: chapters/c14/Bassareus11-1.md
+              - 《バサレウス》脚本・十二: chapters/c14/Bassareus12-1.md
+              - 《バサレウス》脚本・十三: chapters/c14/Bassareus13-1.md
+              - 《バサレウス》脚本・十四: chapters/c14/Bassareus14-1.md
+              - 《バサレウス》脚本・十五: chapters/c14/Bassareus15-1.md
+              - 《バサレウス》脚本・十六: chapters/c14/Bassareus16-1.md
+              - 《バサレウス》脚本・十七: chapters/c14/Bassareus17-1.md
+              - 《バサレウス》脚本・十八: chapters/c14/Bassareus18-1.md
+              - 《バサレウス》脚本・十九: chapters/c14/Bassareus19-1.md
+              - 《バサレウス》脚本・二十: chapters/c14/Bassareus20-1.md
+              - 《バサレウス》脚本・二十一: chapters/c14/Bassareus21-1.md
+              - 《バサレウス》脚本・二十二: chapters/c14/Bassareus22-1.md
+              - 《バサレウス》脚本・二十三: chapters/c14/Bassareus23-1.md
+              - 《バサレウス》脚本・二十四: chapters/c14/Bassareus24-1.md
+              - 《バサレウス》脚本・二十五: chapters/c14/Bassareus25-1.md
+              - 《バサレウス》脚本・二十六: chapters/c14/Bassareus26-1.md
+              - 《バサレウス》脚本・二十七: chapters/c14/Bassareus27-1.md
+              - 《バサレウス》脚本・二十八: chapters/c14/Bassareus28-1.md
+              - 《バサレウス》脚本・二十九: chapters/c14/Bassareus29-1.md
+              - 《バサレウス》脚本・三十: chapters/c14/Bassareus30-1.md
+              - 《バサレウス》脚本・三十一: chapters/c14/Bassareus31-1.md
+              - 《バサレウス》脚本・三十二: chapters/c14/Bassareus32-1.md
+              - 《バサレウス》脚本・三十三: chapters/c14/Bassareus33-1.md
+              - 《バサレウス》脚本・三十四: chapters/c14/Bassareus34-1.md
+        - locale: ko
+          name: 한국어
+          default: false
+          build: true
+          site_name: Phigros 수집품 Wiki
+          theme:
+            language: ko
+          nav:
+            - 챕터 탐색: index.md
+            - 챕터 EX:
+              - 챕터 EX: chapters/c01/index.md
+              - '[아이템 리포트] 태블로이드': chapters/c01/mope1-1.md
+              - '[아이템 리포트] 붉은 활': chapters/c01/mope2-1.md
+              - 붉은 활 - 단서 1: chapters/c01/mope2-2.md
+              - '[아이템 리포트] 점토 화분': chapters/c01/mope3-1.md
+              - 점토 화분 - 단서 1: chapters/c01/mope3-2.md
+              - 점토 화분 - 단서 2: chapters/c01/mope3-3.md
+              - '[녹음] 드레스 아래': chapters/c01/mope4-1.md
+              - 드레스 아래 - 단서 1: chapters/c01/mope4-2.md
+              - '[공지] 17의 보물': chapters/c01/B17treature-1.md
+              - '[녹음] 비둘기 집회': chapters/c01/gugugou-1.md
+              - '[녹음] 행운의 세 물고기': chapters/c01/jixiangruyi-1.md
+              - 17의 첼린지: chapters/c01/nazotiaozhan-1.md
+              - 17의 첼린지 - 단서 1: chapters/c01/nazotiaozhan-2.md
+              - '[파일] 구운 오리': chapters/c01/kaoquanya-1.md
+              - 올해 새해맞이 갈라에서: chapters/c01/Kalpa1-1.md
+              - 여행 부대 일원 부족: chapters/c01/Kalpa2-1.md
+              - 세상의 또 다른 나: chapters/c01/Kalpa3-1.md
+              - 가족과 친구들의 모임: chapters/c01/Kalpa4-1.md
+              - 미래는 나에게 달려있다: chapters/c01/Kalpa5-1.md
+              - 복호화 - 마지막 노탈리움: chapters/c01/Lanota1-1.md
+              - 복호화 - 의뢰서 반쪽: chapters/c01/Lanota2-1.md
+              - 복호화 - 골렘: chapters/c01/Lanota3-1.md
+              - 복호화 - 의뢰인: chapters/c01/Lanota4-1.md
+              - 생명의 소리: chapters/c01/Lanota5-1.md
+              - 발췌 - 뫼비우스 스튜디오 일기 - 1: chapters/c01/roteano1-1.md
+              - 발췌 - 뫼비우스 스튜디오 일기 - 2: chapters/c01/rotaeno2-1.md
+              - 발췌 - 뫼비우스 스튜디오 일기 - 3: chapters/c01/rotaeno3-1.md
+              - 매의 선박 기록 장치 - 1: chapters/c01/rotaeno4-1.md
+              - 매의 선박 기록 장치 - 2: chapters/c01/rotaeno5-1.md
+              - 매의 선박 기록 장치 - 3: chapters/c01/rotaeno6-1.md
+              - '관찰 기록: 눈': chapters/c01/paradigm1-1.md
+              - '관찰 기록: 형태': chapters/c01/paradigm2-1.md
+              - '관찰 기록: 친구': chapters/c01/paradigm3-1.md
+              - '관찰 기록: 흔적': chapters/c01/paradigm4-1.md
+              - 알파 일기장 220 02 01: chapters/c01/diaryalpa-1.md
+              - 알파 일기장 220 02 01 - 단서 1: chapters/c01/diaryalpa-2.md
+              - 알파 일기장 220 02 01 - 단서 2: chapters/c01/diaryalpa-3.md
+              - psyche-173 가상 공간 탐사 보고서 - 신규: chapters/c01/reportcy-1.md
+              - psyche-173 가상 공간 탐사 보고서 - 신규 - 단서 1: chapters/c01/reportcy-2.md
+              - psyche-173 가상 공간 탐사 보고서 - 신규 - 단서 2: chapters/c01/reportcy-3.md
+            - 빙하 세계:
+              - 빙하 세계: chapters/c02/index.md
+              - 시집#0: chapters/c02/shijian0-1.md
+              - 시집#1: chapters/c02/shijian1-1.md
+              - 시집#2: chapters/c02/shijian2-1.md
+              - 시집#3: chapters/c02/shijian3-1.md
+              - 시집#4: chapters/c02/shijian4-1.md
+              - 시집#5: chapters/c02/shijian5-1.md
+              - 시집#6: chapters/c02/shijian6-1.md
+              - '[아이템] 알파펜': chapters/c02/alpa-1.md
+              - 알파펜 - 단서 1: chapters/c02/alpa-2.md
+              - 알파펜 - 단서 2: chapters/c02/alpa-3.md
+              - 알파펜 - 단서 3: chapters/c02/alpa-4.md
+              - '[녹음] 산바람': chapters/c02/Yshanfeng-1.md
+              - '[아이템] 7팀 배지': chapters/c02/7huizhang-1.md
+              - '[녹음] 뜨거운 냄비': chapters/c02/Yhuoguo-1.md
+              - '[녹음] 잠': chapters/c02/Ysleep-1.md
+              - '[녹음] 잠 - 단서 1': chapters/c02/Ysleep-2.md
+              - '[녹음] 눈': chapters/c02/Ysnow-1.md
+              - '[아이템] 트로폰': chapters/c02/trophon-1.md
+              - 트로폰 - 단서 1: chapters/c02/trophon-2.md
+              - 트로폰 - 단서 2: chapters/c02/trophon-3.md
+              - 트로폰 - 단서 3: chapters/c02/trophon-4.md
+              - '[아이템] 비스킷 보급품': chapters/c02/cookies-1.md
+              - '[아이템] 고대피리': chapters/c02/flute-1.md
+              - '[녹음] 꾀꼬리': chapters/c02/Yhuangying-1.md
+              - '[아이템] 기숙사 열쇠': chapters/c02/shushekey-1.md
+              - '[아이템] 데미스의 뿔': chapters/c02/deemoangle-1.md
+              - '[아이템] 전자기 산탄총': chapters/c02/electicgun-1.md
+              - '[아이템] 물고기 바구니': chapters/c02/yulo-1.md
+              - '[녹음] 물고기 쇼': chapters/c02/Yyuxi-1.md
+              - '[아이템] 머리카락 한 가닥': chapters/c02/hairtheo-1.md
+              - '[녹음] 검은 소용돌이': chapters/c02/Yblackhole-1.md
+              - '[이미지] 흑담즙': chapters/c02/Mzhiqiu-1.md
+              - '[아이템] 실크 파우치': chapters/c02/jinnang-1.md
+              - '[아이템] 환자복': chapters/c02/binghaofu-1.md
+              - '[아이템] 장미칼': chapters/c02/mopeknife-1.md
+              - '[이미지] 깊은 우물': chapters/c02/Mshenjing-1.md
+              - '[녹음] 빛': chapters/c02/Ylight-1.md
+              - '[로그인 권한] 토성': chapters/c02/saturn-1.md
+              - 토성 로그인 - 단서 1: chapters/c02/saturn-2.md
+              - 진압 명령 0327: chapters/c02/327-1.md
+              - 데미스 스킨페이퍼 377: chapters/c02/377-1.md
+              - 데미스 스킨페이퍼 - 단서 1: chapters/c02/377-2.md
+              - Glaci'o'Food: chapters/c02/meishihui-1.md
+              - Glaci'o'Food - 단서 1: chapters/c02/meishihui-2.md
+              - Glaci'o'Food - 단서 2: chapters/c02/meishihui-3.md
+              - Glaci'o'Food - 단서 3: chapters/c02/meishihui-4.md
+            - 시궁창 밑:
+              - 시궁창 밑: chapters/c03/index.md
+              - 시집#7: chapters/c03/shijian7-1.md
+              - 시집#8: chapters/c03/shijian8-1.md
+              - 시집#9: chapters/c03/shijian9-1.md
+              - '[상품] 판정선 베개': chapters/c03/922alice-1.md
+              - 고대피리 - 단서 1: chapters/c03/flute-2.md
+              - '[아이템] 보안관 배지': chapters/c03/younggino-1.md
+              - '[이미지] 타워': chapters/c03/Mtowersakura-1.md
+              - '[이미지] 현장 점검 기록': chapters/c03/Mxiabug-1.md
+              - '[아이템] 얼음 별 조각': chapters/c03/starshitsnow-1.md
+              - '[아이템] 라디오': chapters/c03/listentomyradio-1.md
+              - 라디오 - 단서 1: chapters/c03/listentomyradio-2.md
+              - 라디오 - 단서 2: chapters/c03/listentomyradio-3.md
+              - '[녹음] 평화의 드럼': chapters/c03/Ytaipingpingpang-1.md
+              - '[아이템] 마법봉': chapters/c03/magicballball-1.md
+              - '[아이템] 스캐빈저 토큰': chapters/c03/shihaungzhelingpai-1.md
+              - '[아이템] 후두 지도': chapters/c03/hoodoomap-1.md
+              - '[녹음] 거지의 치킨': chapters/c03/Yjiaohuachicken-1.md
+              - '[녹음] 돌연변이 가금류': chapters/c03/greenchicken-1.md
+              - '[이미지] 급수': chapters/c03/watertower8-1.md
+              - 트로폰 - 단서 4: chapters/c03/trophon-5.md
+              - 알파펜 - 단서 4: chapters/c03/alpa-5.md
+              - 알파펜 - 단서 5: chapters/c03/alpa-6.md
+              - '[녹음] 아침': chapters/c03/Ymorningmyworld-1.md
+              - '[녹음] 아침 - 단서 1': chapters/c03/Ymorningmyworld-2.md
+              - '[아이템] 오색돌': chapters/c03/wucaishi-1.md
+              - '[파일] 알록달록 그림책': chapters/c03/rainbowbook-1.md
+              - '[아이템] 금속 팔': chapters/c03/metalarm-1.md
+              - '[아이템] 쓴 견과류': chapters/c03/kuxingren-1.md
+              - 라디오 - 단서 3: chapters/c03/listentomyradio-4.md
+              - '[이미지] Fuli Auto Shooter!': chapters/c03/Mfuliautoshooter-1.md
+              - '[아이템] 총알 탄피': chapters/c03/bulletboom-1.md
+              - '[이미지] Fuli 동상': chapters/c03/fulistructure-1.md
+              - '[이미지] 퍼치네스트 역': chapters/c03/Mstationkuzumi-1.md
+              - '[이미지] 낙서': chapters/c03/Mtuya-1.md
+              - '[아이템] HQ004 티켓': chapters/c03/hq004chepiao-1.md
+              - '[아이템] 유압제': chapters/c03/aiblood-1.md
+              - '[아이템] 닻': chapters/c03/justicemao-1.md
+              - 시집#10: chapters/c03/shijian10-1.md
+              - 시집#11: chapters/c03/shijian11-1.md
+              - '[이미지] 요새': chapters/c03/Mbaolei-1.md
+              - 퍼치네스트 역 - 단서 1: chapters/c03/Mstationkuzumi-2.md
+              - 발췌·수호 일기·기관총: chapters/c03/Efuliautoshooter-1.md
+              - 발췌·수호 일기·기관총 - 단서 1: chapters/c03/Efuliautoshooter-2.md
+              - 발췌·수호 일기·기관총 - 단서 2: chapters/c03/Efuliautoshooter-3.md
+              - 발췌·수호 일기·기관총 - 단서 3: chapters/c03/Efuliautoshooter-4.md
+            - 마자린 엔드:
+              - 마자린 엔드: chapters/c04/index.md
+              - 시집#12 - 전사: chapters/c04/shijian12-1.md
+              - 시집#13 - 밤의 시: chapters/c04/shijian13-1.md
+              - 시집#14 - 올리브 나무 위: chapters/c04/shijian14-1.md
+              - 시집#15 - 마술사: chapters/c04/shijian15-1.md
+              - 시집#16 - 방랑자: chapters/c04/shijian16-1.md
+              - 전사 - 1 - 말: chapters/c04/zhanshi1-1.md
+              - 전사 - 2 - 돌진: chapters/c04/zhanshi2-1.md
+              - 전사 - 3 - 코미디: chapters/c04/zhanshi3-1.md
+              - 전사 - 4 - 빙하: chapters/c04/zhanshi4-1.md
+              - 전사 - 5 - 진수: chapters/c04/zhanshi5-1.md
+              - 전사 - 6 - 인간: chapters/c04/zhanshi6-1.md
+            - 시미궁창:
+              - 시미궁창: chapters/c05/index.md
+              - 시집#17 - Zer0: chapters/c05/shijian17-1.md
+              - 시집 - M2: chapters/c05/shijian18-1.md
+              - 시집 - 3ere: chapters/c05/shijian19-1.md
+              - 시집 - 4Y0: chapters/c05/shijian20-1.md
+              - 시집 - The 5no: chapters/c05/shijian21-1.md
+              - 두 얼굴의 댄스 플로어: chapters/c05/uraometeStage-1.md
+              - 두 얼굴의 댄스 플로어 - 단서 1: chapters/c05/uraometeStage-2.md
+              - 두 얼굴의 댄스 플로어 - 단서 2: chapters/c05/uraometeStage-3.md
+              - 두 얼굴의 댄스 플로어 - 단서 3: chapters/c05/uraometeStage-4.md
+              - 발췌·단수연 파일·청청국도: chapters/c05/Ebdrgblue-1.md
+              - 손상 데이터 연구-리포트-BUBD-22-1: chapters/c05/Ebdrgblue-2.md
+              - 손상 데이터 연구-리포트-BUBD-22-2: chapters/c05/Ebdrgblue-3.md
+              - 손상 데이터 연구-리포트-BUBD-23-1: chapters/c05/Ebdrgblue-4.md
+              - 손상 데이터 연구-로그-BUBD-951: chapters/c05/Ebdrgblue-5.md
+              - 손상 데이터 연구-로그-BUBD-952: chapters/c05/Ebdrgblue-6.md
+              - 비스킷 보급품 - 단서 1: chapters/c05/cookies-2.md
+              - 길 잃은 고양이: chapters/c05/mimao-1.md
+              - 길 잃은 고양이 - 단서 1: chapters/c05/mimao-2.md
+              - 튜브 미로: chapters/c05/TubeMaze-1.md
+              - 튜브 미로 - 단서 1: chapters/c05/TubeMaze-2.md
+              - 튜브 미로 - 단서 2: chapters/c05/TubeMaze-3.md
+              - 튜브 미로 - 단서 3: chapters/c05/TubeMaze-4.md
+              - 튜브 미로 - 단서 4: chapters/c05/TubeMaze-5.md
+              - 나비 날개 펜: chapters/c05/dieyubi-1.md
+              - 나비 날개 펜 - 단서 1: chapters/c05/dieyubi-2.md
+              - 아케이드《최면 걸기》: chapters/c05/jieji111-1.md
+              - 아케이드《병과 캔》: chapters/c05/jieji222-1.md
+              - 아케이드《Phigros》: chapters/c05/jieji333-1.md
+              - 아케이드《무지개 싸움》: chapters/c05/jiejiwarofrainbow-1.md
+              - 아케이드《무지개 싸움》 - 단서 1: chapters/c05/jiejiwarofrainbow-2.md
+              - 아케이드《무지개 싸움》 - 단서 2: chapters/c05/jiejiwarofrainbow-3.md
+              - 알파펜 - 단서 4: chapters/c05/alpa-7.md
+              - 거울 속 거울: chapters/c05/mirrormirror-1.md
+              - 거울 속 거울 - 단서 1: chapters/c05/mirrormirror-2.md
+              - 수수께끼의 보관소:00096: chapters/c05/maze00096-1.md
+              - 수수께끼의 보관소:00096 - 단서 1: chapters/c05/maze00096-2.md
+              - 수수께끼의 보관소:00096 - 단서 2: chapters/c05/maze00096-3.md
+              - 게임 토큰: chapters/c05/youxibi-1.md
+              - 게임 토큰 - 단서 1: chapters/c05/youxibi-2.md
+            - 네온 간판:
+              - 네온 간판: chapters/c06/index.md
+              - 시집#18 - 인간-그림자-세계: chapters/c06/shijian22-1.md
+              - 시집#19 - 하늘색: chapters/c06/shijian23-1.md
+              - 시집#20 - 드라마 안: chapters/c06/shijian24-1.md
+              - 시집 Reimei: chapters/c06/shijian25-1.md
+              - '[해독] Spasmodic': chapters/c06/Spasmodic-1.md
+              - 시집#21 - 슬픔: chapters/c06/shijian26-1.md
+              - 시집#22 - 자유: chapters/c06/shijian27-1.md
+              - 게임 토큰 - 단서 2: chapters/c06/youxibi-3.md
+              - 트로폰 - 단서 5: chapters/c06/trophon-6.md
+              - 호텔 룸 카드: chapters/c06/lvguanfangka-1.md
+              - 메모 보드: chapters/c06/bianqianban-1.md
+              - 메모 보드 - 단서 1: chapters/c06/bianqianban-2.md
+              - 메모 보드 - 단서 2: chapters/c06/bianqianban-3.md
+              - 메모 보드 - 단서 3: chapters/c06/bianqianban-4.md
+              - 메모 보드 - 단서 4: chapters/c06/bianqianban-5.md
+              - 6색 무지개: chapters/c06/liusezhihonng-1.md
+              - 늦은 복귀: chapters/c06/wanguilai-1.md
+              - 구급상자: chapters/c06/yaoxiang-1.md
+              - 구급상자 - 단서 1: chapters/c06/yaoxiang-2.md
+              - 구급상자 - 단서 2: chapters/c06/yaoxiang-3.md
+              - 구급상자 - 단서 3: chapters/c06/yaoxiang-4.md
+              - 알록달록 그림책 - 단서 1: chapters/c06/rainbowbook-2.md
+              - Diphylleia Grayi 샘플: chapters/c06/shanheyebiaoben-1.md
+              - '[이미지] 배신': chapters/c06/Mbeipan-1.md
+              - 블랜다의 자소서: chapters/c06/bulandazishu-1.md
+              - 블랜다의 자소서 - 단서 1: chapters/c06/bulandazishu-2.md
+              - 【录音】霓虹美食图鉴: chapters/c06/Ynihongmeishi-1.md
+              - 【录音】霓虹美食图鉴·线索一: chapters/c06/Ynihongmeishi-2.md
+              - 【录音】霓虹美食图鉴·线索二: chapters/c06/Ynihongmeishi-3.md
+              - 구루: chapters/c06/guru-1.md
+              - 네온: chapters/c06/nihon-1.md
+              - 네온 - 단서 1: chapters/c06/nihon-2.md
+              - 네온 - 단서 3: chapters/c06/nihon-3.md
+              - 네온 - 단서 3: chapters/c06/nihon-4.md
+              - 학생증: chapters/c06/xiaoka-1.md
+              - 《네온의 목소리》플라이어: chapters/c06/xuanchuandan-1.md
+              - 社团导师名录: chapters/c06/shetuandaoshiminglu-1.md
+              - 수업 시간표: chapters/c06/kechengbiao-1.md
+              - 【影像】霓虹观雨: chapters/c06/Mnihongguanyu-1.md
+              - 里表舞厅·线索四: chapters/c06/uraometeStage-5.md
+              - 百花教坊: chapters/c06/baihuaschool-1.md
+              - 糖绳: chapters/c06/tangshen-1.md
+              - '[이미지] 언덕': chapters/c06/tuqiu-1.md
+              - 실크 파우치 - 단서 1: chapters/c06/jinnang-2.md
+              - PhigrOS 녹음 - 지오펠리아: chapters/c06/PhigrOSjiu-1.md
+              - PhigrOS 녹음 - 지오펠리아 - 단서 1: chapters/c06/PhigrOSjiu-2.md
+              - PhigrOS 녹음 - 지노: chapters/c06/PhigrOSgino-1.md
+              - 가능성: chapters/c06/kenengxing-1.md
+              - 나비 날개 펜 - 단서 2: chapters/c06/dieyubi-3.md
+              - 녹슨 발톱 망치: chapters/c06/xiusiyangjiaochui-1.md
+              - 녹슨 발톱 망치 - 단서 1: chapters/c06/xiusiyangjiaochui-2.md
+              - 녹슨 발톱 망치 - 단서 2: chapters/c06/xiusiyangjiaochui-3.md
+              - 녹슨 발톱 망치 - 단서 3: chapters/c06/xiusiyangjiaochui-4.md
+              - 街机游戏《彩虹之战》·线索三: chapters/c06/jiejiwarofrainbow-4.md
+              - 街机游戏《彩虹之战》·线索四: chapters/c06/jiejiwarofrainbow-5.md
+              - 街机游戏《彩虹之战》·线索五: chapters/c06/jiejiwarofrainbow-6.md
+              - 事件·虹再现: chapters/c06/rainbowawakening-1.md
+            - 환상 방주:
+              - 환상 방주: chapters/c07/index.md
+              - '[녹음] 갱생': chapters/c07/chongsheng-1.md
+              - '[해독] 望影の方舟Six': chapters/c07/poyiARK-1.md
+              - '[해독] 望影の方舟Six - 단서 1': chapters/c07/poyiARK-2.md
+              - 해독 - Igallta: chapters/c07/poyiIG-1.md
+              - 트로폰 - 단서 6: chapters/c07/trophon-7.md
+              - 豌豆食谱合集: chapters/c07/beansshipu-1.md
+              - 公派任务: chapters/c07/renwu-1.md
+              - 자기 소개서: chapters/c07/qiuzhishu-1.md
+              - 완두콩 재배 기록: chapters/c07/beanszhongzhi-1.md
+              - 완두콩 재배 기록 - 단서 1: chapters/c07/beanszhongzhi-2.md
+              - 조난 편지: chapters/c07/helpxin-1.md
+              - 조난 편지 - 단서 1: chapters/c07/helpxin-2.md
+              - 크로노스의 비둘기: chapters/c07/cronosgugu-1.md
+              - 크로노스의 비둘기 - 단서 1: chapters/c07/cronosgugu-2.md
+              - 눈 배 크림 통조림: chapters/c07/guanzhuang-1.md
+              - 네온 간판: chapters/c07/NeonLED-1.md
+              - 霓虹灯牌·线索一: chapters/c07/NeonLED-2.md
+              - 布兰达的感谢信: chapters/c07/testimonial-1.md
+              - 布兰达的感谢信·线索一: chapters/c07/testimonial-2.md
+              - 布兰达的感谢信·线索二: chapters/c07/testimonial-3.md
+              - 布兰达的感谢信·线索三: chapters/c07/testimonial-4.md
+              - 油画: chapters/c07/canvas-1.md
+              - 失效门牌: chapters/c07/doorplate-1.md
+              - 失效门牌·线索一: chapters/c07/doorplate-2.md
+              - 失效门牌·线索二: chapters/c07/doorplate-3.md
+            - 크로넥션:
+              - 크로넥션: chapters/c08/index.md
+              - '[이미지] Clock Paradox': chapters/c08/clockparadox-1.md
+              - 시계 마을 93번째 ALIGN 클럽형 랠리: chapters/c08/93Align-1.md
+              - 路星67-改: chapters/c08/landstar67re-1.md
+              - 路星67-改·线索一: chapters/c08/landstar67re-2.md
+              - 완두콩 재배 기록 - 단서 2: chapters/c08/beanszhongzhi-3.md
+              - 조난 편지 - 단서 2: chapters/c08/helpxin-3.md
+              - 크로노스의 비둘기 - 단서 2: chapters/c08/cronosgugu-3.md
+              - 豆羹: chapters/c08/dougeng-1.md
+              - 사직서: chapters/c08/cizhishu-1.md
+            - 교통 조수:
+              - 교통 조수: chapters/c09/index.md
+              - 시집 - 백마: chapters/c09/shijianbaima-1.md
+              - 시집 - 결심: chapters/c09/shijianjueze-1.md
+              - '[해독] 교통 조수': chapters/c09/lvchuanbaomu-1.md
+              - '[해독] 교통 조수 - 단서 1': chapters/c09/lvchuanbaomu-2.md
+              - '[해독] 교통 조수 - 단서 2': chapters/c09/lvchuanbaomu-3.md
+              - '[해독] 교통 조수 - 단서 3': chapters/c09/lvchuanbaomu-4.md
+              - '[해독] 교통 조수 - 단서 4': chapters/c09/lvchuanbaomu-5.md
+              - '[해독] 교통 조수 - 단서 5': chapters/c09/lvchuanbaomu-6.md
+              - 축제: chapters/c09/miaohui-1.md
+              - 축제 - 단서 1: chapters/c09/miaohui-2.md
+              - '[이미지] 달의 바다': chapters/c09/Mlingrichaoxi-1.md
+              - '[녹음] 지하실': chapters/c09/Yqiongding-1.md
+              - 公派任务·线索一: chapters/c09/renwu-2.md
+              - 公派任务·线索二: chapters/c09/renwu-3.md
+              - 눈 배 크림 통조림 - 단서 1: chapters/c09/guanzhuang-2.md
+              - 데이터 교체: chapters/c09/tihuandata-1.md
+              - 데이터 교체 - 단서1: chapters/c09/tihuandata-2.md
+              - 데이터 교체 - 단서2: chapters/c09/tihuandata-3.md
+              - 데이터 교체 - 단서3: chapters/c09/tihuandata-4.md
+            - 로터스:
+              - 로터스: chapters/c10/index.md
+              - '나레이션: 로터스': chapters/c10/zhixian10-1.md
+              - '나레이션: 오디세우스': chapters/c10/zhixian11-1.md
+              - '나레이션: 크로노스': chapters/c10/zhixian12-1.md
+              - '나레이션: 기적의 숲': chapters/c10/zhixian13-1.md
+              - '나레이션: 미궁의 끝': chapters/c10/zhixian14-1.md
+              - <라바보의 몰락>: chapters/c10/lawabofumiele-1.md
+              - <라바보의 몰락> - 단서 1: chapters/c10/lawabofumiele-2.md
+              - <라바보의 몰락> - 단서 2: chapters/c10/lawabofumiele-3.md
+              - <라바보의 몰락> - 단서 3: chapters/c10/lawabofumiele-4.md
+              - <라바보의 몰락> - 단서 4: chapters/c10/lawabofumiele-5.md
+              - 망상의 상자: chapters/c10/xuwangzhixia-1.md
+              - 망상의 상자: chapters/c10/xuwangzhixia-2.md
+              - 망상의 상자: chapters/c10/xuwangzhixia-3.md
+              - 아이다의 슈퍼 진동 칼: chapters/c10/chaozhendong-1.md
+              - 아이다의 슈퍼 진동 칼 - 단서 1: chapters/c10/chaozhendong-2.md
+              - 버니스의 연구 노트: chapters/c10/yanjiubonisi-1.md
+              - 버니스의 연구 노트 - 단서 1: chapters/c10/yanjiubonisi-2.md
+              - 버니스의 연구 노트 - 단서 2: chapters/c10/yanjiubonisi-3.md
+              - 버니스의 연구 노트 - 단서 3: chapters/c10/yanjiubonisi-4.md
+              - 버니스의 마법 가방: chapters/c10/shenqikuabao-1.md
+              - 버니스의 마법 가방 - 단서 1: chapters/c10/shenqikuabao-2.md
+              - 버니스의 마법 가방 - 단서 2: chapters/c10/shenqikuabao-3.md
+              - 버니스의 마법 가방 - 단서 3: chapters/c10/shenqikuabao-4.md
+              - 사포의 액션 캠: chapters/c10/yundongxiangji-1.md
+              - 사포의 액션 캠 - 단서 1: chapters/c10/yundongxiangji-2.md
+              - 사포의 액션 캠 - 단서 2: chapters/c10/yundongxiangji-3.md
+              - 사포의 액션 캠 - 단서 3: chapters/c10/yundongxiangji-4.md
+              - 방향성 로프: chapters/c10/dinngxiangshensuo-1.md
+              - 방향성 로프 - 단서 1: chapters/c10/dinngxiangshensuo-2.md
+              - 방향성 로프 - 단서 2: chapters/c10/dinngxiangshensuo-3.md
+              - 신분증: chapters/c10/shenfenzhengjian-1.md
+              - 신분증 - 단서 1: chapters/c10/shenfenzhengjian-2.md
+              - 신분증 - 단서 2: chapters/c10/shenfenzhengjian-3.md
+              - 신분증 - 단서 3: chapters/c10/shenfenzhengjian-4.md
+              - 진실의 진주: chapters/c10/zhenlizhizhu-1.md
+              - 진실의 진주 - 단서 1: chapters/c10/zhenlizhizhu-2.md
+              - 진실의 진주 - 단서 2: chapters/c10/zhenlizhizhu-3.md
+              - 도청 장치: chapters/c10/qietingqi-1.md
+              - 도청 장치 - 단서 1: chapters/c10/qietingqi-2.md
+              - 도청 장치 - 단서 2: chapters/c10/qietingqi-3.md
+              - 오디세우스 항구 항해 기록: chapters/c10/chuhaijilu-1.md
+              - 오디세우스 항구 항해 기록 - 단서 1: chapters/c10/chuhaijilu-2.md
+              - 오디세우스 항구 항해 기록 - 단서 2: chapters/c10/chuhaijilu-3.md
+              - 종이 조각: chapters/c10/zhipian-1.md
+            - 종말:
+              - 종말: chapters/c11/index.md
+              - '나레이션: 창조자': chapters/c11/zhixian20-1.md
+              - '나레이션: 내면의 악마': chapters/c11/zhixian21-1.md
+              - '나레이션: 미래': chapters/c11/zhixian22-1.md
+              - '나레이션: 새벽': chapters/c11/zhixian24-1.md
+              - 《명작의 탄생》리뷰: chapters/c11/jiezuodedansheng-1.md
+              - '[이미지] 시간의 폐허': chapters/c11/Mshiguangdefx-1.md
+              - '[이미지] 하나': chapters/c11/Mhana-1.md
+              - '보낸 메일: Saturn 시스템 등록 불가 및 오작동': chapters/c11/xintudoudeyongsheng-1.md
+              - '[녹음] 오': chapters/c11/Ychuanjiangwa-1.md
+              - '[녹음] 오 - 단서 1': chapters/c11/Ychuanjiangwa-2.md
+              - '[녹음] 오 - 단서 2': chapters/c11/Ychuanjiangwa-3.md
+              - 'PhigrOS 기록: RoadStar67 승리 (￣︶￣) ↗': chapters/c11/liuqidashengli-1.md
+              - 'PhigrOS 기록: RoadStar67 승리 (￣︶￣) ↗ - 단서 1': chapters/c11/liuqidashengli-2.md
+              - 'PhigrOS 기록: RoadStar67 승리 (￣︶￣) ↗ - 단서 2': chapters/c11/liuqidashengli-3.md
+              - 'PhigrOS 기록: RoadStar67 승리 (￣︶￣) ↗ - 단서 3': chapters/c11/liuqidashengli-4.md
+              - 'PhigrOS 기록: RoadStar67 승리 (￣︶￣) ↗ - 단서 4': chapters/c11/liuqidashengli-5.md
+            - 음적:
+              - 음적: chapters/c12/index.md
+              - 《달 훔치기》조사 보고서: chapters/c12/thiefmoon-1.md
+              - '나레이션: 소문': chapters/c12/zhixian31-1.md
+              - '나레이션: 유령도둑': chapters/c12/zhixian33-1.md
+              - 旁白：恍惚: chapters/c12/zhixian32-1.md
+              - 旁白：黑月: chapters/c12/zhixian30-1.md
+              - '旁白: From 1 to 500000': chapters/c12/zhixian34-1.md
+              - 幻梦 之一: chapters/c12/huanmeng1-1.md
+              - 幻梦 之二: chapters/c12/huanmeng2-1.md
+              - 673：律动星盗乐行事件 亚空间副本: chapters/c12/673shijian-1.md
+              - 673：律动星盗乐行事件 亚空间副本·线索一: chapters/c12/674shijian-2.md
+              - 673：律动星盗乐行事件 亚空间副本·线索二: chapters/c12/675shijian-3.md
+              - 报道：《相机里的真假月亮》: chapters/c12/baoyouyueliang-1.md
+              - 散文：《有关旋律的哲思》: chapters/c12/xuanlvshisha-1.md
+              - 报道：《晒月亮的女孩》: chapters/c12/nvhaibieditou-1.md
+              - 【影像】拍摄者采访记录存档: chapters/c12/Mbolisidexisheng-1.md
+              - 木质八音盒: chapters/c12/bayinhe-1.md
+              - 【影像】直播录屏: chapters/c12/Mdyjilumeihao-1.md
+              - 【影像】直播录屏·线索一: chapters/c12/Mdyjilumeihao-2.md
+              - 文玩核桃: chapters/c12/pantaaa-1.md
+              - 吉克·莱斯波斯-Year372: chapters/c12/he372bafei-1.md
+              - 报道：《酒吧辩手，市长想谈谈》: chapters/c12/buxutan-1.md
+              - 报道：《酒吧辩手，市长想谈谈》·线索一: chapters/c12/buxutan-2.md
+              - 报道：《酒吧辩手，市长想谈谈》·线索二: chapters/c12/buxutan-3.md
+              - 小说：《困在街道中的老人》: chapters/c12/fuqinkuaishuiba-1.md
+              - 帖子：《天桥东！发现天狗！》: chapters/c12/nifaxianlgesha-1.md
+              - 【影像】街头的Fuli: chapters/c12/Mluolikong-1.md
+              - 摘录·守护日志·机关枪·线索四: chapters/c12/Efuliautoshooter-5.md
+              - 量子同步终端: chapters/c12/liangzitbzz-1.md
+              - 量子同步终端·线索一: chapters/c12/liangzitbzz-2.md
+              - 量子同步终端·线索二: chapters/c12/liangzitbzz-3.md
+              - 量子同步终端·线索三: chapters/c12/liangzitbzz-4.md
+              - 量子同步终端·线索四: chapters/c12/liangzitbzz-5.md
+              - 喵喵茶: chapters/c12/miaomiaocha-1.md
+              - 黑月疗养院员工需知: chapters/c12/heiyueliaoyangyuan-1.md
+              - 黑月疗养院员工需知·线索一: chapters/c12/heiyueliaoyangyuan-2.md
+              - 黑月疗养院员工需知·线索二: chapters/c12/heiyueliaoyangyuan-3.md
+              - 小熊娃娃: chapters/c12/beardoll-1.md
+              - 小熊娃娃·线索一: chapters/c12/beardoll-2.md
+              - 小熊娃娃·线索二: chapters/c12/beardoll-3.md
+              - 小熊娃娃·线索三: chapters/c12/beardoll-4.md
+              - 小熊娃娃·线索四: chapters/c12/beardoll-5.md
+              - 影像带：《洛基的世界》: chapters/c12/lokiworld-1.md
+              - 影像带：《洛基的世界》·线索一: chapters/c12/lokiworld-2.md
+              - 影像带：《洛基的世界》·线索二: chapters/c12/lokiworld-3.md
+              - 影像带：《洛基的世界》·线索三: chapters/c12/lokiworld-4.md
+              - 影像带：《洛基的世界》·线索四: chapters/c12/lokiworld-5.md
+              - 报道：《洛基的世界影评》: chapters/c12/lokiworldre-1.md
+              - 【影像】日蚀之月: chapters/c12/abaaba1-1.md
+              - 波提切利原型机: chapters/c12/botiqieli-1.md
+              - 波提切利原型机·线索一: chapters/c12/botiqieli-2.md
+              - 波提切利原型机·线索二: chapters/c12/botiqieli-3.md
+              - 波提切利原型机·线索三: chapters/c12/botiqieli-4.md
+              - 隔音耳机: chapters/c12/earphone-1.md
+              - 隔音耳机·线索一: chapters/c12/earphone-2.md
+              - 隔音耳机·线索二: chapters/c12/earphone-3.md
+              - 隔音耳机·线索三: chapters/c12/earphone-4.md
+              - 隔音耳机·线索四: chapters/c12/earphone-5.md
+              - 黑月疗养院日志: chapters/c12/heiyuelog-1.md
+              - 黑月疗养院日志·线索一: chapters/c12/heiyuelog-2.md
+              - 黑月疗养院日志·线索二: chapters/c12/heiyuelog-3.md
+              - 黑月疗养院日志·线索三: chapters/c12/heiyuelog-4.md
+              - 黑月疗养院日志·线索四: chapters/c12/heiyuelog-5.md
+              - 机械手套: chapters/c12/jixiegloves-1.md
+              - 机械手套·线索一: chapters/c12/jixiegloves-2.md
+              - 机械手套·线索二: chapters/c12/jixiegloves-3.md
+              - 机械手套·线索三: chapters/c12/jixiegloves-4.md
+              - 机械手套·线索四: chapters/c12/jixiegloves-5.md
+              - 报道：《律动星城市监控网现已恢复，失灵原因疑似与月食有关》: chapters/c12/jiankongwang-1.md
+              - 报道：《对大众心理学研究的反叛：当他人主宰你的存在》: chapters/c12/fanpanzhuzai-1.md
+              - 报道：《神秘黑点与浪漫少女的背后：波提切利相机的秘密》: chapters/c12/heidianshaonv-1.md
+            - 수도사:
+              - 수도사: chapters/c13/index.md
+              - '[파일] 수도사 조사보고서': chapters/c13/investigatewuxiang-1.md
+            - BassAreUs:
+              - BassAreUs: chapters/c14/index.md
+              - '[해독]《Bassareus》이스터에그': chapters/c14/bassareusEgg-1.md
+              - 뫼비우스의 답장: chapters/c14/ReMobiusi-1.md
+              - 《Bassareus》대본 - 프롤로그: chapters/c14/Bassareus0-1.md
+              - 《Bassareus》대본 - 1: chapters/c14/Bassareus1-1.md
+              - 《Bassareus》대본 - 2: chapters/c14/Bassareus2-1.md
+              - 《Bassareus》대본 - 3: chapters/c14/Bassareus3-1.md
+              - 《Bassareus》대본 - 4: chapters/c14/Bassareus4-1.md
+              - 《Bassareus》대본 - 5: chapters/c14/Bassareus5-1.md
+              - 《Bassareus》대본 - 6: chapters/c14/Bassareus6-1.md
+              - 《Bassareus》대본 - 7: chapters/c14/Bassareus7-1.md
+              - 《Bassareus》대본 - 8: chapters/c14/Bassareus8-1.md
+              - 《Bassareus》대본 - 9: chapters/c14/Bassareus9-1.md
+              - 《Bassareus》대본 - 10: chapters/c14/Bassareus10-1.md
+              - 《Bassareus》대본 - 11: chapters/c14/Bassareus11-1.md
+              - 《Bassareus》대본 - 12: chapters/c14/Bassareus12-1.md
+              - 《Bassareus》대본 - 13: chapters/c14/Bassareus13-1.md
+              - 《Bassareus》대본 - 14: chapters/c14/Bassareus14-1.md
+              - 《Bassareus》대본 - 15: chapters/c14/Bassareus15-1.md
+              - 《Bassareus》대본 - 16: chapters/c14/Bassareus16-1.md
+              - 《Bassareus》대본 - 17: chapters/c14/Bassareus17-1.md
+              - 《Bassareus》대본 - 18: chapters/c14/Bassareus18-1.md
+              - 《Bassareus》대본 - 19: chapters/c14/Bassareus19-1.md
+              - 《Bassareus》대본 - 20: chapters/c14/Bassareus20-1.md
+              - 《Bassareus》대본 - 21: chapters/c14/Bassareus21-1.md
+              - 《Bassareus》대본 - 22: chapters/c14/Bassareus22-1.md
+              - 《Bassareus》대본 - 23: chapters/c14/Bassareus23-1.md
+              - 《Bassareus》대본 - 24: chapters/c14/Bassareus24-1.md
+              - 《Bassareus》대본 - 25: chapters/c14/Bassareus25-1.md
+              - 《Bassareus》대본 - 26: chapters/c14/Bassareus26-1.md
+              - 《Bassareus》대본 - 27: chapters/c14/Bassareus27-1.md
+              - 《Bassareus》대본 - 28: chapters/c14/Bassareus28-1.md
+              - 《Bassareus》대본 - 29: chapters/c14/Bassareus29-1.md
+              - 《Bassareus》대본 - 30: chapters/c14/Bassareus30-1.md
+              - 《Bassareus》대본 - 31: chapters/c14/Bassareus31-1.md
+              - 《Bassareus》대본 - 32: chapters/c14/Bassareus32-1.md
+              - 《Bassareus》대본 - 33: chapters/c14/Bassareus33-1.md
+              - 《Bassareus》대본 - 34: chapters/c14/Bassareus34-1.md

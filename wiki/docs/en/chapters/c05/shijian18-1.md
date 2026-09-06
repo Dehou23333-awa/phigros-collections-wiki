@@ -1,0 +1,38 @@
+---
+title: "Poem M2"
+---
+# Poem M2
+
+???+ info "Collection Info"
+
+    | Field | Value |
+    |---|---|
+    | Chapter | [Sewer Maze](index.md) · Chapter IV |
+    | Collected on | 650/02/29 |
+    | Rarity | main |
+    | Custodian | Broken Data Research |
+
+??? warning "Only the Simplified Chinese text exists in the source data (shown below)"
+
+<p>一个人曾是智者， 另一个人迷失在了路上。</p>
+<p>他们来到陌生的一个小镇，</p>
+<p>一个小镇充斥着不陌生的幻想。</p>
+<p>他们遇到了第一个人。</p>
+<p>他趴在地上寻找一把钥匙，</p>
+<p>他看错了锁的位置，找不到回家的路。</p>
+<p>遇到的第二个人。</p>
+<p>他伏在墙上端着一片面包，</p>
+<p>他思索屋檐的味道，不知道如何睁眼。</p>
+<p>遇到的第三个人。 说这里什么都有，</p>
+<p>可还是没有人知道这是哪里。</p>
+<p>地面上出现了足迹， 他们二人寻寻觅觅。</p>
+<p>一条小巷深不见底， 走到尽头如同回忆。</p>
+<p>第四个人知道这里的名字。</p>
+<p>这名字没有人听过，也不会有人记得。</p>
+<p>智者知道如何离开， 可不再有智者。</p>
+<p>迷路的人想要离开， 可不再是迷路的人，</p>
+<p>因为这里没有离开的路。</p>
+<p>第五个人知道如何寻找答案。</p>
+<p>这里什么都有，只要走到尽头，</p>
+<p>打开下一扇门，里面就会有智者忘记的路。</p>
+

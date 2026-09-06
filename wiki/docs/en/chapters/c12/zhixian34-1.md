@@ -1,0 +1,31 @@
+---
+title: "旁白: From 1 to 500000"
+---
+# 旁白: From 1 to 500000
+
+???+ info "Collection Info"
+
+    | Field | Value |
+    |---|---|
+    | Chapter | [Operthief](index.md) · Side story 3 |
+    | Collected on | 673/07/30 |
+    | Rarity | main |
+    | Custodian | 旁观者 |
+
+??? warning "Only the Simplified Chinese text exists in the source data (shown below)"
+
+<p>一梦没醒</p>
+<p>十人没听</p>
+<p>二十杯子坠</p>
+<p>五十碎片丢</p>
+<p>三百街道灯灭</p>
+<p>五千影子摇晃</p>
+<p>两万耳环叮当响</p>
+<p>三万声音</p>
+<p>四万眼睛</p>
+<p>七万钟表停止</p>
+<p>八万门打不开</p>
+<p>十万流星停不下</p>
+<p>二十万词语说不出</p>
+<p>五十万梦醒不来</p>
+

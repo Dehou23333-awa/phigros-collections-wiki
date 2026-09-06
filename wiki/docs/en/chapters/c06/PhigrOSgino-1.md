@@ -1,0 +1,33 @@
+---
+title: "PhigrOS Record - Gino"
+---
+# PhigrOS Record - Gino
+
+???+ info "Collection Info"
+
+    | Field | Value |
+    |---|---|
+    | Chapter | [NEON LED](index.md) · Chapter V |
+    | Collected on | 770/08/21 |
+    | Rarity | souvenir |
+    | Custodian | Gino |
+
+??? warning "Only the Simplified Chinese text exists in the source data (shown below)"
+
+<p>gino：自动转接？PhigrOS还有这功能（19:27）</p>
+<p>gino：不对，我哪来的你好友（19:28）</p>
+<p>莲渡：我敢肯定，你被你室友传染了（19:29）</p>
+<p>gino：不知道你指哪点，我们还是说正题吧（19:29）</p>
+<p>莲渡：黑衣区域的集体暴动是“六道虹”鼓动的，魔女会议已经追查到了，那边有进一步的行动吗（19:31）</p>
+<p>gino：据我所知是没有的，首领换成鸠之后，整个组织都停摆了（19:33）</p>
+<p>莲渡：我现在真不清楚她在想什么（19:34）</p>
+<p>gino：估计她自己也不明白（19:35）</p>
+<p>———</p>
+<p>鸠：翻不到底，这么说我应该有哥哥的好友才对（19:36）</p>
+<p>鸠：唉，没找到（19:42）</p>
+<p>gino：试试拉丁名呢，比如Hawk、Peregrinus之类的（19:44）</p>
+<p>鸠：确实有（19:47）</p>
+<p>鸠：怎么是尊师古卢的号咕……（19:48）</p>
+<p>gino：你哥哥不在像素塔里？（19:49）</p>
+<p>鸠：绝无可能，我看到他的“倒影”了（19:51）</p>
+

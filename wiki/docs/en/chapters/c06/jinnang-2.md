@@ -1,0 +1,21 @@
+---
+title: "Silk Pouch - Clue I"
+---
+# Silk Pouch - Clue I
+
+???+ info "Collection Info"
+
+    | Field | Value |
+    |---|---|
+    | Chapter | [NEON LED](index.md) · Chapter V |
+    | Collected on | 770/08/21 |
+    | Rarity | main |
+    | Custodian | Gino |
+
+??? warning "Only the Simplified Chinese text exists in the source data (shown below)"
+
+<p>异想Dlyro给Gino的锦囊，上面记录了塔组织的信息。</p>
+<p>“塔组织已存在近百年，它埋伏在各类研究机构，以师承和论坛的方式发展成员。塔组织的成员们创办了许多影响力极小的学术刊物，此类期刊极少和网上提供商合作，仅仅供组织成员之间传递情报用。期刊作者一般都是组织成员的假名，这些对应的假名和假身份，通常是生物的拉丁名词加上虚构的地名。</p>
+<p>塔组织没有固定的集合地点和时间，它的成员的真实身份也难以被发现，即使组织了Phigros这般规模宏大的实验，施行者们往往也彼此不认识，普通人根本无法透过社会关系接触该组织。</p>
+<p>但我可以明确地告诉你，你曾经见过一位塔组织的核心人物，但我不知道他是谁，仅凭我和你的短暂接触，获取的信息还是太模糊了。”</p>
+

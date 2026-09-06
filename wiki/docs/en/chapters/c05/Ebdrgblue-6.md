@@ -1,0 +1,26 @@
+---
+title: "Broken Data Research-log-BUBD-952"
+---
+# Broken Data Research-log-BUBD-952
+
+???+ info "Collection Info"
+
+    | Field | Value |
+    |---|---|
+    | Chapter | [Sewer Maze](index.md) · Chapter IV |
+    | Collected on | 672/01/20 |
+    | Rarity | key |
+    | Custodian | Broken Data Research |
+
+??? warning "Only the Simplified Chinese text exists in the source data (shown below)"
+
+<p>A：塔整体的结构具有成长和进化的特征，似乎整个系统本身具备分析自身并修补的能力。</p>
+<p> B：你又想说什么？ </p>
+<p>A：这种系统没有经过测试，试运行就直接启动，这应该是不可能的。</p>
+<p> B：所以呢？可能是那个组织在外面搭了一个模型，或者某人直接就设计出一个完美无缺的结构，这都可能。</p>
+<p>A：我是在考虑，现有的塔史之前，可能存在一个塔的原型机（Prototype）。虽然我们找不到任何有关的信息，不代表这个东西不存在。 </p>
+<p>B：也许这个原型机没有被废弃，而是改成了别的东西呢？或者我们现在的认知建立在一个全新的基础之上，所以找不到资料也很正常，就像你无法探测伊戈尔大爆炸之前的任何讯号。 </p>
+<p>A：我的直觉告诉我这个原型机还存在于某处。它很有价值，不是可以随意毁灭的东西。 </p>
+<p>B：也许被改造成了我们每天都接触的某个系统，毕竟是原型。 </p>
+<p>A：phigrOS？</p>
+

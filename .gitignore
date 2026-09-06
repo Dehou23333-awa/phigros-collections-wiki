@@ -1,0 +1,9 @@
+# ---------- 生成物（CI 会重新生成，不入库） ----------
+apk/*.apk
+收集品数据/
+level22_obj1124.bin
+gcc_parsed.json
+wiki/site/
+__pycache__/
+*.pyc
+.DS_Store
