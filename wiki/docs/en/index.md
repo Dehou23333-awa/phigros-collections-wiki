@@ -5,7 +5,7 @@ title: "Phigros Collections Wiki"
 
 This Wiki contains all collection items extracted from Phigros 3.20.0 (154) (Android APK), 459 in total, organized by chapter, preserving the original text in Simplified Chinese / Traditional Chinese / English / Japanese / Korean. Use the language switcher (top-right) to change the site language.
 
-Data version: Phigros 3.20.0 (154) · updated 2026-09-06 13:03:21 · 459 items / 14 chapters
+Data version: Phigros 3.20.0 (154) · updated 2026-09-06 05:20:38 · 459 items / 14 chapters
 
 ## Chapters
 
